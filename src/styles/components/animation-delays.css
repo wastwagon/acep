@@ -1,0 +1,38 @@
+/**
+ * Animation Delay Utilities
+ * Reusable animation delay classes for staggered animations
+ */
+
+@layer utilities {
+  .animate-delay-0 {
+    animation-delay: 0ms;
+  }
+
+  .animate-delay-20 {
+    animation-delay: 20ms;
+  }
+
+  .animate-delay-40 {
+    animation-delay: 40ms;
+  }
+
+  .animate-delay-60 {
+    animation-delay: 60ms;
+  }
+
+  .animate-delay-80 {
+    animation-delay: 80ms;
+  }
+
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-150 {
+    animation-delay: 150ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+}

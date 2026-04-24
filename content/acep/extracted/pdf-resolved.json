@@ -1,0 +1,889 @@
+{
+  "generatedAt": "2026-01-27T19:06:36.858Z",
+  "summary": {
+    "refsTotal": 218,
+    "matched": 217,
+    "missing": 1,
+    "missing404": 1,
+    "localPdfs": 217,
+    "orphans": 0
+  },
+  "matched": [
+    {
+      "ref": "wp-content/uploads/2023/03/09645691-aceps_comments_on_the_octp_gas_utilization_challenges-2.pdf",
+      "localPath": "wp-content/uploads/2023/03/09645691-aceps_comments_on_the_octp_gas_utilization_challenges-2.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/1fb5e13d-rejoinder-to-gngc.pdf",
+      "localPath": "wp-content/uploads/2023/03/1fb5e13d-rejoinder-to-gngc.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/2014BudgetandPetroleumRev-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/2014BudgetandPetroleumRev-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/2016CommuniqueOilGovernanceSummit.pdf",
+      "localPath": "wp-content/uploads/2023/03/2016CommuniqueOilGovernanceSummit.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/2018-06-ACEPRADAR.pdf",
+      "localPath": "wp-content/uploads/2023/03/2018-06-ACEPRADAR.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/2018SUMMITREPORT.pdf",
+      "localPath": "wp-content/uploads/2023/03/2018SUMMITREPORT.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/20a8e7dc-14th-december-2015-acep-press-release-response-to-the-statement-by-the-ministry-of-power-on-the-ameri-energy-power-project-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/20a8e7dc-14th-december-2015-acep-press-release-response-to-the-statement-by-the-ministry-of-power-on-the-ameri-energy-power-project-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/2fcdd6b5-empoweringpersonswithdisability-amappingreport.pdf",
+      "localPath": "wp-content/uploads/2023/03/2fcdd6b5-empoweringpersonswithdisability-amappingreport.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/3RD_AFRICA_OIL_GOVERNANCE_SUMMIT_REPORT_2017_cmyk.pdf",
+      "localPath": "wp-content/uploads/2023/03/3RD_AFRICA_OIL_GOVERNANCE_SUMMIT_REPORT_2017_cmyk.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/4154e216-4th-july-2016-final-rules-on-payment-disclosure-by-extractive-companies-issued-in-the-us-will-increase-responsible-investments-and-government-accountability-in-africa-acep.pdf",
+      "localPath": "wp-content/uploads/2023/03/4154e216-4th-july-2016-final-rules-on-payment-disclosure-by-extractive-companies-issued-in-the-us-will-increase-responsible-investments-and-government-accountability-in-africa-acep.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/445b8076-13th-january-2016-acep-commends-government-for-taking-steps-to-undertake-value-for-money-analysis-of-the-ameri-deal.pdf",
+      "localPath": "wp-content/uploads/2023/03/445b8076-13th-january-2016-acep-commends-government-for-taking-steps-to-undertake-value-for-money-analysis-of-the-ameri-deal.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/530ba00a-analyses-and-recommendations-for-good-governance-in-the-petroleum-e-p.pdf",
+      "localPath": "wp-content/uploads/2023/03/530ba00a-analyses-and-recommendations-for-good-governance-in-the-petroleum-e-p.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/54acea1d-1st-may-2019-press-release-on-aker-energy-controversy.pdf",
+      "localPath": "wp-content/uploads/2023/03/54acea1d-1st-may-2019-press-release-on-aker-energy-controversy.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/5b1224b7-gnpc-work-2019.pdf",
+      "localPath": "wp-content/uploads/2023/03/5b1224b7-gnpc-work-2019.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/69764d19-5th-december-2013-challenges-facing-ghanas-power-sector-the-load-shedding-politics.pdf",
+      "localPath": "wp-content/uploads/2023/03/69764d19-5th-december-2013-challenges-facing-ghanas-power-sector-the-load-shedding-politics.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/708f7b49-acep-comments-on-2019-budget.pdf",
+      "localPath": "wp-content/uploads/2023/03/708f7b49-acep-comments-on-2019-budget.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/71587c32-new-report-updated.pdf",
+      "localPath": "wp-content/uploads/2023/03/71587c32-new-report-updated.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/7868102c-gngcproposalanalysis.pdf",
+      "localPath": "wp-content/uploads/2023/03/7868102c-gngcproposalanalysis.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/7f61a64c-cathing-the-early-worm-pdf.pdf",
+      "localPath": "wp-content/uploads/2023/03/7f61a64c-cathing-the-early-worm-pdf.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/88169244-5th-august-2016-ghanas-new-petroleum-act-shows-the-common-resolve-of-ghanaians-to-good-governance-in-oil-and-gas-management-–-acep.pdf",
+      "localPath": "wp-content/uploads/2023/03/88169244-5th-august-2016-ghanas-new-petroleum-act-shows-the-common-resolve-of-ghanaians-to-good-governance-in-oil-and-gas-management-_E2_80_93-acep.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/94672ca7-4th-october-2016-new-fuel-standard-announced-by-npa-commendable-but-unsatisfactory.pdf",
+      "localPath": "wp-content/uploads/2023/03/94672ca7-4th-october-2016-new-fuel-standard-announced-by-npa-commendable-but-unsatisfactory.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/979c8e4d-23rd-july-2015-press-statement-the-2015-supplementary-budget.pdf",
+      "localPath": "wp-content/uploads/2023/03/979c8e4d-23rd-july-2015-press-statement-the-2015-supplementary-budget.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/9920ba98-21st-august-2016-ten-oil-can-support-ghana.pdf",
+      "localPath": "wp-content/uploads/2023/03/9920ba98-21st-august-2016-ten-oil-can-support-ghana.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/9b247b32-10th-may-2016-civil-society-anti-corruption-agenda-on-extractive-industries.pdf",
+      "localPath": "wp-content/uploads/2023/03/9b247b32-10th-may-2016-civil-society-anti-corruption-agenda-on-extractive-industries.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/9c5ab740-4th-october-2016-dirty-diesel.pdf",
+      "localPath": "wp-content/uploads/2023/03/9c5ab740-4th-october-2016-dirty-diesel.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/A-Guide-to-Identifying-Business-Entities-for-Widening-the-Tax-Net-and-Enforcing-Tax-Compliance-in-Ghana-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/A-Guide-to-Identifying-Business-Entities-for-Widening-the-Tax-Net-and-Enforcing-Tax-Compliance-in-Ghana-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/A-LEGAL-FISCAL-ANALYSIS-OF-THE-AGYAPA-INVESTMENT-MODEL.pdf",
+      "localPath": "wp-content/uploads/2023/03/A-LEGAL-FISCAL-ANALYSIS-OF-THE-AGYAPA-INVESTMENT-MODEL.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/A-Review-Of-Barriers-And-Opportunities-For-Renewable-Energy-Adoption-By-Smes-In-Ghana.pdf",
+      "localPath": "wp-content/uploads/2023/03/A-Review-Of-Barriers-And-Opportunities-For-Renewable-Energy-Adoption-By-Smes-In-Ghana.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/A-Simplified-Analysis-AGM-Contract.pdf",
+      "localPath": "wp-content/uploads/2023/03/A-Simplified-Analysis-AGM-Contract.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEP-2019-Annual-Report.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEP-2019-Annual-Report.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEP-Analysis-of-2020-Budget-Statement-Infographics_compressed2-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEP-Analysis-of-2020-Budget-Statement-Infographics_compressed2-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEP-Analysis-of-the-2021-budget.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEP-Analysis-of-the-2021-budget.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEP-NEXTGEN-COHORT-2.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEP-NEXTGEN-COHORT-2.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEP-Newsletter-2.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEP-Newsletter-2.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEP-Report-PRMA-Final.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEP-Report-PRMA-Final.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEP-comments-on-GNPC-Loan.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEP-comments-on-GNPC-Loan.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEPAnalysisofThe2016SupplementaryBudget.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEPAnalysisofThe2016SupplementaryBudget.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEPITLOSStatement.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEPITLOSStatement.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEPLOCALCONTENT2019-64PAGES.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEPLOCALCONTENT2019-64PAGES.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ACEPs-Comments-on-the-Eni-Springfield-Unitisation-Tussle-and-ExxonMobils-Exit-from-Ghana-final.pdf",
+      "localPath": "wp-content/uploads/2023/03/ACEPs-Comments-on-the-Eni-Springfield-Unitisation-Tussle-and-ExxonMobils-Exit-from-Ghana-final.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AMERIRENEGOTIATEDCONTRACT.pdf",
+      "localPath": "wp-content/uploads/2023/03/AMERIRENEGOTIATEDCONTRACT.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AMV-Guide-Final.pdf",
+      "localPath": "wp-content/uploads/2023/03/AMV-Guide-Final.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AMVNEW.pdf",
+      "localPath": "wp-content/uploads/2023/03/AMVNEW.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AMVPaper.pdf",
+      "localPath": "wp-content/uploads/2023/03/AMVPaper.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ANEVALUATIONOFTHEMANDATEPERFORMANCEACCOUNTABILITYPRACTICESOFPIACINPETROLEUMREVENUEMGTINGHANA.pdf",
+      "localPath": "wp-content/uploads/2023/03/ANEVALUATIONOFTHEMANDATEPERFORMANCEACCOUNTABILITYPRACTICESOFPIACINPETROLEUMREVENUEMGTINGHANA.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AOGReportUpdated.pdf",
+      "localPath": "wp-content/uploads/2023/03/AOGReportUpdated.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AOGS-2020-Summit-Report-ACEP.pdf",
+      "localPath": "wp-content/uploads/2023/03/AOGS-2020-Summit-Report-ACEP.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AOGS-ACTION-NOTES.pdf",
+      "localPath": "wp-content/uploads/2023/03/AOGS-ACTION-NOTES.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AOGS-Action-Points.pdf",
+      "localPath": "wp-content/uploads/2023/03/AOGS-Action-Points.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AOGS2015BOUCHURE.pdf",
+      "localPath": "wp-content/uploads/2023/03/AOGS2015BOUCHURE.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ATT_1446570431809_ENERGYFORUM_October-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/ATT_1446570431809_ENERGYFORUM_October-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ATT_1446570431809_ENERGYFORUM_October.pdf",
+      "localPath": "wp-content/uploads/2023/03/ATT_1446570431809_ENERGYFORUM_October.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AValueForMoneyAnalysisofABFAFundedEducationalProjects.pdf",
+      "localPath": "wp-content/uploads/2023/03/AValueForMoneyAnalysisofABFAFundedEducationalProjects.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AdvisoryPaperonLNG2017.pdf",
+      "localPath": "wp-content/uploads/2023/03/AdvisoryPaperonLNG2017.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/AfricaOilGovernanceSummitReport1.pdf",
+      "localPath": "wp-content/uploads/2023/03/AfricaOilGovernanceSummitReport1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Analysis-of-EP-BIll-1-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/Analysis-of-EP-BIll-1-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Analysis-of-EP-BIll-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/Analysis-of-EP-BIll-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/BOPAPERSMALL.pdf",
+      "localPath": "wp-content/uploads/2023/03/BOPAPERSMALL.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/BeneficialOwnership.pdf",
+      "localPath": "wp-content/uploads/2023/03/BeneficialOwnership.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/BudgetTraking1.pdf",
+      "localPath": "wp-content/uploads/2023/03/BudgetTraking1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/CHALLENGES-IN-DACF-AND-MDF-DISBURSEMENTS.pdf",
+      "localPath": "wp-content/uploads/2023/03/CHALLENGES-IN-DACF-AND-MDF-DISBURSEMENTS.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/COMPARATIVE-ANALYSIS-OF-LC-IN-GHANA-ANGOLA-AND-NIGERIA-Rev.pdf",
+      "localPath": "wp-content/uploads/2023/03/COMPARATIVE-ANALYSIS-OF-LC-IN-GHANA-ANGOLA-AND-NIGERIA-Rev.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/CSO-Coalition-Agyapa-statement-17th-May.pdf",
+      "localPath": "wp-content/uploads/2023/03/CSO-Coalition-Agyapa-statement-17th-May.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Citizens-Guide-with-comments-New.pdf",
+      "localPath": "wp-content/uploads/2023/03/Citizens-Guide-with-comments-New.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/CitizensEnergyManifestoMonitor.pdf",
+      "localPath": "wp-content/uploads/2023/03/CitizensEnergyManifestoMonitor.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Comparative-Reveiew-of-AGM-and-COLA-Contracts-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/Comparative-Reveiew-of-AGM-and-COLA-Contracts-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Comparative-Reveiew-of-AGM-and-COLA-Contracts.pdf",
+      "localPath": "wp-content/uploads/2023/03/Comparative-Reveiew-of-AGM-and-COLA-Contracts.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ComparativeAnalysisofLocalContent.pdf",
+      "localPath": "wp-content/uploads/2023/03/ComparativeAnalysisofLocalContent.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/EARLYPOWER-ACEPCOMMENTS.pdf",
+      "localPath": "wp-content/uploads/2023/03/EARLYPOWER-ACEPCOMMENTS.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ENERGYFORUM_December.pdf",
+      "localPath": "wp-content/uploads/2023/03/ENERGYFORUM_December.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ENERGYFORUM_November.pdf",
+      "localPath": "wp-content/uploads/2023/03/ENERGYFORUM_November.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ESTIMATING-THE-REVENUE-POTENTIAL-OF-THE-QUARRY-SUBSECTOR-IN-GHANA.pdf",
+      "localPath": "wp-content/uploads/2023/03/ESTIMATING-THE-REVENUE-POTENTIAL-OF-THE-QUARRY-SUBSECTOR-IN-GHANA.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Electricity-Monitor-Fact-Sheet-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/Electricity-Monitor-Fact-Sheet-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/EnergyManifestoAddress-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/EnergyManifestoAddress-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Evaluation-Of-The-Proposed-Integrated-Aluminium-Industry-And-the-2-Billion-Chinese-Barter-Deal.pdf",
+      "localPath": "wp-content/uploads/2023/03/Evaluation-Of-The-Proposed-Integrated-Aluminium-Industry-And-the-2-Billion-Chinese-Barter-Deal.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Expenditure-Analysis-Report-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/Expenditure-Analysis-Report-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Expenditure-Analysis-Report.pdf",
+      "localPath": "wp-content/uploads/2023/03/Expenditure-Analysis-Report.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/FINAL-VERSION-Statement-on-AKER-GNPC-transaction-final.pdf",
+      "localPath": "wp-content/uploads/2023/03/FINAL-VERSION-Statement-on-AKER-GNPC-transaction-final.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Final-Annual-Report.pdf",
+      "localPath": "wp-content/uploads/2023/03/Final-Annual-Report.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/FinalReport-AfricaOilGovernanceSummit2016.pdf",
+      "localPath": "wp-content/uploads/2023/03/FinalReport-AfricaOilGovernanceSummit2016.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/FiscalPaperOxfam.pdf",
+      "localPath": "wp-content/uploads/2023/03/FiscalPaperOxfam.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/GAP-ANALYSIS-FINAL-REPORT.pdf",
+      "localPath": "wp-content/uploads/2023/03/GAP-ANALYSIS-FINAL-REPORT.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/GAP-ANALYSIS-OF-THE-CONTRACTING-REGIME-OF-NIGERIAS-MINING-SECTOR.pdf",
+      "localPath": "wp-content/uploads/2023/03/GAP-ANALYSIS-OF-THE-CONTRACTING-REGIME-OF-NIGERIAS-MINING-SECTOR.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/GNPC-7-percent-acquisition_final.pdf",
+      "localPath": "wp-content/uploads/2023/03/GNPC-7-percent-acquisition_final.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/GenderReport.pdf",
+      "localPath": "wp-content/uploads/2023/03/GenderReport.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Ghana-Gas-Report-May-2014.pdf",
+      "localPath": "wp-content/uploads/2023/03/Ghana-Gas-Report-May-2014.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/GhanaEnergySectorOutlookFinal-11.pdf",
+      "localPath": "wp-content/uploads/2023/03/GhanaEnergySectorOutlookFinal-11.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/HOW-GNPCS-DECISIONS-FURTHER-HARM-GHANAS-BATTERED-ECONOMY.pdf",
+      "localPath": "wp-content/uploads/2023/03/HOW-GNPCS-DECISIONS-FURTHER-HARM-GHANAS-BATTERED-ECONOMY.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ILLICITFINANCIALFLOWSANDTHEEXTRACTIVEINDUSTRY.pdf",
+      "localPath": "wp-content/uploads/2023/03/ILLICITFINANCIALFLOWSANDTHEEXTRACTIVEINDUSTRY.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/IMPLICATIONS-OF-LOW-OIL-PRICE-ON-AFRICAS-OIL-PRODUCING-ECONOMIES.pdf",
+      "localPath": "wp-content/uploads/2023/03/IMPLICATIONS-OF-LOW-OIL-PRICE-ON-AFRICAS-OIL-PRODUCING-ECONOMIES.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Illicit-Financial-Flow-in-Ghanas-extractives.pdf",
+      "localPath": "wp-content/uploads/2023/03/Illicit-Financial-Flow-in-Ghanas-extractives.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Illicit-Financial-Flow.pdf",
+      "localPath": "wp-content/uploads/2023/03/Illicit-Financial-Flow.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/InterimStatementontheterminationofPDSConcession.pdf",
+      "localPath": "wp-content/uploads/2023/03/InterimStatementontheterminationofPDSConcession.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Investigating-The-Prevalence-Of-Illegal-Meters-On-The-National-Grid-edited.pdf",
+      "localPath": "wp-content/uploads/2023/03/Investigating-The-Prevalence-Of-Illegal-Meters-On-The-National-Grid-edited.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Ishmael-Ackah-policy-paper.pdf",
+      "localPath": "wp-content/uploads/2023/03/Ishmael-Ackah-policy-paper.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/KM241EITIACEPBrochureFRFinal.LR_.pdf",
+      "localPath": "wp-content/uploads/2023/03/KM241EITIACEPBrochureFRFinal.LR_.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/KeyimehReportSmall.pdf",
+      "localPath": "wp-content/uploads/2023/03/KeyimehReportSmall.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/LICENSINGCOMPLIANCE.pdf",
+      "localPath": "wp-content/uploads/2023/03/LICENSINGCOMPLIANCE.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Making-Petroleum-Investments-Work-For-Sustainable-Agriculture-And-Education-In-Ghana.pdf",
+      "localPath": "wp-content/uploads/2023/03/Making-Petroleum-Investments-Work-For-Sustainable-Agriculture-And-Education-In-Ghana.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/May-5-2021-ACEPs-Comments-On-The-Recent-Increase-In-Fuel-Prices-In-Ghana.pdf",
+      "localPath": "wp-content/uploads/2023/03/May-5-2021-ACEPs-Comments-On-The-Recent-Increase-In-Fuel-Prices-In-Ghana.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/MilliniumChallengeCopactProject.pdf",
+      "localPath": "wp-content/uploads/2023/03/MilliniumChallengeCopactProject.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/OIL-PRICE-crush-Ghana-Article.pdf",
+      "localPath": "wp-content/uploads/2023/03/OIL-PRICE-crush-Ghana-Article.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/OILREVENUEReport.pdf",
+      "localPath": "wp-content/uploads/2023/03/OILREVENUEReport.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/POLICYBRIEF_AOG.pdf",
+      "localPath": "wp-content/uploads/2023/03/POLICYBRIEF_AOG.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/POLICYBRIEF_Simplifiedcontract.pdf",
+      "localPath": "wp-content/uploads/2023/03/POLICYBRIEF_Simplifiedcontract.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/PRESS-RELEASE_-Extractive-Industry-and-Climate-Change-Governance-Fund.pdf",
+      "localPath": "wp-content/uploads/2023/03/PRESS-RELEASE_-Extractive-Industry-and-Climate-Change-Governance-Fund.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/PRESS-STATEMENT-CAUTIONARY-NOTE-TO-THE-MINISTRY-OF-ENERGY-ON-THE-AMERI-POWER-PLANT-.pdf",
+      "localPath": "wp-content/uploads/2023/03/PRESS-STATEMENT-CAUTIONARY-NOTE-TO-THE-MINISTRY-OF-ENERGY-ON-THE-AMERI-POWER-PLANT-.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/PRESS-STATEMENT-CSOs-REVIEW-OF-THE-EXTRACTIVE-SECTOR-IN-2022-FINAL.pdf",
+      "localPath": "wp-content/uploads/2023/03/PRESS-STATEMENT-CSOs-REVIEW-OF-THE-EXTRACTIVE-SECTOR-IN-2022-FINAL.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/PRMA_MANUAL_cmyk.pdf",
+      "localPath": "wp-content/uploads/2023/03/PRMA_MANUAL_cmyk.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Petroleaum_Register_Report_cmyk.pdf",
+      "localPath": "wp-content/uploads/2023/03/Petroleaum_Register_Report_cmyk.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/PetroleumContractMonitor2019.pdf",
+      "localPath": "wp-content/uploads/2023/03/PetroleumContractMonitor2019.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/PetroleumContractMonitorReport.pdf",
+      "localPath": "wp-content/uploads/2023/03/PetroleumContractMonitorReport.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Press_Release_COP_27_Convo_Corruption_ACEP_IMANI_Nov_2022_Fmt-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/Press_Release_COP_27_Convo_Corruption_ACEP_IMANI_Nov_2022_Fmt-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Price-Mitigation-Fund-Article-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/Price-Mitigation-Fund-Article-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Promoting-Ethanol-as-a-Clean-Cooking-Alternative-in-Ghana-A-Pilot-Study-.pdf",
+      "localPath": "wp-content/uploads/2023/03/Promoting-Ethanol-as-a-Clean-Cooking-Alternative-in-Ghana-A-Pilot-Study-.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Promoting-Gender-Budgeting-The-Case-Of-Mineral-Royalty-Utilization-In-Ghana.pdf",
+      "localPath": "wp-content/uploads/2023/03/Promoting-Gender-Budgeting-The-Case-Of-Mineral-Royalty-Utilization-In-Ghana.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Public-Procurement-Reforms-ACEP_IMANI.pdf",
+      "localPath": "wp-content/uploads/2023/03/Public-Procurement-Reforms-ACEP_IMANI.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ROLLINGBACKTHEGAINSOFOPENCONTRACTING2.pdf",
+      "localPath": "wp-content/uploads/2023/03/ROLLINGBACKTHEGAINSOFOPENCONTRACTING2.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Rejoinder-to-Ministers-Interview-on-PeaceFM-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/Rejoinder-to-Ministers-Interview-on-PeaceFM-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Relevance-Of-Tax-Exemptions-In-Ghana-The-Case-of-The-Mining-Industry-NEW-.pdf",
+      "localPath": "wp-content/uploads/2023/03/Relevance-Of-Tax-Exemptions-In-Ghana-The-Case-of-The-Mining-Industry-NEW-.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Renewable-energy-Investment-for-SMEs-in-Ghana.pdf",
+      "localPath": "wp-content/uploads/2023/03/Renewable-energy-Investment-for-SMEs-in-Ghana.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ReviewofGhanaIMFProgram.pdf",
+      "localPath": "wp-content/uploads/2023/03/ReviewofGhanaIMFProgram.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/SHEINIFISCALSPAPER.pdf",
+      "localPath": "wp-content/uploads/2023/03/SHEINIFISCALSPAPER.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/SHEINIPOLICYGAPFINALREPORT.pdf",
+      "localPath": "wp-content/uploads/2023/03/SHEINIPOLICYGAPFINALREPORT.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Smoothening-The-Gas-Demand-Supply-Scenario.pdf",
+      "localPath": "wp-content/uploads/2023/03/Smoothening-The-Gas-Demand-Supply-Scenario.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Strategic-Options-for-the-Sustainability-of-Tema-Oil-Refinery.pdf",
+      "localPath": "wp-content/uploads/2023/03/Strategic-Options-for-the-Sustainability-of-Tema-Oil-Refinery.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/TAX_PAPER_cmyk.pdf",
+      "localPath": "wp-content/uploads/2023/03/TAX_PAPER_cmyk.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/THE-STATE-OF-THE-ENERGY-AND-EXTRACTIVE-SECTORS-OF-GHANA-CRITICAL-REFORMS-REQUIRED-FOR-SUSTAINABLE-ECONOMIC-RECOVERY.pdf",
+      "localPath": "wp-content/uploads/2023/03/THE-STATE-OF-THE-ENERGY-AND-EXTRACTIVE-SECTORS-OF-GHANA-CRITICAL-REFORMS-REQUIRED-FOR-SUSTAINABLE-ECONOMIC-RECOVERY.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/THEACEPRADAR.pdf",
+      "localPath": "wp-content/uploads/2023/03/THEACEPRADAR.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/THEIMPACTOFTHEELECTRICITYTARIFFREDUCTIONONTHEBILLOFCONSUMERS.pdf",
+      "localPath": "wp-content/uploads/2023/03/THEIMPACTOFTHEELECTRICITYTARIFFREDUCTIONONTHEBILLOFCONSUMERS.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/Tema-LNG-Import-Terminal-Case-Study.pdf",
+      "localPath": "wp-content/uploads/2023/03/Tema-LNG-Import-Terminal-Case-Study.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/The-Solar-PV-Value-Chain-An-Assessment-of-Opportunities-for-Africa-in-the-Context-of-Energy-Transition-and-AfCFTA.pdf",
+      "localPath": "wp-content/uploads/2023/03/The-Solar-PV-Value-Chain-An-Assessment-of-Opportunities-for-Africa-in-the-Context-of-Energy-Transition-and-AfCFTA.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/UNITED-STATES-POWER-AFRICA-INITIATIVE.pdf",
+      "localPath": "wp-content/uploads/2023/03/UNITED-STATES-POWER-AFRICA-INITIATIVE.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/UpdateFallingCrudePrices.pdf",
+      "localPath": "wp-content/uploads/2023/03/UpdateFallingCrudePrices.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/VFMIMPACTASSESSMENTREPORT.pdf",
+      "localPath": "wp-content/uploads/2023/03/VFMIMPACTASSESSMENTREPORT.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/VFMReport.pdf",
+      "localPath": "wp-content/uploads/2023/03/VFMReport.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/VFmreportKEYMEANDOHAWU.pdf",
+      "localPath": "wp-content/uploads/2023/03/VFmreportKEYMEANDOHAWU.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ValueforMoney_Policybrief.pdf",
+      "localPath": "wp-content/uploads/2023/03/ValueforMoney_Policybrief.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/a1ec4864-14th-april-2020-aceps-statement-on-electricity-subsidy.pdf",
+      "localPath": "wp-content/uploads/2023/03/a1ec4864-14th-april-2020-aceps-statement-on-electricity-subsidy.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/aa3c13a2-21st-january-2016-improve-transparency-and-accountability-stop-banks-from-keeping-petroleum-taxes-and-levies.pdf",
+      "localPath": "wp-content/uploads/2023/03/aa3c13a2-21st-january-2016-improve-transparency-and-accountability-stop-banks-from-keeping-petroleum-taxes-and-levies.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ab03b1b5-7th-january-2016-acep-press-statement-on-energy-sector-levies..pdf",
+      "localPath": "wp-content/uploads/2023/03/ab03b1b5-7th-january-2016-acep-press-statement-on-energy-sector-levies..pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/af3e4ac0-7th-september-2016-government-must-continue-with-ecg-reforms-to-save-the-company.pdf",
+      "localPath": "wp-content/uploads/2023/03/af3e4ac0-7th-september-2016-government-must-continue-with-ecg-reforms-to-save-the-company.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/af59459c-24th-february-2016-african-governments-will-give-their-citizens-lasting-benefits-from-natural-resources-if-they-join-the-extractive-industries-transparency-initiative-eiti.pdf",
+      "localPath": "wp-content/uploads/2023/03/af59459c-24th-february-2016-african-governments-will-give-their-citizens-lasting-benefits-from-natural-resources-if-they-join-the-extractive-industries-transparency-initiative-eiti.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/b7c6cbe1-14th-november-2015-acep-collaborates-with-renowned-universities-in-a-research-program-on-chinese-national-oil-companies-and-the-economic-development-of-african-oil-producers.pdf",
+      "localPath": "wp-content/uploads/2023/03/b7c6cbe1-14th-november-2015-acep-collaborates-with-renowned-universities-in-a-research-program-on-chinese-national-oil-companies-and-the-economic-development-of-african-oil-producers.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/c83a9205-9th-july-2015-press-statement-by-the-africa-centre-for-energy-policy.pdf",
+      "localPath": "wp-content/uploads/2023/03/c83a9205-9th-july-2015-press-statement-by-the-africa-centre-for-energy-policy.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/communique4thsummit.pdf",
+      "localPath": "wp-content/uploads/2023/03/communique4thsummit.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/cr15103-1.pdf",
+      "localPath": "wp-content/uploads/2023/03/cr15103-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/d4f305fb-an-assessment-of-the-implementation-challenges-of-the-power-contract.pdf",
+      "localPath": "wp-content/uploads/2023/03/d4f305fb-an-assessment-of-the-implementation-challenges-of-the-power-contract.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/dd44f653-resolving-the-challenges-of-premix-fuel-a-review-of-ghanas-supply-fuel-supply-chain.pdf",
+      "localPath": "wp-content/uploads/2023/03/dd44f653-resolving-the-challenges-of-premix-fuel-a-review-of-ghanas-supply-fuel-supply-chain.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/e7e51f69-the-impact-of-the-electricity-tariff-reduction-on-the-bill-of-consumers-2018.pdf",
+      "localPath": "wp-content/uploads/2023/03/e7e51f69-the-impact-of-the-electricity-tariff-reduction-on-the-bill-of-consumers-2018.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ebd2c6d3-15th-september-2016-swiss-commodity-traders-must-respect-africa.pdf",
+      "localPath": "wp-content/uploads/2023/03/ebd2c6d3-15th-september-2016-swiss-commodity-traders-must-respect-africa.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ecd19687-6th-april-2020-press-release-acep-comments-on-the-statement-of-mof-on-impact-of-covid19.pdf",
+      "localPath": "wp-content/uploads/2023/03/ecd19687-6th-april-2020-press-release-acep-comments-on-the-statement-of-mof-on-impact-of-covid19.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/ed0147a6-18th-january-2017-the-energy-sector-challenges-should-be-the-opening-prayer-of-the-government-of-ghana.pdf",
+      "localPath": "wp-content/uploads/2023/03/ed0147a6-18th-january-2017-the-energy-sector-challenges-should-be-the-opening-prayer-of-the-government-of-ghana.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/energyforum.pdf",
+      "localPath": "wp-content/uploads/2023/03/energyforum.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/fba2a3e8-7th-march-2015-press-statement-by-the-africa-centre-for-energy-policy-president-state-of-the-nation-adddress.pdf",
+      "localPath": "wp-content/uploads/2023/03/fba2a3e8-7th-march-2015-press-statement-by-the-africa-centre-for-energy-policy-president-state-of-the-nation-adddress.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/fd6bdee0-12th-april-2016-panama-papers-frightening-ghana-and-africa-can-do-more-to-stop-corporate-and-financial-corruption-in-oil-and-mining-deals.pdf",
+      "localPath": "wp-content/uploads/2023/03/fd6bdee0-12th-april-2016-panama-papers-frightening-ghana-and-africa-can-do-more-to-stop-corporate-and-financial-corruption-in-oil-and-mining-deals.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/fe81a1f4-4th-august-2016-government-of-ghana-should-reconsider-its-decision-to-cede-the-takoradi-3-thermal-plant-to-ameri.pdf",
+      "localPath": "wp-content/uploads/2023/03/fe81a1f4-4th-august-2016-government-of-ghana-should-reconsider-its-decision-to-cede-the-takoradi-3-thermal-plant-to-ameri.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/improving-the-monitoring-of-quarry-production-with-remote-monitoring-technologies.pdf",
+      "localPath": "wp-content/uploads/2023/03/improving-the-monitoring-of-quarry-production-with-remote-monitoring-technologies.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/03/power-crises-article1.pdf",
+      "localPath": "wp-content/uploads/2023/03/power-crises-article1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/04/New-Brochure.pdf",
+      "localPath": "wp-content/uploads/2023/04/New-Brochure.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/04/The-Debt-Armageddon.pdf",
+      "localPath": "wp-content/uploads/2023/04/The-Debt-Armageddon.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/07/ACEP-Annual-Report-2021.pdf",
+      "localPath": "wp-content/uploads/2023/07/ACEP-Annual-Report-2021.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/07/ACEP-IMANI-BREAKING-THE-CYCLE-OF-IMF-SUPPORT.pdf",
+      "localPath": "wp-content/uploads/2023/07/ACEP-IMANI-BREAKING-THE-CYCLE-OF-IMF-SUPPORT.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/07/PRESS-STATEMENT-BY-THE-ALLIANCE-OF-CSOs-WORKING-ON-EXTRACTIVES-ANTI-CORRUPTION-AND-GOOD-GOVERNANCE-ON-URGENT-PETROLEUM-SECTOR-ISSUES.pdf",
+      "localPath": "wp-content/uploads/2023/07/PRESS-STATEMENT-BY-THE-ALLIANCE-OF-CSOs-WORKING-ON-EXTRACTIVES-ANTI-CORRUPTION-AND-GOOD-GOVERNANCE-ON-URGENT-PETROLEUM-SECTOR-ISSUES.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/08/ACEP_IMANI_Response_Genser_GNPC_Gas_Deal_Committee_Report_August_2023-3.pdf",
+      "localPath": "wp-content/uploads/2023/08/ACEP_IMANI_Response_Genser_GNPC_Gas_Deal_Committee_Report_August_2023-3.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/08/Report-Summary-on-Agyapa-Investment-Model.pdf",
+      "localPath": "wp-content/uploads/2023/08/Report-Summary-on-Agyapa-Investment-Model.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/09/BREAKING-THE-CYCLE-OF-IMF-SUPPORT-ADDRESSING-GOVERNANCE-INEFFICIENCIES-AND-DRIVERS-OF-PUBLIC-DEBT-IN-GHANA.pdf",
+      "localPath": "wp-content/uploads/2023/09/BREAKING-THE-CYCLE-OF-IMF-SUPPORT-ADDRESSING-GOVERNANCE-INEFFICIENCIES-AND-DRIVERS-OF-PUBLIC-DEBT-IN-GHANA.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/10/ACEP_ENERGY_ALERT.pdf",
+      "localPath": "wp-content/uploads/2023/10/ACEP_ENERGY_ALERT.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2023/11/Action-Points-from-FEC-2023.pdf",
+      "localPath": "wp-content/uploads/2023/11/Action-Points-from-FEC-2023.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/01/Examining-Methane-Management-in-the-Climate-Action-Plans-of-Oil-Producing-African-Nations.pdf",
+      "localPath": "wp-content/uploads/2024/01/Examining-Methane-Management-in-the-Climate-Action-Plans-of-Oil-Producing-African-Nations.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/02/Concept-Note-ACEP-Idea-Generation-Hub-at-the-Alternative-Mining-Indaba-AMI-2024.pdf",
+      "localPath": "wp-content/uploads/2024/02/Concept-Note-ACEP-Idea-Generation-Hub-at-the-Alternative-Mining-Indaba-AMI-2024.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/03/ACEP-IMANI-SML-JAN-2024.pdf",
+      "localPath": "wp-content/uploads/2024/03/ACEP-IMANI-SML-JAN-2024.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/03/Advisory-Paper-On-the-Power-Sector-Priorities-For-Governments-Action.pdf",
+      "localPath": "wp-content/uploads/2024/03/Advisory-Paper-On-the-Power-Sector-Priorities-For-Governments-Action.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/03/From-Generation-to-Distribution-Investigating-Ghanas-Power-Sectors-Value-Chain-and-its-Implications-for-Reliable-Affordable-and-Clean-Energy-Supply.pdf",
+      "localPath": "wp-content/uploads/2024/03/From-Generation-to-Distribution-Investigating-Ghanas-Power-Sectors-Value-Chain-and-its-Implications-for-Reliable-Affordable-and-Clean-Energy-Supply.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/03/PRESS-STATEMENT-KILL-THE-SCANDALOUS-AGYAPA-DEAL.pdf",
+      "localPath": "wp-content/uploads/2024/03/PRESS-STATEMENT-KILL-THE-SCANDALOUS-AGYAPA-DEAL.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/03/Press-Statement-ACEP-Corrects-Misrepresentation-of-Power-Sector-Outlook.pdf",
+      "localPath": "wp-content/uploads/2024/03/Press-Statement-ACEP-Corrects-Misrepresentation-of-Power-Sector-Outlook.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/04/ACEP-Response-to-NPA-April-4-2024.pdf",
+      "localPath": "wp-content/uploads/2024/04/ACEP-Response-to-NPA-April-4-2024.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/05/AN-ASSESSMENT-OF-THE-IMPLEMENTATION-CHALLENGES-OF-THE-POWER-COMPACT.pdf",
+      "localPath": "wp-content/uploads/2024/05/AN-ASSESSMENT-OF-THE-IMPLEMENTATION-CHALLENGES-OF-THE-POWER-COMPACT.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/06/ACEP-Annual-Report-2022.pdf",
+      "localPath": "wp-content/uploads/2024/06/ACEP-Annual-Report-2022.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/07/Ghanas-Debt-Tracker-.pdf",
+      "localPath": "wp-content/uploads/2024/07/Ghanas-Debt-Tracker-.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/09/Annual-Report-2023-Africa-Centre-for-Energy-Policy.pdf",
+      "localPath": "wp-content/uploads/2024/09/Annual-Report-2023-Africa-Centre-for-Energy-Policy.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/09/ECGs-Galamsey-on-Ghanas-Budget-Reaches-a-Crescendo.pdf",
+      "localPath": "wp-content/uploads/2024/09/ECGs-Galamsey-on-Ghanas-Budget-Reaches-a-Crescendo.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/10/A-Gender-Sensitivity-Assessment-of-the-ABFA-Spending-in-Ghana-Updated.pdf",
+      "localPath": "wp-content/uploads/2024/10/A-Gender-Sensitivity-Assessment-of-the-ABFA-Spending-in-Ghana-Updated.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/10/Action-Points-Future-of-Energy-Conference-2024.pdf",
+      "localPath": "wp-content/uploads/2024/10/Action-Points-Future-of-Energy-Conference-2024.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/10/An-Assessment-of-the-Impact-of-the-Domestic-Debt-Exchange-Program-DDEP-on-Ghanas-Pensions-Sector-September-2024.pdf",
+      "localPath": "wp-content/uploads/2024/10/An-Assessment-of-the-Impact-of-the-Domestic-Debt-Exchange-Program-DDEP-on-Ghanas-Pensions-Sector-September-2024.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/10/Press_Release_RE_Springfield.pdf",
+      "localPath": "wp-content/uploads/2024/10/Press_Release_RE_Springfield.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/10/Report_Future_of_Energy_Conference_FEC2024.pdf",
+      "localPath": "wp-content/uploads/2024/10/Report_Future_of_Energy_Conference_FEC2024.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/11/Programme-Outline-Climate-Action-Conference-26.11.24-compressed.pdf",
+      "localPath": "wp-content/uploads/2024/11/Programme-Outline-Climate-Action-Conference-26.11.24-compressed.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/11/The-2024-Election-Playbook-Unpacking-Political-Party-Manifestos-on-Energy-and-Extractives-1.pdf",
+      "localPath": "wp-content/uploads/2024/11/The-2024-Election-Playbook-Unpacking-Political-Party-Manifestos-on-Energy-and-Extractives-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2024/12/Environmental-and-Health-Impacts-of-Methane-Emissions.pdf",
+      "localPath": "wp-content/uploads/2024/12/Environmental-and-Health-Impacts-of-Methane-Emissions.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/01/REBUTTAL-The-Endless-Struggles-of-Ghanaian-Businesses-Part-1.pdf",
+      "localPath": "wp-content/uploads/2025/01/REBUTTAL-The-Endless-Struggles-of-Ghanaian-Businesses-Part-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/02/ACEP-Radar-January-2025.pdf",
+      "localPath": "wp-content/uploads/2025/02/ACEP-Radar-January-2025.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/03/ACEP-Radar-February-2025_.pdf",
+      "localPath": "wp-content/uploads/2025/03/ACEP-Radar-February-2025_.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/03/ACEPS-INSIGHTS-ON-GHANAS-2025-BUDGET-STATEMENT.pdf",
+      "localPath": "wp-content/uploads/2025/03/ACEPS-INSIGHTS-ON-GHANAS-2025-BUDGET-STATEMENT.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/04/ACEP-Radar-March-2025.pdf",
+      "localPath": "wp-content/uploads/2025/04/ACEP-Radar-March-2025.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/04/PRESS-STATEMENT-Governments-Transitional-Agreement-for-the-Damang-Mine-A-Positive-Signal-for-Sector-Stability-24.04.25.pdf",
+      "localPath": "wp-content/uploads/2025/04/PRESS-STATEMENT-Governments-Transitional-Agreement-for-the-Damang-Mine-A-Positive-Signal-for-Sector-Stability-24.04.25.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/04/Press-Statement-on-Governments-Decision-Not-to-Renew-the-Mining-Lease-of-Abosso-Goldfields-Limited-AGL.pdf",
+      "localPath": "wp-content/uploads/2025/04/Press-Statement-on-Governments-Decision-Not-to-Renew-the-Mining-Lease-of-Abosso-Goldfields-Limited-AGL.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/05/CONCEPT-NOTE-Future-of-Energy-Conference-2025.pdf",
+      "localPath": "wp-content/uploads/2025/05/CONCEPT-NOTE-Future-of-Energy-Conference-2025.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/05/Climate-Action-in-Ghana-1.pdf",
+      "localPath": "wp-content/uploads/2025/05/Climate-Action-in-Ghana-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/05/FEC-2025-Side-Event-Guidelines-for-Hosting-Organisations.pdf",
+      "localPath": "wp-content/uploads/2025/05/FEC-2025-Side-Event-Guidelines-for-Hosting-Organisations.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/05/FUTURE-OF-ENERGY-CONFERENCE-2025-INNOVATION-CHALLENGE-OUTLINE.pdf",
+      "localPath": "wp-content/uploads/2025/05/FUTURE-OF-ENERGY-CONFERENCE-2025-INNOVATION-CHALLENGE-OUTLINE.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/06/ACEP-Debt-Tracker-Ghana-Issue-2.pdf",
+      "localPath": "wp-content/uploads/2025/06/ACEP-Debt-Tracker-Ghana-Issue-2.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/06/ACEP-Radar-May-2025.pdf",
+      "localPath": "wp-content/uploads/2025/06/ACEP-Radar-May-2025.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/07/ETHANOL-STOVE-INNOVATION-HACKATHON-ADVANCING-CLEAN-COOKING-SOLUTIONS.pdf",
+      "localPath": "wp-content/uploads/2025/07/ETHANOL-STOVE-INNOVATION-HACKATHON-ADVANCING-CLEAN-COOKING-SOLUTIONS.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/07/PRESS-RELEASE-Stakeholders-Dialogue-Highlights-Urgent-Need-for-Sustainable-Solutions-in-Ghanas-Energy-Sector-.pdf",
+      "localPath": "wp-content/uploads/2025/07/PRESS-RELEASE-Stakeholders-Dialogue-Highlights-Urgent-Need-for-Sustainable-Solutions-in-Ghanas-Energy-Sector-.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/08/2025-Future-of-Energy-Conference-August-26-27-Accra-Brochure_compressed.pdf",
+      "localPath": "wp-content/uploads/2025/08/2025-Future-of-Energy-Conference-August-26-27-Accra-Brochure_compressed.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/09/ACEP-Radar-June-July-2025.pdf",
+      "localPath": "wp-content/uploads/2025/09/ACEP-Radar-June-July-2025.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/09/FEC-2025-Action-Points.pdf",
+      "localPath": "wp-content/uploads/2025/09/FEC-2025-Action-Points.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/11/ACEP-2026-Budget-Analysis-1.pdf",
+      "localPath": "wp-content/uploads/2025/11/ACEP-2026-Budget-Analysis-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/11/ACEP-Annual-Report-2024.pdf",
+      "localPath": "wp-content/uploads/2025/11/ACEP-Annual-Report-2024.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/11/ACEP_Radar_August_September-2025.pdf",
+      "localPath": "wp-content/uploads/2025/11/ACEP_Radar_August_September-2025.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/11/Downstream-Petroleum-Products-Taxation-A-Call-to-Action-ACEP-2025-1.pdf",
+      "localPath": "wp-content/uploads/2025/11/Downstream-Petroleum-Products-Taxation-A-Call-to-Action-ACEP-2025-1.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/11/Upstream-Petroleum-Monitoring-Report-2023.pdf",
+      "localPath": "wp-content/uploads/2025/11/Upstream-Petroleum-Monitoring-Report-2023.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/12/2025_FEC_-Report.pdf",
+      "localPath": "wp-content/uploads/2025/12/2025_FEC_-Report.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/12/APPLICATION-QUESTION-Cohort-10.pdf",
+      "localPath": "wp-content/uploads/2025/12/APPLICATION-QUESTION-Cohort-10.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2025/12/Policy-Note-Ghana-Barari-Lithium-Agreement-Mr.-Benjamin-Boakye.pdf",
+      "localPath": "wp-content/uploads/2025/12/Policy-Note-Ghana-Barari-Lithium-Agreement-Mr.-Benjamin-Boakye.pdf"
+    },
+    {
+      "ref": "wp-content/uploads/2026/01/Chinese-Lending-Strategy-and-Ghanas-Debt-Sustainability.pdf",
+      "localPath": "wp-content/uploads/2026/01/Chinese-Lending-Strategy-and-Ghanas-Debt-Sustainability.pdf"
+    }
+  ],
+  "missing": [
+    {
+      "ref": "wp-content/uploads/2023/03/ACEPs-Rejoinder-to-GNPCs-Response-on-the-71-Acquisition-in-Jubilee-and-TEN-Fields.pdf",
+      "reason": "404_on_source",
+      "title": "Rejoinder: GNPC’s Responses to Assertions in ACEP’s Statement on GNPC 7% Acquisition in Jubilee and TEN Fields"
+    }
+  ],
+  "orphans": []
+}

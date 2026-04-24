@@ -1,0 +1,15 @@
+/**
+ * Iframe Container Components
+ * Reusable iframe container styles
+ */
+
+@layer components {
+  .iframe-container {
+    @apply w-full;
+    height: calc(100vh - 120px);
+  }
+
+  .iframe-container-full {
+    @apply w-full h-full;
+  }
+}

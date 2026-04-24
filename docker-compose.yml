@@ -1,0 +1,65 @@
+# Local development (default): hot reload — `docker compose up --build`
+# Optional DB: `docker compose --profile with-db up --build`
+# Production-like image: `docker compose --profile prod up --build`
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: acep-web-dev
+    ports:
+      - "3100:3100"
+    volumes:
+      # Live code from host
+      - .:/app
+      # Avoid macOS/Linux native mismatch and speed up installs
+      - web_node_modules:/app/node_modules
+      # Keep build output inside Linux container (ignore host .next)
+      - web_next:/app/.next
+    environment:
+      NODE_ENV: development
+      NEXT_TELEMETRY_DISABLED: "1"
+      # File watching through Docker Desktop VM (macOS/Windows)
+      WATCHPACK_POLLING: "true"
+      CHOKIDAR_USEPOLLING: "true"
+      NEXT_PUBLIC_SITE_URL: http://localhost:3100
+    stdin_open: true
+    tty: true
+
+  postgres:
+    profiles: ["with-db"]
+    image: postgres:16-alpine
+    container_name: acep-postgres
+    environment:
+      POSTGRES_USER: acep
+      POSTGRES_PASSWORD: acep_dev
+      POSTGRES_DB: acep
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U acep -d acep"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  web-prod:
+    profiles: ["prod"]
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: acep-web-prod
+    ports:
+      - "3100:3100"
+    environment:
+      NODE_ENV: production
+      PORT: "3100"
+      HOSTNAME: "0.0.0.0"
+      NEXT_TELEMETRY_DISABLED: "1"
+
+volumes:
+  web_node_modules:
+  web_next:
+  postgres_data:

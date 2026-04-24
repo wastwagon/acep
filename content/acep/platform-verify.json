@@ -1,0 +1,81 @@
+{
+  "verifiedAt": "2026-01-26T23:18:57.543Z",
+  "menu": {
+    "sourceSnapshot": "content/acep/snapshots/acep.africa/photo-gallery/index.html",
+    "total": 22,
+    "missing": 0,
+    "missingRoutes": []
+  },
+  "templates": {
+    "reservedPrefixes": [
+      "/_next/",
+      "/api/",
+      "/acep/",
+      "/acep-assets/",
+      "/contracts",
+      "/electricity",
+      "/oil-revenue",
+      "/videos",
+      "/research-and-policy-papers",
+      "/press-statements",
+      "/news-blog-posts",
+      "/radar",
+      "/annual-reports",
+      "/resource-centre",
+      "/programs",
+      "/events",
+      "/about-us",
+      "/photo-gallery",
+      "/video-gallery",
+      "/fec-2025",
+      "/fec-brochure",
+      "/fec-resource-centre",
+      "/eiccg-fund",
+      "/the-organisation",
+      "/governing-board",
+      "/team",
+      "/our-partners",
+      "/nextgen10",
+      "/climate-academy",
+      "/2025-afreikh-summer-school",
+      "/rgchub"
+    ]
+  },
+  "downloads": [
+    {
+      "page": "/fec-2025",
+      "downloadsFound": 3,
+      "mappedDownloads": 3,
+      "missingDownloads": 0,
+      "missing": []
+    },
+    {
+      "page": "/fec-brochure",
+      "downloadsFound": 1,
+      "mappedDownloads": 1,
+      "missingDownloads": 0,
+      "missing": []
+    },
+    {
+      "page": "/fec-resource-centre",
+      "downloadsFound": 2,
+      "mappedDownloads": 2,
+      "missingDownloads": 0,
+      "missing": []
+    },
+    {
+      "page": "/eiccg-fund",
+      "downloadsFound": 2,
+      "mappedDownloads": 2,
+      "missingDownloads": 0,
+      "missing": []
+    },
+    {
+      "page": "/annual-reports",
+      "downloadsFound": 0,
+      "mappedDownloads": 0,
+      "missingDownloads": 0,
+      "missing": []
+    }
+  ]
+}

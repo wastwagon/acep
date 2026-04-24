@@ -1,0 +1,4354 @@
+{
+  "source": {
+    "sitemapIndex": "https://acep.africa/sitemap_index.xml",
+    "fetchedAt": "2026-01-26T16:31:03.342Z",
+    "userAgent": "ACEP-Snapshot/1.0 (+https://acep.africa) - internal migration",
+    "extraFetchedAt": "2026-01-26T23:47:09.191Z",
+    "extraUserAgent": "ACEP-Extra-Snapshot/1.0 (+https://acep.africa) - internal migration"
+  },
+  "totals": {
+    "urls": 620
+  },
+  "pages": [
+    {
+      "url": "https://acep.africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 206092,
+      "savedAs": "snapshots/acep.africa/home/index.html"
+    },
+    {
+      "url": "https://acep.africa/?ae_global_templates=nested-accordion-in-accordion",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186792,
+      "savedAs": "snapshots/acep.africa/home/index__q_P2FlX2dsb2JhbF90ZW1wbGF0ZXM9bmVzdGVkLWFjY29yZGlvbi1pbi1hY2NvcmRpb24.html"
+    },
+    {
+      "url": "https://acep.africa/2015-africa-oil-governance-summit-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190074,
+      "savedAs": "snapshots/acep.africa/2015-africa-oil-governance-summit-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/2016-africa-oil-governance-summit-communique/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184801,
+      "savedAs": "snapshots/acep.africa/2016-africa-oil-governance-summit-communique/index.html"
+    },
+    {
+      "url": "https://acep.africa/2018-africa-oil-governance-summit-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185014,
+      "savedAs": "snapshots/acep.africa/2018-africa-oil-governance-summit-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/2023-acep-annual-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187532,
+      "savedAs": "snapshots/acep.africa/2023-acep-annual-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/2024-summer-school-on-the-governance-of-extractives-industries-in-anglophone-africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191217,
+      "savedAs": "snapshots/acep.africa/2024-summer-school-on-the-governance-of-extractives-industries-in-anglophone-africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/2025-afreikh-summer-school/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 198836,
+      "savedAs": "snapshots/acep.africa/2025-afreikh-summer-school/index.html"
+    },
+    {
+      "url": "https://acep.africa/2025-future-of-energy-conference-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192016,
+      "savedAs": "snapshots/acep.africa/2025-future-of-energy-conference-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/2025-summer-school-on-the-governance-of-extractive-industries-in-anglophone-africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193524,
+      "savedAs": "snapshots/acep.africa/2025-summer-school-on-the-governance-of-extractive-industries-in-anglophone-africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/6th-africa-oil-governance-summit-2020-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188269,
+      "savedAs": "snapshots/acep.africa/6th-africa-oil-governance-summit-2020-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/6th-aogs-2020-action-points/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184657,
+      "savedAs": "snapshots/acep.africa/6th-aogs-2020-action-points/index.html"
+    },
+    {
+      "url": "https://acep.africa/a-gender-sensitivity-assessment-of-the-abfa-spending-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191731,
+      "savedAs": "snapshots/acep.africa/a-gender-sensitivity-assessment-of-the-abfa-spending-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/a-guide-to-identifying-business-entities-for-widening-the-tax-net-and/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189388,
+      "savedAs": "snapshots/acep.africa/a-guide-to-identifying-business-entities-for-widening-the-tax-net-and/index.html"
+    },
+    {
+      "url": "https://acep.africa/a-guide-to-the-africa-mining-vision-amv/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 183963,
+      "savedAs": "snapshots/acep.africa/a-guide-to-the-africa-mining-vision-amv/index.html"
+    },
+    {
+      "url": "https://acep.africa/a-legal-fiscal-analysis-of-the-agyapa-investment-model/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187620,
+      "savedAs": "snapshots/acep.africa/a-legal-fiscal-analysis-of-the-agyapa-investment-model/index.html"
+    },
+    {
+      "url": "https://acep.africa/a-review-of-barriers-and-opportunities-for-renewable-energy-adoption-by-smes-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188093,
+      "savedAs": "snapshots/acep.africa/a-review-of-barriers-and-opportunities-for-renewable-energy-adoption-by-smes-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/a-simplified-analysis-of-the-petroleum-agreement-among-government-of-the-republic-of-ghana-ghana-national-petroleum-corporation-gnpc-exploration-and-production-company-limited-and-agm-petroleum-ghan/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189933,
+      "savedAs": "snapshots/acep.africa/a-simplified-analysis-of-the-petroleum-agreement-among-government-of-the-republic-of-ghana-ghana-national-petroleum-corporation-gnpc-exploration-and-production-company-limited-and-agm-petroleum-ghan/index.html"
+    },
+    {
+      "url": "https://acep.africa/a-simplified-guide-to-renewable-energy-investment-for-smes-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185395,
+      "savedAs": "snapshots/acep.africa/a-simplified-guide-to-renewable-energy-investment-for-smes-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/a-value-for-money-analysis-of-abfa-funded-educational-projects-in-three-senior-high-schools/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186280,
+      "savedAs": "snapshots/acep.africa/a-value-for-money-analysis-of-abfa-funded-educational-projects-in-three-senior-high-schools/index.html"
+    },
+    {
+      "url": "https://acep.africa/a-value-for-money-analysis-of-zuedem-tankese-irrigation-project-zakpalsi-sakpe-irrigation-project-and-rehabilitation-of-tema-fisheries-laboratory-at-tema/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 171610,
+      "savedAs": "snapshots/acep.africa/a-value-for-money-analysis-of-zuedem-tankese-irrigation-project-zakpalsi-sakpe-irrigation-project-and-rehabilitation-of-tema-fisheries-laboratory-at-tema/index.html"
+    },
+    {
+      "url": "https://acep.africa/about-fec-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 178986,
+      "savedAs": "snapshots/acep.africa/about-fec-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/about-the-africa-climate-academy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 196776,
+      "savedAs": "snapshots/acep.africa/about-the-africa-climate-academy/index.html"
+    },
+    {
+      "url": "https://acep.africa/about-the-future-of-energy-conference-fec-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 207413,
+      "savedAs": "snapshots/acep.africa/about-the-future-of-energy-conference-fec-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/about-us/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 162886,
+      "savedAs": "snapshots/acep.africa/about-us/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-2019-annual-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186470,
+      "savedAs": "snapshots/acep.africa/acep-2019-annual-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-adjudged-energy-institution-of-the-year-at-the-5th-ghana-energy-awards/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186556,
+      "savedAs": "snapshots/acep.africa/acep-adjudged-energy-institution-of-the-year-at-the-5th-ghana-energy-awards/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-analysis-of-the-2021-budget/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185616,
+      "savedAs": "snapshots/acep.africa/acep-analysis-of-the-2021-budget/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-and-apri-engage-stakeholders-on-how-to-meet-ghanas-us9/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 196208,
+      "savedAs": "snapshots/acep.africa/acep-and-apri-engage-stakeholders-on-how-to-meet-ghanas-us9/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-annua-report-2022/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191957,
+      "savedAs": "snapshots/acep.africa/acep-annua-report-2022/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-annual-report-2020/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191574,
+      "savedAs": "snapshots/acep.africa/acep-annual-report-2020/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-annual-report-2021/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188336,
+      "savedAs": "snapshots/acep.africa/acep-annual-report-2021/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-applauds-nextgen-leaders-for-successful-completion-of-the-training-program/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190680,
+      "savedAs": "snapshots/acep.africa/acep-applauds-nextgen-leaders-for-successful-completion-of-the-training-program/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-at-african-mining-indaba-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 195765,
+      "savedAs": "snapshots/acep.africa/acep-at-african-mining-indaba-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-at-investing-in-african-mining-indaba-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187727,
+      "savedAs": "snapshots/acep.africa/acep-at-investing-in-african-mining-indaba-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-collaborates-with-renowned-universities-think-tanks-in-a-research-program-on-chinese-national-oil-companies-the-economic-development-of-african-oil-producers/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187161,
+      "savedAs": "snapshots/acep.africa/acep-collaborates-with-renowned-universities-think-tanks-in-a-research-program-on-chinese-national-oil-companies-the-economic-development-of-african-oil-producers/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-commends-government-for-taking-steps-to-undertake-value-for-money-analysis-of-the-ameri-deal/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187209,
+      "savedAs": "snapshots/acep.africa/acep-commends-government-for-taking-steps-to-undertake-value-for-money-analysis-of-the-ameri-deal/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-comments-on-the-power-purchase-agreement-between-early-power-limited-and-the-electricity-company-of-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187729,
+      "savedAs": "snapshots/acep.africa/acep-comments-on-the-power-purchase-agreement-between-early-power-limited-and-the-electricity-company-of-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-donates-braille-version-of-gheiti-report-to-balme-library/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187386,
+      "savedAs": "snapshots/acep.africa/acep-donates-braille-version-of-gheiti-report-to-balme-library/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-grabs-two-awards-at-gea-2019/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186070,
+      "savedAs": "snapshots/acep.africa/acep-grabs-two-awards-at-gea-2019/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-imani-response-to-genser-gnpc-gas-deal-committee-report-august-2023/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190661,
+      "savedAs": "snapshots/acep.africa/acep-imani-response-to-genser-gnpc-gas-deal-committee-report-august-2023/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-news-letter-august-2015/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185057,
+      "savedAs": "snapshots/acep.africa/acep-news-letter-august-2015/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-news-letter-december-2015/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185502,
+      "savedAs": "snapshots/acep.africa/acep-news-letter-december-2015/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-news-letter-november-2015/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186127,
+      "savedAs": "snapshots/acep.africa/acep-news-letter-november-2015/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-news-letter-october-2015/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185603,
+      "savedAs": "snapshots/acep.africa/acep-news-letter-october-2015/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-news-letter-september-2015/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185300,
+      "savedAs": "snapshots/acep.africa/acep-news-letter-september-2015/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-newsletter-june-2015/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184774,
+      "savedAs": "snapshots/acep.africa/acep-newsletter-june-2015/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-officially-welcomes-the-second-cohort-of-its-next-generation-resource-governance-leaders/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187007,
+      "savedAs": "snapshots/acep.africa/acep-officially-welcomes-the-second-cohort-of-its-next-generation-resource-governance-leaders/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-radar-2018-mid-year-edition/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 182890,
+      "savedAs": "snapshots/acep.africa/acep-radar-2018-mid-year-edition/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-radar-august-september-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187920,
+      "savedAs": "snapshots/acep.africa/acep-radar-august-september-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-radar-february-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187462,
+      "savedAs": "snapshots/acep.africa/acep-radar-february-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-radar-january-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187875,
+      "savedAs": "snapshots/acep.africa/acep-radar-january-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-radar-june-july-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188824,
+      "savedAs": "snapshots/acep.africa/acep-radar-june-july-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-radar-march-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187850,
+      "savedAs": "snapshots/acep.africa/acep-radar-march-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-radar-may-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189630,
+      "savedAs": "snapshots/acep.africa/acep-radar-may-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-response-to-npas-downstream-sector-price-regulation/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192320,
+      "savedAs": "snapshots/acep.africa/acep-response-to-npas-downstream-sector-price-regulation/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-supports-ghana-blind-union-in-covid-19-fight/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190188,
+      "savedAs": "snapshots/acep.africa/acep-supports-ghana-blind-union-in-covid-19-fight/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-welcomes-cohort-3-of-its-nextgen-resource-governance-leaders/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 200050,
+      "savedAs": "snapshots/acep.africa/acep-welcomes-cohort-3-of-its-nextgen-resource-governance-leaders/index.html"
+    },
+    {
+      "url": "https://acep.africa/acep-welcomes-the-7th-cohort-of-the-next-generation-resource-governance-leaders-program/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190249,
+      "savedAs": "snapshots/acep.africa/acep-welcomes-the-7th-cohort-of-the-next-generation-resource-governance-leaders-program/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-analyses-of-the-2018-budget-statement-and-economic-policy-of-the-government-of-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187950,
+      "savedAs": "snapshots/acep.africa/aceps-analyses-of-the-2018-budget-statement-and-economic-policy-of-the-government-of-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-analysis-of-the-2026-budget-and-economic-policy-of-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191790,
+      "savedAs": "snapshots/acep.africa/aceps-analysis-of-the-2026-budget-and-economic-policy-of-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-analysis-of-the-finance-ministers-statement-on-the-economic-impact-of-covid-19-pandemic-on-the-economy-of-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191186,
+      "savedAs": "snapshots/acep.africa/aceps-analysis-of-the-finance-ministers-statement-on-the-economic-impact-of-covid-19-pandemic-on-the-economy-of-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-analysis-of-the-proposal-to-make-ghana-national-gas-company-gngc-the-national-gas-aggregator/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 194508,
+      "savedAs": "snapshots/acep.africa/aceps-analysis-of-the-proposal-to-make-ghana-national-gas-company-gngc-the-national-gas-aggregator/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-comments-on-the-ameri-renegotiated-contract/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186549,
+      "savedAs": "snapshots/acep.africa/aceps-comments-on-the-ameri-renegotiated-contract/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-comments-on-the-eni-springfield-unitisation-tussle-and-exxonmobils-exit-from-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188000,
+      "savedAs": "snapshots/acep.africa/aceps-comments-on-the-eni-springfield-unitisation-tussle-and-exxonmobils-exit-from-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-comments-on-the-octp-gas-utilization-challenges/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187189,
+      "savedAs": "snapshots/acep.africa/aceps-comments-on-the-octp-gas-utilization-challenges/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-comments-on-the-recent-increase-in-fuel-prices-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185183,
+      "savedAs": "snapshots/acep.africa/aceps-comments-on-the-recent-increase-in-fuel-prices-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-insights-on-ghanas-2025-budget-statement-and-economic-policy-of-government/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192755,
+      "savedAs": "snapshots/acep.africa/aceps-insights-on-ghanas-2025-budget-statement-and-economic-policy-of-government/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-itlos-statement/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188479,
+      "savedAs": "snapshots/acep.africa/aceps-itlos-statement/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-press-statement-on-the-current-govt-policy-on-full-deregulation-of-the-downstream-petroleum-industry/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190525,
+      "savedAs": "snapshots/acep.africa/aceps-press-statement-on-the-current-govt-policy-on-full-deregulation-of-the-downstream-petroleum-industry/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-press-statement-on-the-presidents-state-of-the-nation-address-presented-by-dr-mohammed-amin-adam-a-press-conference-in-accra/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188022,
+      "savedAs": "snapshots/acep.africa/aceps-press-statement-on-the-presidents-state-of-the-nation-address-presented-by-dr-mohammed-amin-adam-a-press-conference-in-accra/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-rejoinder-to-ghana-national-gas-company-gngc/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186642,
+      "savedAs": "snapshots/acep.africa/aceps-rejoinder-to-ghana-national-gas-company-gngc/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-response-to-the-statement-by-the-ministry-of-power-on-the-ameri-energy-power-project/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189874,
+      "savedAs": "snapshots/acep.africa/aceps-response-to-the-statement-by-the-ministry-of-power-on-the-ameri-energy-power-project/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-statement-on-gnpc-work-programme-2019/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186605,
+      "savedAs": "snapshots/acep.africa/aceps-statement-on-gnpc-work-programme-2019/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-statement-on-governments-covid-19-electricity-subsidy-policy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189508,
+      "savedAs": "snapshots/acep.africa/aceps-statement-on-governments-covid-19-electricity-subsidy-policy/index.html"
+    },
+    {
+      "url": "https://acep.africa/aceps-update-on-pds-concession-challenges/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 206111,
+      "savedAs": "snapshots/acep.africa/aceps-update-on-pds-concession-challenges/index.html"
+    },
+    {
+      "url": "https://acep.africa/acs2023/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192706,
+      "savedAs": "snapshots/acep.africa/acs2023/index.html"
+    },
+    {
+      "url": "https://acep.africa/action-points-fec-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187738,
+      "savedAs": "snapshots/acep.africa/action-points-fec-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/action-points-future-of-energy-conference-fec-2024/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188837,
+      "savedAs": "snapshots/acep.africa/action-points-future-of-energy-conference-fec-2024/index.html"
+    },
+    {
+      "url": "https://acep.africa/advisory-paper-on-the-power-sector-priorities-for-governments-action/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190128,
+      "savedAs": "snapshots/acep.africa/advisory-paper-on-the-power-sector-priorities-for-governments-action/index.html"
+    },
+    {
+      "url": "https://acep.africa/advisory-report-on-ghanas-new-petroleum-exploration-production-bill-2014-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188146,
+      "savedAs": "snapshots/acep.africa/advisory-report-on-ghanas-new-petroleum-exploration-production-bill-2014-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/advisory-report-on-ghanas-new-petroleum-exploration-production-bill-2014/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187814,
+      "savedAs": "snapshots/acep.africa/advisory-report-on-ghanas-new-petroleum-exploration-production-bill-2014/index.html"
+    },
+    {
+      "url": "https://acep.africa/africa-oil-governance-brochure-2015/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185011,
+      "savedAs": "snapshots/acep.africa/africa-oil-governance-brochure-2015/index.html"
+    },
+    {
+      "url": "https://acep.africa/africa-oil-governance-summit-2020-the-implications-of-climate-change-action-on-oil-governance-in-africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188312,
+      "savedAs": "snapshots/acep.africa/africa-oil-governance-summit-2020-the-implications-of-climate-change-action-on-oil-governance-in-africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/africa-oil-governance-summit-action-points-2021/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186338,
+      "savedAs": "snapshots/acep.africa/africa-oil-governance-summit-action-points-2021/index.html"
+    },
+    {
+      "url": "https://acep.africa/africa-oil-governance-summit-report-2017/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185426,
+      "savedAs": "snapshots/acep.africa/africa-oil-governance-summit-report-2017/index.html"
+    },
+    {
+      "url": "https://acep.africa/african-governments-will-give-their-citizens-lasting-benefits-from-natural-resources-if-they-join-the-extractive-industries-transparency-initiative-eiti/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190007,
+      "savedAs": "snapshots/acep.africa/african-governments-will-give-their-citizens-lasting-benefits-from-natural-resources-if-they-join-the-extractive-industries-transparency-initiative-eiti/index.html"
+    },
+    {
+      "url": "https://acep.africa/agenda/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 169044,
+      "savedAs": "snapshots/acep.africa/agenda/index.html"
+    },
+    {
+      "url": "https://acep.africa/an-analysis-of-ghanas-petroleum-register/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185294,
+      "savedAs": "snapshots/acep.africa/an-analysis-of-ghanas-petroleum-register/index.html"
+    },
+    {
+      "url": "https://acep.africa/an-assessment-of-the-impact-of-the-domestic-debt-exchange-program-ddep-on-ghanas-pensions-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192954,
+      "savedAs": "snapshots/acep.africa/an-assessment-of-the-impact-of-the-domestic-debt-exchange-program-ddep-on-ghanas-pensions-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/an-assessment-of-the-implementation-challenges-of-the-power-compact/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187581,
+      "savedAs": "snapshots/acep.africa/an-assessment-of-the-implementation-challenges-of-the-power-compact/index.html"
+    },
+    {
+      "url": "https://acep.africa/an-evaluation-of-the-implementation-status-of-the-africa-mining-vision-amv-through-development-of-country-mining-vision-cmv-in-ghana-liberia-and-sierra-leone/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187951,
+      "savedAs": "snapshots/acep.africa/an-evaluation-of-the-implementation-status-of-the-africa-mining-vision-amv-through-development-of-country-mining-vision-cmv-in-ghana-liberia-and-sierra-leone/index.html"
+    },
+    {
+      "url": "https://acep.africa/an-evaluation-of-the-mandate-performance-accountability-practices-of-piac-in-petroleum-revenue-management-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189039,
+      "savedAs": "snapshots/acep.africa/an-evaluation-of-the-mandate-performance-accountability-practices-of-piac-in-petroleum-revenue-management-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/an-evidence-based-impact-study-of-oil-funded-irrigation-projects-2018/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187672,
+      "savedAs": "snapshots/acep.africa/an-evidence-based-impact-study-of-oil-funded-irrigation-projects-2018/index.html"
+    },
+    {
+      "url": "https://acep.africa/an-open-letter-to-the-president-elect-h-e-john-mahama/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189808,
+      "savedAs": "snapshots/acep.africa/an-open-letter-to-the-president-elect-h-e-john-mahama/index.html"
+    },
+    {
+      "url": "https://acep.africa/an-open-letter-to-the-president-of-ghana-by-the-cso-alliance/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191313,
+      "savedAs": "snapshots/acep.africa/an-open-letter-to-the-president-of-ghana-by-the-cso-alliance/index.html"
+    },
+    {
+      "url": "https://acep.africa/analyses-and-recommendations-for-good-governance-in-the-petroleumexploration-and-production-bill-2014/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186967,
+      "savedAs": "snapshots/acep.africa/analyses-and-recommendations-for-good-governance-in-the-petroleumexploration-and-production-bill-2014/index.html"
+    },
+    {
+      "url": "https://acep.africa/analysis-and-recommendations-for-good-governance-in-the-petroleum-exploration-and-production-bill-2014/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187032,
+      "savedAs": "snapshots/acep.africa/analysis-and-recommendations-for-good-governance-in-the-petroleum-exploration-and-production-bill-2014/index.html"
+    },
+    {
+      "url": "https://acep.africa/annual-partners-meeting-africa-economic-justice-programme-aej/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186974,
+      "savedAs": "snapshots/acep.africa/annual-partners-meeting-africa-economic-justice-programme-aej/index.html"
+    },
+    {
+      "url": "https://acep.africa/annual-report-2024/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187634,
+      "savedAs": "snapshots/acep.africa/annual-report-2024/index.html"
+    },
+    {
+      "url": "https://acep.africa/annual-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 201465,
+      "savedAs": "snapshots/acep.africa/annual-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/annual-reports/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 183258,
+      "savedAs": "snapshots/acep.africa/annual-reports/index.html"
+    },
+    {
+      "url": "https://acep.africa/application-ethanol-stove-innovation-hackathon/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 170021,
+      "savedAs": "snapshots/acep.africa/application-ethanol-stove-innovation-hackathon/index.html"
+    },
+    {
+      "url": "https://acep.africa/application-fec-2025-innovation-challenge/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 162392,
+      "savedAs": "snapshots/acep.africa/application-fec-2025-innovation-challenge/index.html"
+    },
+    {
+      "url": "https://acep.africa/apply-2025-afreikh-summer-school/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 174191,
+      "savedAs": "snapshots/acep.africa/apply-2025-afreikh-summer-school/index.html"
+    },
+    {
+      "url": "https://acep.africa/apply-africa-climate-academy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 159676,
+      "savedAs": "snapshots/acep.africa/apply-africa-climate-academy/index.html"
+    },
+    {
+      "url": "https://acep.africa/assessing-ghanas-power-sector-reforms-through-the-pds-agreement/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 201459,
+      "savedAs": "snapshots/acep.africa/assessing-ghanas-power-sector-reforms-through-the-pds-agreement/index.html"
+    },
+    {
+      "url": "https://acep.africa/audio-gallery/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 162775,
+      "savedAs": "snapshots/acep.africa/audio-gallery/index.html"
+    },
+    {
+      "url": "https://acep.africa/author/user/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 198209,
+      "savedAs": "snapshots/acep.africa/author/user/index.html"
+    },
+    {
+      "url": "https://acep.africa/ben-boakye-asks-who-can-compete-with-gnpcs-kahuna-to-drive-me-more-nervous/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 199093,
+      "savedAs": "snapshots/acep.africa/ben-boakye-asks-who-can-compete-with-gnpcs-kahuna-to-drive-me-more-nervous/index.html"
+    },
+    {
+      "url": "https://acep.africa/ben-contact/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176245,
+      "savedAs": "snapshots/acep.africa/ben-contact/index.html"
+    },
+    {
+      "url": "https://acep.africa/beyond-the-2016-election-energy-sector-priorities-for-the-next-government-of-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186480,
+      "savedAs": "snapshots/acep.africa/beyond-the-2016-election-energy-sector-priorities-for-the-next-government-of-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/big-wins-for-acep-at-the-7th-ghana-energy-awards-energy-think-and-advocate-of-the-year/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193399,
+      "savedAs": "snapshots/acep.africa/big-wins-for-acep-at-the-7th-ghana-energy-awards-energy-think-and-advocate-of-the-year/index.html"
+    },
+    {
+      "url": "https://acep.africa/blog/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 196782,
+      "savedAs": "snapshots/acep.africa/blog/index.html"
+    },
+    {
+      "url": "https://acep.africa/blogs-news/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 217107,
+      "savedAs": "snapshots/acep.africa/blogs-news/index.html"
+    },
+    {
+      "url": "https://acep.africa/boosting-indigenous-ghanaian-companies-participation-in-technical-areas-of-ghanas-upstream-oil-and-gas-industry-a-lesson-study/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191112,
+      "savedAs": "snapshots/acep.africa/boosting-indigenous-ghanaian-companies-participation-in-technical-areas-of-ghanas-upstream-oil-and-gas-industry-a-lesson-study/index.html"
+    },
+    {
+      "url": "https://acep.africa/brief-tema-liquefied-natural-gas-lng-terminal-case-study/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 194975,
+      "savedAs": "snapshots/acep.africa/brief-tema-liquefied-natural-gas-lng-terminal-case-study/index.html"
+    },
+    {
+      "url": "https://acep.africa/call-for-abstracts-green-solutions-for-climate-resilience-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189404,
+      "savedAs": "snapshots/acep.africa/call-for-abstracts-green-solutions-for-climate-resilience-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/call-for-abstracts/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187675,
+      "savedAs": "snapshots/acep.africa/call-for-abstracts/index.html"
+    },
+    {
+      "url": "https://acep.africa/call-for-applications-africa-climate-academy-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190830,
+      "savedAs": "snapshots/acep.africa/call-for-applications-africa-climate-academy-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/call-for-applications-africa-climate-academy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187226,
+      "savedAs": "snapshots/acep.africa/call-for-applications-africa-climate-academy/index.html"
+    },
+    {
+      "url": "https://acep.africa/call-for-applications-next-generation-resource-governance-leaders-program-cohort-10/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190414,
+      "savedAs": "snapshots/acep.africa/call-for-applications-next-generation-resource-governance-leaders-program-cohort-10/index.html"
+    },
+    {
+      "url": "https://acep.africa/call-for-applications-next-generation-resource-governance-leaders-program-cohort-8/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187191,
+      "savedAs": "snapshots/acep.africa/call-for-applications-next-generation-resource-governance-leaders-program-cohort-8/index.html"
+    },
+    {
+      "url": "https://acep.africa/call-for-applications-next-generation-resource-governance-leaders-program/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188427,
+      "savedAs": "snapshots/acep.africa/call-for-applications-next-generation-resource-governance-leaders-program/index.html"
+    },
+    {
+      "url": "https://acep.africa/call-for-applications-nextgen-program/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186924,
+      "savedAs": "snapshots/acep.africa/call-for-applications-nextgen-program/index.html"
+    },
+    {
+      "url": "https://acep.africa/campus-rallies-to-strengthen-accountability-in-resource-governance-through-active-citizenship/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187932,
+      "savedAs": "snapshots/acep.africa/campus-rallies-to-strengthen-accountability-in-resource-governance-through-active-citizenship/index.html"
+    },
+    {
+      "url": "https://acep.africa/catching-the-early-worm/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185101,
+      "savedAs": "snapshots/acep.africa/catching-the-early-worm/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/acep-radar/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192929,
+      "savedAs": "snapshots/acep.africa/category/acep-radar/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/annual-reports/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185049,
+      "savedAs": "snapshots/acep.africa/category/annual-reports/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/blogs-news/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 182462,
+      "savedAs": "snapshots/acep.africa/category/blogs-news/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/blogs/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 195187,
+      "savedAs": "snapshots/acep.africa/category/blogs/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/call-for-applications/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 178379,
+      "savedAs": "snapshots/acep.africa/category/call-for-applications/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/events/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 195645,
+      "savedAs": "snapshots/acep.africa/category/events/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/monthly-newsletter/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175805,
+      "savedAs": "snapshots/acep.africa/category/monthly-newsletter/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/news-blog-posts/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 198725,
+      "savedAs": "snapshots/acep.africa/category/news-blog-posts/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/news/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 197334,
+      "savedAs": "snapshots/acep.africa/category/news/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/our-policy-analysis/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 174751,
+      "savedAs": "snapshots/acep.africa/category/our-policy-analysis/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/our-press-statements/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 174799,
+      "savedAs": "snapshots/acep.africa/category/our-press-statements/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/past-events/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 195487,
+      "savedAs": "snapshots/acep.africa/category/past-events/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/policy-analysis/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192436,
+      "savedAs": "snapshots/acep.africa/category/policy-analysis/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/policy-brief/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193818,
+      "savedAs": "snapshots/acep.africa/category/policy-brief/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/policy-paper/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 182819,
+      "savedAs": "snapshots/acep.africa/category/policy-paper/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/press-conference/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 182953,
+      "savedAs": "snapshots/acep.africa/category/press-conference/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/press-release/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 199402,
+      "savedAs": "snapshots/acep.africa/category/press-release/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/press-statements/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 199537,
+      "savedAs": "snapshots/acep.africa/category/press-statements/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/rejoinder/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176682,
+      "savedAs": "snapshots/acep.africa/category/rejoinder/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/report-summary/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 178515,
+      "savedAs": "snapshots/acep.africa/category/report-summary/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/research-policy-papers/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 198644,
+      "savedAs": "snapshots/acep.africa/category/research-policy-papers/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/uncategorized/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185300,
+      "savedAs": "snapshots/acep.africa/category/uncategorized/index.html"
+    },
+    {
+      "url": "https://acep.africa/category/working-paper/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 182844,
+      "savedAs": "snapshots/acep.africa/category/working-paper/index.html"
+    },
+    {
+      "url": "https://acep.africa/challenges-in-district-assemblies-common-fund-and-minerals-development-fund-disbursements/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188504,
+      "savedAs": "snapshots/acep.africa/challenges-in-district-assemblies-common-fund-and-minerals-development-fund-disbursements/index.html"
+    },
+    {
+      "url": "https://acep.africa/changing-africas-narrative-inside-out-the-acep-way/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188506,
+      "savedAs": "snapshots/acep.africa/changing-africas-narrative-inside-out-the-acep-way/index.html"
+    },
+    {
+      "url": "https://acep.africa/chart/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184117,
+      "savedAs": "snapshots/acep.africa/chart/index.html"
+    },
+    {
+      "url": "https://acep.africa/citizens-energy-manifesto-monitor/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 182777,
+      "savedAs": "snapshots/acep.africa/citizens-energy-manifesto-monitor/index.html"
+    },
+    {
+      "url": "https://acep.africa/citizens-guide-to-petroleum-contracts-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 183557,
+      "savedAs": "snapshots/acep.africa/citizens-guide-to-petroleum-contracts-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/civic-advocates-save-ghana-millions-of-dollars-as-akers-agm-relinquishes-its-80/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192288,
+      "savedAs": "snapshots/acep.africa/civic-advocates-save-ghana-millions-of-dollars-as-akers-agm-relinquishes-its-80/index.html"
+    },
+    {
+      "url": "https://acep.africa/civil-society-anti-corruption-agenda-on-extractive-industries/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184996,
+      "savedAs": "snapshots/acep.africa/civil-society-anti-corruption-agenda-on-extractive-industries/index.html"
+    },
+    {
+      "url": "https://acep.africa/clarifying-aceps-position-on-springfields-afina-1x-appraisal-programme/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190467,
+      "savedAs": "snapshots/acep.africa/clarifying-aceps-position-on-springfields-afina-1x-appraisal-programme/index.html"
+    },
+    {
+      "url": "https://acep.africa/clean-cooking-dialogue/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186887,
+      "savedAs": "snapshots/acep.africa/clean-cooking-dialogue/index.html"
+    },
+    {
+      "url": "https://acep.africa/climate-academy-modules/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 161702,
+      "savedAs": "snapshots/acep.africa/climate-academy-modules/index.html"
+    },
+    {
+      "url": "https://acep.africa/climate-academy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 172890,
+      "savedAs": "snapshots/acep.africa/climate-academy/index.html"
+    },
+    {
+      "url": "https://acep.africa/climate-action-conference/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190326,
+      "savedAs": "snapshots/acep.africa/climate-action-conference/index.html"
+    },
+    {
+      "url": "https://acep.africa/climate-action-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188874,
+      "savedAs": "snapshots/acep.africa/climate-action-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/climate-change-and-energy-transition/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175009,
+      "savedAs": "snapshots/acep.africa/climate-change-and-energy-transition/index.html"
+    },
+    {
+      "url": "https://acep.africa/communique-from-the-4th-africa-oil-governance-summit-2018/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185984,
+      "savedAs": "snapshots/acep.africa/communique-from-the-4th-africa-oil-governance-summit-2018/index.html"
+    },
+    {
+      "url": "https://acep.africa/conduct-value-for-money-audits-for-oil-funded-projects-acep/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187604,
+      "savedAs": "snapshots/acep.africa/conduct-value-for-money-audits-for-oil-funded-projects-acep/index.html"
+    },
+    {
+      "url": "https://acep.africa/confused-policies-corruption-can-confound-cop27-aims-as-fuel-prices/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189511,
+      "savedAs": "snapshots/acep.africa/confused-policies-corruption-can-confound-cop27-aims-as-fuel-prices/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-betty-dufie-owusu/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176076,
+      "savedAs": "snapshots/acep.africa/contact-betty-dufie-owusu/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-charles-gyamfi-ofori-phd/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176231,
+      "savedAs": "snapshots/acep.africa/contact-charles-gyamfi-ofori-phd/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-derek-kwesi-okai/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176385,
+      "savedAs": "snapshots/acep.africa/contact-derek-kwesi-okai/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-elfreda-hukpati/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176021,
+      "savedAs": "snapshots/acep.africa/contact-elfreda-hukpati/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-george-dowuonah-nortey/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176415,
+      "savedAs": "snapshots/acep.africa/contact-george-dowuonah-nortey/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-gifty-a-nkrumah/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176041,
+      "savedAs": "snapshots/acep.africa/contact-gifty-a-nkrumah/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-kodzo-yaotse/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175995,
+      "savedAs": "snapshots/acep.africa/contact-kodzo-yaotse/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-maybel-acquaye/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176335,
+      "savedAs": "snapshots/acep.africa/contact-maybel-acquaye/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-mohammed-osman-saani/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175816,
+      "savedAs": "snapshots/acep.africa/contact-mohammed-osman-saani/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-nana-akuamoah-darteh/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176470,
+      "savedAs": "snapshots/acep.africa/contact-nana-akuamoah-darteh/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-roselyn-fiagbe/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176011,
+      "savedAs": "snapshots/acep.africa/contact-roselyn-fiagbe/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-rosemond-sefa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175978,
+      "savedAs": "snapshots/acep.africa/contact-rosemond-sefa/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-samuel-ablordeppey-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 178845,
+      "savedAs": "snapshots/acep.africa/contact-samuel-ablordeppey-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact-samuel-ablordeppey/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 163104,
+      "savedAs": "snapshots/acep.africa/contact-samuel-ablordeppey/index.html"
+    },
+    {
+      "url": "https://acep.africa/contact/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 168248,
+      "savedAs": "snapshots/acep.africa/contact/index.html"
+    },
+    {
+      "url": "https://acep.africa/contract-governance/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175258,
+      "savedAs": "snapshots/acep.africa/contract-governance/index.html"
+    },
+    {
+      "url": "https://acep.africa/covid-19-response-strategies-in-africas-oil-and-gas-industry/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188322,
+      "savedAs": "snapshots/acep.africa/covid-19-response-strategies-in-africas-oil-and-gas-industry/index.html"
+    },
+    {
+      "url": "https://acep.africa/debt-management/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191370,
+      "savedAs": "snapshots/acep.africa/debt-management/index.html"
+    },
+    {
+      "url": "https://acep.africa/debt-relief-moral-hazard-postcards-from-the-global-south/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187065,
+      "savedAs": "snapshots/acep.africa/debt-relief-moral-hazard-postcards-from-the-global-south/index.html"
+    },
+    {
+      "url": "https://acep.africa/dirty-diesel-toxic-air-from-africa-returns-to-switzerland/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189895,
+      "savedAs": "snapshots/acep.africa/dirty-diesel-toxic-air-from-africa-returns-to-switzerland/index.html"
+    },
+    {
+      "url": "https://acep.africa/diversity-equity-and-inclusion-in-resource-governance/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175140,
+      "savedAs": "snapshots/acep.africa/diversity-equity-and-inclusion-in-resource-governance/index.html"
+    },
+    {
+      "url": "https://acep.africa/downstream-petroleum-products-taxation-a-call-to-action/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189080,
+      "savedAs": "snapshots/acep.africa/downstream-petroleum-products-taxation-a-call-to-action/index.html"
+    },
+    {
+      "url": "https://acep.africa/dr-amins-citizens-energy-manifesto-address/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187230,
+      "savedAs": "snapshots/acep.africa/dr-amins-citizens-energy-manifesto-address/index.html"
+    },
+    {
+      "url": "https://acep.africa/drivers-of-ghanas-recent-debt-and-its-implications-for-the-ghanaian-economy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189916,
+      "savedAs": "snapshots/acep.africa/drivers-of-ghanas-recent-debt-and-its-implications-for-the-ghanaian-economy/index.html"
+    },
+    {
+      "url": "https://acep.africa/ecgs-galamsey-on-ghanas-budget-reaches-a-crescendo/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190359,
+      "savedAs": "snapshots/acep.africa/ecgs-galamsey-on-ghanas-budget-reaches-a-crescendo/index.html"
+    },
+    {
+      "url": "https://acep.africa/eiccg-fund/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185122,
+      "savedAs": "snapshots/acep.africa/eiccg-fund/index.html"
+    },
+    {
+      "url": "https://acep.africa/empowering-persons-with-disability/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 182743,
+      "savedAs": "snapshots/acep.africa/empowering-persons-with-disability/index.html"
+    },
+    {
+      "url": "https://acep.africa/empowering-student-journalists-in-investigative-journalism-and-anti-corruption-issues-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191854,
+      "savedAs": "snapshots/acep.africa/empowering-student-journalists-in-investigative-journalism-and-anti-corruption-issues-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/environmental-and-health-impacts-of-methane-emissions/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188038,
+      "savedAs": "snapshots/acep.africa/environmental-and-health-impacts-of-methane-emissions/index.html"
+    },
+    {
+      "url": "https://acep.africa/erving-the-interests-of-our-clients/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184391,
+      "savedAs": "snapshots/acep.africa/erving-the-interests-of-our-clients/index.html"
+    },
+    {
+      "url": "https://acep.africa/estimating-the-revenue-potential-of-the-quarry-subsector-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189071,
+      "savedAs": "snapshots/acep.africa/estimating-the-revenue-potential-of-the-quarry-subsector-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/ethanol-stove-innovation-hackathon-advancing-clean-cooking-solutions-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 210879,
+      "savedAs": "snapshots/acep.africa/ethanol-stove-innovation-hackathon-advancing-clean-cooking-solutions-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/evaluation-of-the-proposed-integrated-aluminium-industry-and-the-2-billion-chinese-barter-deal/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188712,
+      "savedAs": "snapshots/acep.africa/evaluation-of-the-proposed-integrated-aluminium-industry-and-the-2-billion-chinese-barter-deal/index.html"
+    },
+    {
+      "url": "https://acep.africa/events/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 200260,
+      "savedAs": "snapshots/acep.africa/events/index.html"
+    },
+    {
+      "url": "https://acep.africa/examining-methane-management-in-the-climate-action-plans-of-oil-producing-african-nations/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190440,
+      "savedAs": "snapshots/acep.africa/examining-methane-management-in-the-climate-action-plans-of-oil-producing-african-nations/index.html"
+    },
+    {
+      "url": "https://acep.africa/falling-crude-oil-prices-silver-lining-for-robust-fiscal-measures-in-africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188749,
+      "savedAs": "snapshots/acep.africa/falling-crude-oil-prices-silver-lining-for-robust-fiscal-measures-in-africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/faqs/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191708,
+      "savedAs": "snapshots/acep.africa/faqs/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-2023/",
+      "status": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 125503,
+      "savedAs": "snapshots/acep.africa/fec-2023/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-2024-institutional-partnership/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 155357,
+      "savedAs": "snapshots/acep.africa/fec-2024-institutional-partnership/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-2025-innovation-investment-arena/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 161060,
+      "savedAs": "snapshots/acep.africa/fec-2025-innovation-investment-arena/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-2025-live/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 168132,
+      "savedAs": "snapshots/acep.africa/fec-2025-live/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-2025-participants-request-for-letter/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 157737,
+      "savedAs": "snapshots/acep.africa/fec-2025-participants-request-for-letter/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-2025-register/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165530,
+      "savedAs": "snapshots/acep.africa/fec-2025-register/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-2025-registration/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188118,
+      "savedAs": "snapshots/acep.africa/fec-2025-registration/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-2025-speakers/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 257488,
+      "savedAs": "snapshots/acep.africa/fec-2025-speakers/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 208920,
+      "savedAs": "snapshots/acep.africa/fec-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-brochure/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164183,
+      "savedAs": "snapshots/acep.africa/fec-brochure/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-gallery/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 173632,
+      "savedAs": "snapshots/acep.africa/fec-gallery/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec-resource-centre/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 171992,
+      "savedAs": "snapshots/acep.africa/fec-resource-centre/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec2023-action-points/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188670,
+      "savedAs": "snapshots/acep.africa/fec2023-action-points/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec2024-action-points-3/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 153514,
+      "savedAs": "snapshots/acep.africa/fec2024-action-points-3/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec2024-innovation-challenge/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165903,
+      "savedAs": "snapshots/acep.africa/fec2024-innovation-challenge/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec2024-registration/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 156342,
+      "savedAs": "snapshots/acep.africa/fec2024-registration/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec2025-contact/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 174355,
+      "savedAs": "snapshots/acep.africa/fec2025-contact/index.html"
+    },
+    {
+      "url": "https://acep.africa/fec2025-side-event-application/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 161747,
+      "savedAs": "snapshots/acep.africa/fec2025-side-event-application/index.html"
+    },
+    {
+      "url": "https://acep.africa/fecnew/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 223878,
+      "savedAs": "snapshots/acep.africa/fecnew/index.html"
+    },
+    {
+      "url": "https://acep.africa/final-report-africa-oil-governance-summit-2016/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188127,
+      "savedAs": "snapshots/acep.africa/final-report-africa-oil-governance-summit-2016/index.html"
+    },
+    {
+      "url": "https://acep.africa/final-rules-on-payment-disclosure-by-extractive-companies-issued-in-the-us-will-increase-responsible-investments-government-accountability-in-africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190113,
+      "savedAs": "snapshots/acep.africa/final-rules-on-payment-disclosure-by-extractive-companies-issued-in-the-us-will-increase-responsible-investments-government-accountability-in-africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/footer/footer-1/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 166086,
+      "savedAs": "snapshots/acep.africa/footer/footer-1/index.html"
+    },
+    {
+      "url": "https://acep.africa/footer/footer-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 157656,
+      "savedAs": "snapshots/acep.africa/footer/footer-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/footer/footer-3/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 168564,
+      "savedAs": "snapshots/acep.africa/footer/footer-3/index.html"
+    },
+    {
+      "url": "https://acep.africa/footer/footer-4/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 162831,
+      "savedAs": "snapshots/acep.africa/footer/footer-4/index.html"
+    },
+    {
+      "url": "https://acep.africa/footer/footer-5/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 162152,
+      "savedAs": "snapshots/acep.africa/footer/footer-5/index.html"
+    },
+    {
+      "url": "https://acep.africa/footer/footer-6/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 150975,
+      "savedAs": "snapshots/acep.africa/footer/footer-6/index.html"
+    },
+    {
+      "url": "https://acep.africa/ford-foundation-announces-new-fund-to-strengthen-natural-resources-governance-in-west-africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187577,
+      "savedAs": "snapshots/acep.africa/ford-foundation-announces-new-fund-to-strengthen-natural-resources-governance-in-west-africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/forum-on-the-drivers-of-ghanas-recent-debt-and-its-implications-for-the-ghanaian-economy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187946,
+      "savedAs": "snapshots/acep.africa/forum-on-the-drivers-of-ghanas-recent-debt-and-its-implications-for-the-ghanaian-economy/index.html"
+    },
+    {
+      "url": "https://acep.africa/from-generation-to-distribution-investigating-ghanas-power-sectors-value-chain-and-its-implications-for-reliable-affordable-and-clean-energy-supply/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 196252,
+      "savedAs": "snapshots/acep.africa/from-generation-to-distribution-investigating-ghanas-power-sectors-value-chain-and-its-implications-for-reliable-affordable-and-clean-energy-supply/index.html"
+    },
+    {
+      "url": "https://acep.africa/future-of-energy-conference-2024-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188838,
+      "savedAs": "snapshots/acep.africa/future-of-energy-conference-2024-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/future-of-energy-conference-2024/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187447,
+      "savedAs": "snapshots/acep.africa/future-of-energy-conference-2024/index.html"
+    },
+    {
+      "url": "https://acep.africa/future-of-energy-conference-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191067,
+      "savedAs": "snapshots/acep.africa/future-of-energy-conference-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/gap-analysis-of-the-contracting-regime-of-nigerias-mining-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192399,
+      "savedAs": "snapshots/acep.africa/gap-analysis-of-the-contracting-regime-of-nigerias-mining-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/gap-analysis-of-the-minerals-and-mining-act-2006-act-703-and-draft-amendment/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188378,
+      "savedAs": "snapshots/acep.africa/gap-analysis-of-the-minerals-and-mining-act-2006-act-703-and-draft-amendment/index.html"
+    },
+    {
+      "url": "https://acep.africa/ghana-has-many-other-opportunities-beyond-oil-and-gas-to-optimise-on/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187803,
+      "savedAs": "snapshots/acep.africa/ghana-has-many-other-opportunities-beyond-oil-and-gas-to-optimise-on/index.html"
+    },
+    {
+      "url": "https://acep.africa/ghana-imf-program-the-risk-of-fiscal-consolidation-without-strong-fiscal-policy-rules/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188461,
+      "savedAs": "snapshots/acep.africa/ghana-imf-program-the-risk-of-fiscal-consolidation-without-strong-fiscal-policy-rules/index.html"
+    },
+    {
+      "url": "https://acep.africa/ghana-imf-programme/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184325,
+      "savedAs": "snapshots/acep.africa/ghana-imf-programme/index.html"
+    },
+    {
+      "url": "https://acep.africa/ghanas-debt-drivers/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191034,
+      "savedAs": "snapshots/acep.africa/ghanas-debt-drivers/index.html"
+    },
+    {
+      "url": "https://acep.africa/ghanas-first-oil-licensing-round-monitoring-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186800,
+      "savedAs": "snapshots/acep.africa/ghanas-first-oil-licensing-round-monitoring-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/ghanas-gas-questionable-deals-and-national-interest-how-ghanas-quest-for-energy-security-faces-imminent-danger/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188449,
+      "savedAs": "snapshots/acep.africa/ghanas-gas-questionable-deals-and-national-interest-how-ghanas-quest-for-energy-security-faces-imminent-danger/index.html"
+    },
+    {
+      "url": "https://acep.africa/ghanas-new-petroleum-act-shows-the-common-resolve-of-ghanaians-to-good-governance-in-oil-and-gas-management-acep/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186291,
+      "savedAs": "snapshots/acep.africa/ghanas-new-petroleum-act-shows-the-common-resolve-of-ghanaians-to-good-governance-in-oil-and-gas-management-acep/index.html"
+    },
+    {
+      "url": "https://acep.africa/ghanas-new-petroleum-agreements-show-major-improvements-as-risks-levels-reduce-the-cases-of-ghana-agm-and-ghana-cola-medea-petroleum-agreements-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188440,
+      "savedAs": "snapshots/acep.africa/ghanas-new-petroleum-agreements-show-major-improvements-as-risks-levels-reduce-the-cases-of-ghana-agm-and-ghana-cola-medea-petroleum-agreements-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/ghanas-new-petroleum-agreements-show-major-improvements-as-risks-levels-reduce-the-cases-of-ghana-agm-and-ghana-cola-medea-petroleum-agreements/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189293,
+      "savedAs": "snapshots/acep.africa/ghanas-new-petroleum-agreements-show-major-improvements-as-risks-levels-reduce-the-cases-of-ghana-agm-and-ghana-cola-medea-petroleum-agreements/index.html"
+    },
+    {
+      "url": "https://acep.africa/gnpcs-acquisition-of-7-interest-in-jubilee-and-ten-fields-must-fulfill-all-legal-righteousness/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190618,
+      "savedAs": "snapshots/acep.africa/gnpcs-acquisition-of-7-interest-in-jubilee-and-ten-fields-must-fulfill-all-legal-righteousness/index.html"
+    },
+    {
+      "url": "https://acep.africa/gnpcs-loan-facility-and-parliamentary-approval-comments-by-the-africa-centre-for-energy-policy-acep/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188937,
+      "savedAs": "snapshots/acep.africa/gnpcs-loan-facility-and-parliamentary-approval-comments-by-the-africa-centre-for-energy-policy-acep/index.html"
+    },
+    {
+      "url": "https://acep.africa/gold-reserve-or-gold-4-oil-evidence-of-solutions-or-policy-flip-flopping-in-an-inflationary-regime/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 212614,
+      "savedAs": "snapshots/acep.africa/gold-reserve-or-gold-4-oil-evidence-of-solutions-or-policy-flip-flopping-in-an-inflationary-regime/index.html"
+    },
+    {
+      "url": "https://acep.africa/governing-board/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187237,
+      "savedAs": "snapshots/acep.africa/governing-board/index.html"
+    },
+    {
+      "url": "https://acep.africa/government-must-continue-with-ecg-reforms-to-save-the-company-acep/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186370,
+      "savedAs": "snapshots/acep.africa/government-must-continue-with-ecg-reforms-to-save-the-company-acep/index.html"
+    },
+    {
+      "url": "https://acep.africa/government-of-ghana-should-reconsider-its-decision-to-cede-the-takoradi-3-thermal-plant-to-ameri/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187430,
+      "savedAs": "snapshots/acep.africa/government-of-ghana-should-reconsider-its-decision-to-cede-the-takoradi-3-thermal-plant-to-ameri/index.html"
+    },
+    {
+      "url": "https://acep.africa/grant-application/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 180264,
+      "savedAs": "snapshots/acep.africa/grant-application/index.html"
+    },
+    {
+      "url": "https://acep.africa/grant-database/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191803,
+      "savedAs": "snapshots/acep.africa/grant-database/index.html"
+    },
+    {
+      "url": "https://acep.africa/grants/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 162776,
+      "savedAs": "snapshots/acep.africa/grants/index.html"
+    },
+    {
+      "url": "https://acep.africa/green-minerals-opportunities-for-africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187201,
+      "savedAs": "snapshots/acep.africa/green-minerals-opportunities-for-africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/guide-to-audio-visualization-with-javascript-and-gsa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188507,
+      "savedAs": "snapshots/acep.africa/guide-to-audio-visualization-with-javascript-and-gsa/index.html"
+    },
+    {
+      "url": "https://acep.africa/hackathon/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189734,
+      "savedAs": "snapshots/acep.africa/hackathon/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/header-style-1/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 150727,
+      "savedAs": "snapshots/acep.africa/header/header-style-1/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/header-style-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 143626,
+      "savedAs": "snapshots/acep.africa/header/header-style-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/header-style-3/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 161580,
+      "savedAs": "snapshots/acep.africa/header/header-style-3/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/header-style-4/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 146367,
+      "savedAs": "snapshots/acep.africa/header/header-style-4/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/header-style-5/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 149371,
+      "savedAs": "snapshots/acep.africa/header/header-style-5/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/header-style-6/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 150935,
+      "savedAs": "snapshots/acep.africa/header/header-style-6/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/sticky-header-style-1/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 144244,
+      "savedAs": "snapshots/acep.africa/header/sticky-header-style-1/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/sticky-header-style-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 144244,
+      "savedAs": "snapshots/acep.africa/header/sticky-header-style-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/sticky-header-style-3/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 141608,
+      "savedAs": "snapshots/acep.africa/header/sticky-header-style-3/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/sticky-header-style-5/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 144147,
+      "savedAs": "snapshots/acep.africa/header/sticky-header-style-5/index.html"
+    },
+    {
+      "url": "https://acep.africa/header/sticky-header-style-6/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 143396,
+      "savedAs": "snapshots/acep.africa/header/sticky-header-style-6/index.html"
+    },
+    {
+      "url": "https://acep.africa/home2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187282,
+      "savedAs": "snapshots/acep.africa/home2/index.html"
+    },
+    {
+      "url": "https://acep.africa/homenew/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 162751,
+      "savedAs": "snapshots/acep.africa/homenew/index.html"
+    },
+    {
+      "url": "https://acep.africa/how-a-good-law-may-not-stop-oil-money-from-going-down-the-drain/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186315,
+      "savedAs": "snapshots/acep.africa/how-a-good-law-may-not-stop-oil-money-from-going-down-the-drain/index.html"
+    },
+    {
+      "url": "https://acep.africa/how-gnpcs-decisions-further-harm-ghanas-battered-economy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191159,
+      "savedAs": "snapshots/acep.africa/how-gnpcs-decisions-further-harm-ghanas-battered-economy/index.html"
+    },
+    {
+      "url": "https://acep.africa/how-to-apply/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 168689,
+      "savedAs": "snapshots/acep.africa/how-to-apply/index.html"
+    },
+    {
+      "url": "https://acep.africa/igh-ami-2024/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192593,
+      "savedAs": "snapshots/acep.africa/igh-ami-2024/index.html"
+    },
+    {
+      "url": "https://acep.africa/illicit-financial-flows-and-the-extractive-industry-in-ghana-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185897,
+      "savedAs": "snapshots/acep.africa/illicit-financial-flows-and-the-extractive-industry-in-ghana-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/illicit-financial-flows-and-the-extractive-industry-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189218,
+      "savedAs": "snapshots/acep.africa/illicit-financial-flows-and-the-extractive-industry-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/illicit-financial-flows-and-the-extractive-industry/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186861,
+      "savedAs": "snapshots/acep.africa/illicit-financial-flows-and-the-extractive-industry/index.html"
+    },
+    {
+      "url": "https://acep.africa/implications-of-low-oil-price-on-africas-oil-producing-economies/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188001,
+      "savedAs": "snapshots/acep.africa/implications-of-low-oil-price-on-africas-oil-producing-economies/index.html"
+    },
+    {
+      "url": "https://acep.africa/improve-transparency-and-accountability-stop-banks-from-keeping-petroleum-taxes-and-levies/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189615,
+      "savedAs": "snapshots/acep.africa/improve-transparency-and-accountability-stop-banks-from-keeping-petroleum-taxes-and-levies/index.html"
+    },
+    {
+      "url": "https://acep.africa/improving-the-monitoring-of-quarry-production-with-remote-monitoring/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191788,
+      "savedAs": "snapshots/acep.africa/improving-the-monitoring-of-quarry-production-with-remote-monitoring/index.html"
+    },
+    {
+      "url": "https://acep.africa/infographics/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 179876,
+      "savedAs": "snapshots/acep.africa/infographics/index.html"
+    },
+    {
+      "url": "https://acep.africa/institutional-development-and-corporate-transparency/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 173271,
+      "savedAs": "snapshots/acep.africa/institutional-development-and-corporate-transparency/index.html"
+    },
+    {
+      "url": "https://acep.africa/institutional-partnership/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 155173,
+      "savedAs": "snapshots/acep.africa/institutional-partnership/index.html"
+    },
+    {
+      "url": "https://acep.africa/interim-statement-on-the-termination-of-the-pds-concession-deal/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189802,
+      "savedAs": "snapshots/acep.africa/interim-statement-on-the-termination-of-the-pds-concession-deal/index.html"
+    },
+    {
+      "url": "https://acep.africa/introduction-of-petroleum-price-mitigation-fund-in-ghana-shifting-the-burden-of-petroleum-subsidy-financing-from-government-to-consumers/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189124,
+      "savedAs": "snapshots/acep.africa/introduction-of-petroleum-price-mitigation-fund-in-ghana-shifting-the-burden-of-petroleum-subsidy-financing-from-government-to-consumers/index.html"
+    },
+    {
+      "url": "https://acep.africa/investigating-the-prevalence-of-illegal-meters-on-the-national-grid/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188567,
+      "savedAs": "snapshots/acep.africa/investigating-the-prevalence-of-illegal-meters-on-the-national-grid/index.html"
+    },
+    {
+      "url": "https://acep.africa/is-electricity-company-of-ghana-a-viable-company-a-financial-analysis-of-ecg-2009-2012/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187966,
+      "savedAs": "snapshots/acep.africa/is-electricity-company-of-ghana-a-viable-company-a-financial-analysis-of-ecg-2009-2012/index.html"
+    },
+    {
+      "url": "https://acep.africa/just-transition-a-silver-bullet-for-climate-justice-or-a-political-playbook-for-climate-denial/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 210522,
+      "savedAs": "snapshots/acep.africa/just-transition-a-silver-bullet-for-climate-justice-or-a-political-playbook-for-climate-denial/index.html"
+    },
+    {
+      "url": "https://acep.africa/launch-event-extractive-industry-and-climate-change-governance-fund/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186079,
+      "savedAs": "snapshots/acep.africa/launch-event-extractive-industry-and-climate-change-governance-fund/index.html"
+    },
+    {
+      "url": "https://acep.africa/launch-of-the-extractive-industry-and-climate-change-governance-fund/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 197604,
+      "savedAs": "snapshots/acep.africa/launch-of-the-extractive-industry-and-climate-change-governance-fund/index.html"
+    },
+    {
+      "url": "https://acep.africa/le-monde-appartient-a-ceux-qui-se-levent-tot/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186726,
+      "savedAs": "snapshots/acep.africa/le-monde-appartient-a-ceux-qui-se-levent-tot/index.html"
+    },
+    {
+      "url": "https://acep.africa/leveraging-africas-transition-minerals-for-optimal-domestic-revenue-mobilization/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193109,
+      "savedAs": "snapshots/acep.africa/leveraging-africas-transition-minerals-for-optimal-domestic-revenue-mobilization/index.html"
+    },
+    {
+      "url": "https://acep.africa/licensing-compliance-in-ghanas-upstream-petroleum-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185311,
+      "savedAs": "snapshots/acep.africa/licensing-compliance-in-ghanas-upstream-petroleum-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/liquefied-natural-gas-lng-supply-to-ghana-the-politics-and-the-reality-acep/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187125,
+      "savedAs": "snapshots/acep.africa/liquefied-natural-gas-lng-supply-to-ghana-the-politics-and-the-reality-acep/index.html"
+    },
+    {
+      "url": "https://acep.africa/local-content-in-the-petroleum-upstream-sector-a-comparative-analysis-of-ghana-nigeria-angola/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188047,
+      "savedAs": "snapshots/acep.africa/local-content-in-the-petroleum-upstream-sector-a-comparative-analysis-of-ghana-nigeria-angola/index.html"
+    },
+    {
+      "url": "https://acep.africa/making-every-pesewa-count-in-managing-ghanas-oil-revenue-the-role-of-value-for-money-audit/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187806,
+      "savedAs": "snapshots/acep.africa/making-every-pesewa-count-in-managing-ghanas-oil-revenue-the-role-of-value-for-money-audit/index.html"
+    },
+    {
+      "url": "https://acep.africa/making-petroleum-investments-work-for-sustainable-agriculture-and-education-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187232,
+      "savedAs": "snapshots/acep.africa/making-petroleum-investments-work-for-sustainable-agriculture-and-education-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/media_tag/africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 174001,
+      "savedAs": "snapshots/acep.africa/media_tag/africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/media_tag/downstream-petroleum/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 174211,
+      "savedAs": "snapshots/acep.africa/media_tag/downstream-petroleum/index.html"
+    },
+    {
+      "url": "https://acep.africa/media_tag/future-of-energy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 174151,
+      "savedAs": "snapshots/acep.africa/media_tag/future-of-energy/index.html"
+    },
+    {
+      "url": "https://acep.africa/media_tag/ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 173986,
+      "savedAs": "snapshots/acep.africa/media_tag/ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/media_tag/taxation/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 174031,
+      "savedAs": "snapshots/acep.africa/media_tag/taxation/index.html"
+    },
+    {
+      "url": "https://acep.africa/media/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 162708,
+      "savedAs": "snapshots/acep.africa/media/index.html"
+    },
+    {
+      "url": "https://acep.africa/meet-the-nextgen-leaders/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 208081,
+      "savedAs": "snapshots/acep.africa/meet-the-nextgen-leaders/index.html"
+    },
+    {
+      "url": "https://acep.africa/mega_menu/testing/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 138711,
+      "savedAs": "snapshots/acep.africa/mega_menu/testing/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 163292,
+      "savedAs": "snapshots/acep.africa/member/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/abena-konadu-baidoo/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164569,
+      "savedAs": "snapshots/acep.africa/member/abena-konadu-baidoo/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/alaka-lugonzo/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164467,
+      "savedAs": "snapshots/acep.africa/member/alaka-lugonzo/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/benjamin-boakye-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164527,
+      "savedAs": "snapshots/acep.africa/member/benjamin-boakye-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/benjamin-boakye/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164753,
+      "savedAs": "snapshots/acep.africa/member/benjamin-boakye/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/betty-d-owusu/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165112,
+      "savedAs": "snapshots/acep.africa/member/betty-d-owusu/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/bhekumuzi-dean-bhebhe/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164576,
+      "savedAs": "snapshots/acep.africa/member/bhekumuzi-dean-bhebhe/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/bright-simons/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164444,
+      "savedAs": "snapshots/acep.africa/member/bright-simons/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/charles-gyamfi-ofori-phd/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165729,
+      "savedAs": "snapshots/acep.africa/member/charles-gyamfi-ofori-phd/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/daniel-gbondo/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165309,
+      "savedAs": "snapshots/acep.africa/member/daniel-gbondo/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/deborah-ashong/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164709,
+      "savedAs": "snapshots/acep.africa/member/deborah-ashong/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/denis-gyeyir/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164463,
+      "savedAs": "snapshots/acep.africa/member/denis-gyeyir/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/derek-kwesi-okai/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164832,
+      "savedAs": "snapshots/acep.africa/member/derek-kwesi-okai/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/dr-charles-gyamfi-ofori-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164796,
+      "savedAs": "snapshots/acep.africa/member/dr-charles-gyamfi-ofori-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/dr-charles-gyamfi-ofori/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164581,
+      "savedAs": "snapshots/acep.africa/member/dr-charles-gyamfi-ofori/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/dr-emeka-vitalis-obi-mni/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164696,
+      "savedAs": "snapshots/acep.africa/member/dr-emeka-vitalis-obi-mni/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/dr-olufunso-somorin/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164664,
+      "savedAs": "snapshots/acep.africa/member/dr-olufunso-somorin/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/elfreda-akosua-hukpati/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164917,
+      "savedAs": "snapshots/acep.africa/member/elfreda-akosua-hukpati/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/eliasu-ali-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164238,
+      "savedAs": "snapshots/acep.africa/member/eliasu-ali-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/emily-anwuli-achor-offodile/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165802,
+      "savedAs": "snapshots/acep.africa/member/emily-anwuli-achor-offodile/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/george-dowuonah-nortey/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164889,
+      "savedAs": "snapshots/acep.africa/member/george-dowuonah-nortey/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/gifty-a-nkrumah/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164875,
+      "savedAs": "snapshots/acep.africa/member/gifty-a-nkrumah/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/gilbert-amidu/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164599,
+      "savedAs": "snapshots/acep.africa/member/gilbert-amidu/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/herbert-friese/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164454,
+      "savedAs": "snapshots/acep.africa/member/herbert-friese/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/hon-dr-cassiel-ato-forson/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164699,
+      "savedAs": "snapshots/acep.africa/member/hon-dr-cassiel-ato-forson/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/hon-dr-john-jinapor/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164627,
+      "savedAs": "snapshots/acep.africa/member/hon-dr-john-jinapor/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/ikal-angelei-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164538,
+      "savedAs": "snapshots/acep.africa/member/ikal-angelei-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/ikal-angelei/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165595,
+      "savedAs": "snapshots/acep.africa/member/ikal-angelei/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/ketshia-aziza-ngalula/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164985,
+      "savedAs": "snapshots/acep.africa/member/ketshia-aziza-ngalula/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/kodzo-yaotse/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164815,
+      "savedAs": "snapshots/acep.africa/member/kodzo-yaotse/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/maybel-acquaye-3/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164333,
+      "savedAs": "snapshots/acep.africa/member/maybel-acquaye-3/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/maybel-acquaye/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164987,
+      "savedAs": "snapshots/acep.africa/member/maybel-acquaye/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/mohammed-saani-osman/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164940,
+      "savedAs": "snapshots/acep.africa/member/mohammed-saani-osman/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/mr-benjamin-boakye/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164615,
+      "savedAs": "snapshots/acep.africa/member/mr-benjamin-boakye/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/nana-akuamoah-darteh/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165337,
+      "savedAs": "snapshots/acep.africa/member/nana-akuamoah-darteh/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/nana-eduwa-appiah/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164623,
+      "savedAs": "snapshots/acep.africa/member/nana-eduwa-appiah/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/nicolas-lippolis/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164575,
+      "savedAs": "snapshots/acep.africa/member/nicolas-lippolis/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/panashe-mufukari/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165129,
+      "savedAs": "snapshots/acep.africa/member/panashe-mufukari/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/paul-muthaura/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164492,
+      "savedAs": "snapshots/acep.africa/member/paul-muthaura/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/policy-analyst/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165263,
+      "savedAs": "snapshots/acep.africa/member/policy-analyst/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/prof-imasiku-anayawa-nyambe/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164680,
+      "savedAs": "snapshots/acep.africa/member/prof-imasiku-anayawa-nyambe/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/professor-adriano-alfredo-nuvunga/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165584,
+      "savedAs": "snapshots/acep.africa/member/professor-adriano-alfredo-nuvunga/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/rita-effah/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164475,
+      "savedAs": "snapshots/acep.africa/member/rita-effah/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/roselyn-m-fiagbe/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164858,
+      "savedAs": "snapshots/acep.africa/member/roselyn-m-fiagbe/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/rosemond-sefa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164880,
+      "savedAs": "snapshots/acep.africa/member/rosemond-sefa/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/rukaiya-el-rufai-mohammed/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164969,
+      "savedAs": "snapshots/acep.africa/member/rukaiya-el-rufai-mohammed/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/samuel-y-ablordeppey/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165397,
+      "savedAs": "snapshots/acep.africa/member/samuel-y-ablordeppey/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/shaima-hussein/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164453,
+      "savedAs": "snapshots/acep.africa/member/shaima-hussein/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/stephanie-taamea-boadu/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165359,
+      "savedAs": "snapshots/acep.africa/member/stephanie-taamea-boadu/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/stephen-chidhau/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165517,
+      "savedAs": "snapshots/acep.africa/member/stephen-chidhau/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/suneeta-kaimal/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164476,
+      "savedAs": "snapshots/acep.africa/member/suneeta-kaimal/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/sydney-nii-ayitey-tetteh/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164621,
+      "savedAs": "snapshots/acep.africa/member/sydney-nii-ayitey-tetteh/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/yaw-appiah-lartey/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164634,
+      "savedAs": "snapshots/acep.africa/member/yaw-appiah-lartey/index.html"
+    },
+    {
+      "url": "https://acep.africa/member/yaye-catherine-diop/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164645,
+      "savedAs": "snapshots/acep.africa/member/yaye-catherine-diop/index.html"
+    },
+    {
+      "url": "https://acep.africa/methane-forum-nigeria/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189590,
+      "savedAs": "snapshots/acep.africa/methane-forum-nigeria/index.html"
+    },
+    {
+      "url": "https://acep.africa/miningindaba25/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190863,
+      "savedAs": "snapshots/acep.africa/miningindaba25/index.html"
+    },
+    {
+      "url": "https://acep.africa/more-than-oil-alone/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 197209,
+      "savedAs": "snapshots/acep.africa/more-than-oil-alone/index.html"
+    },
+    {
+      "url": "https://acep.africa/national-dialogue-on-the-future-of-ghanas-gas-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189598,
+      "savedAs": "snapshots/acep.africa/national-dialogue-on-the-future-of-ghanas-gas-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/national-economic-forum/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189782,
+      "savedAs": "snapshots/acep.africa/national-economic-forum/index.html"
+    },
+    {
+      "url": "https://acep.africa/national-methane-forum-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187074,
+      "savedAs": "snapshots/acep.africa/national-methane-forum-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/nested-accordion/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 162915,
+      "savedAs": "snapshots/acep.africa/nested-accordion/index.html"
+    },
+    {
+      "url": "https://acep.africa/new-fuel-standard-announced-by-npa-commendable-but-unsatisfactory-acep/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188901,
+      "savedAs": "snapshots/acep.africa/new-fuel-standard-announced-by-npa-commendable-but-unsatisfactory-acep/index.html"
+    },
+    {
+      "url": "https://acep.africa/news-blog-posts/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 201063,
+      "savedAs": "snapshots/acep.africa/news-blog-posts/index.html"
+    },
+    {
+      "url": "https://acep.africa/newsletter-signup/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 168303,
+      "savedAs": "snapshots/acep.africa/newsletter-signup/index.html"
+    },
+    {
+      "url": "https://acep.africa/nextgen-program-application/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 172173,
+      "savedAs": "snapshots/acep.africa/nextgen-program-application/index.html"
+    },
+    {
+      "url": "https://acep.africa/nextgen-resource-governance-leaders-programme-cohort-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190847,
+      "savedAs": "snapshots/acep.africa/nextgen-resource-governance-leaders-programme-cohort-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/nextgen10/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191605,
+      "savedAs": "snapshots/acep.africa/nextgen10/index.html"
+    },
+    {
+      "url": "https://acep.africa/nextgen5/",
+      "status": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 125503,
+      "savedAs": "snapshots/acep.africa/nextgen5/index.html"
+    },
+    {
+      "url": "https://acep.africa/oiling-the-wheels-of-quality-education-in-ghana-a-value-for-money-analysis-of-oil-revenue-investments-in-dabaabi-m-a-primary-school-and-nsesereso-r-c-primary-school/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189330,
+      "savedAs": "snapshots/acep.africa/oiling-the-wheels-of-quality-education-in-ghana-a-value-for-money-analysis-of-oil-revenue-investments-in-dabaabi-m-a-primary-school-and-nsesereso-r-c-primary-school/index.html"
+    },
+    {
+      "url": "https://acep.africa/on-the-occasion-of-cop-27-high-fuel-prices-climate-change-corruption-what-is-the-link/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187009,
+      "savedAs": "snapshots/acep.africa/on-the-occasion-of-cop-27-high-fuel-prices-climate-change-corruption-what-is-the-link/index.html"
+    },
+    {
+      "url": "https://acep.africa/our-events/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 170063,
+      "savedAs": "snapshots/acep.africa/our-events/index.html"
+    },
+    {
+      "url": "https://acep.africa/our-partners/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 196999,
+      "savedAs": "snapshots/acep.africa/our-partners/index.html"
+    },
+    {
+      "url": "https://acep.africa/our-press-statements/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 224517,
+      "savedAs": "snapshots/acep.africa/our-press-statements/index.html"
+    },
+    {
+      "url": "https://acep.africa/our-reports/",
+      "status": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 125506,
+      "savedAs": "snapshots/acep.africa/our-reports/index.html"
+    },
+    {
+      "url": "https://acep.africa/panama-papers-frightening-ghana-and-africa-can-do-more-to-stop-corporate-and-financial-corruption-in-oil-and-mining-deals/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190347,
+      "savedAs": "snapshots/acep.africa/panama-papers-frightening-ghana-and-africa-can-do-more-to-stop-corporate-and-financial-corruption-in-oil-and-mining-deals/index.html"
+    },
+    {
+      "url": "https://acep.africa/parliament-must-investigate-the-gnpc-transaction-with-aker-energy-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186442,
+      "savedAs": "snapshots/acep.africa/parliament-must-investigate-the-gnpc-transaction-with-aker-energy-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/participants-confirmation-africa-climate-academy-cohort-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 174558,
+      "savedAs": "snapshots/acep.africa/participants-confirmation-africa-climate-academy-cohort-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/pass-the-mrma-bill-now-the-model-girls-demand/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 196354,
+      "savedAs": "snapshots/acep.africa/pass-the-mrma-bill-now-the-model-girls-demand/index.html"
+    },
+    {
+      "url": "https://acep.africa/petroleum-contracts-monitor-2017-a-public-interest-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188186,
+      "savedAs": "snapshots/acep.africa/petroleum-contracts-monitor-2017-a-public-interest-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/petroleum-contracts-monitor-2019-a-public-interest-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185089,
+      "savedAs": "snapshots/acep.africa/petroleum-contracts-monitor-2019-a-public-interest-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/petroleum-revenue-management-manual/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186132,
+      "savedAs": "snapshots/acep.africa/petroleum-revenue-management-manual/index.html"
+    },
+    {
+      "url": "https://acep.africa/photo-gallery/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 171722,
+      "savedAs": "snapshots/acep.africa/photo-gallery/index.html"
+    },
+    {
+      "url": "https://acep.africa/plugging-the-two-decade-leak-strategic-options-for-the-sustainability-of-tema-oil-refinery/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186630,
+      "savedAs": "snapshots/acep.africa/plugging-the-two-decade-leak-strategic-options-for-the-sustainability-of-tema-oil-refinery/index.html"
+    },
+    {
+      "url": "https://acep.africa/policy-analysis/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 211564,
+      "savedAs": "snapshots/acep.africa/policy-analysis/index.html"
+    },
+    {
+      "url": "https://acep.africa/policy-brief-africa-oil-governance-report-2016/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189391,
+      "savedAs": "snapshots/acep.africa/policy-brief-africa-oil-governance-report-2016/index.html"
+    },
+    {
+      "url": "https://acep.africa/policy-brief-comparative-analysis-of-local-content-in-ghana-angola-and-nigeria/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186632,
+      "savedAs": "snapshots/acep.africa/policy-brief-comparative-analysis-of-local-content-in-ghana-angola-and-nigeria/index.html"
+    },
+    {
+      "url": "https://acep.africa/policy-brief-simplified-contract/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186560,
+      "savedAs": "snapshots/acep.africa/policy-brief-simplified-contract/index.html"
+    },
+    {
+      "url": "https://acep.africa/policy-brief-the-potential-fiscal-contribution-of-the-sheini-iron-ore-deposits-in-northern-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187233,
+      "savedAs": "snapshots/acep.africa/policy-brief-the-potential-fiscal-contribution-of-the-sheini-iron-ore-deposits-in-northern-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/policy-note-withdrawal-of-the-ghana-barari-dv-lithium-agreement/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189271,
+      "savedAs": "snapshots/acep.africa/policy-note-withdrawal-of-the-ghana-barari-dv-lithium-agreement/index.html"
+    },
+    {
+      "url": "https://acep.africa/policy-roundtable-on-efficiency-of-contracting-in-nigerias-mining-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187010,
+      "savedAs": "snapshots/acep.africa/policy-roundtable-on-efficiency-of-contracting-in-nigerias-mining-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/portfolio_category/past-events/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165545,
+      "savedAs": "snapshots/acep.africa/portfolio_category/past-events/index.html"
+    },
+    {
+      "url": "https://acep.africa/portfolio-style-1/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 172160,
+      "savedAs": "snapshots/acep.africa/portfolio-style-1/index.html"
+    },
+    {
+      "url": "https://acep.africa/portfolio-style-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 171630,
+      "savedAs": "snapshots/acep.africa/portfolio-style-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/portfolio/affordable-insurance/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176948,
+      "savedAs": "snapshots/acep.africa/portfolio/affordable-insurance/index.html"
+    },
+    {
+      "url": "https://acep.africa/portfolio/covid-19-response-strategies-in-africas-oil-and-gas-industry/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 173340,
+      "savedAs": "snapshots/acep.africa/portfolio/covid-19-response-strategies-in-africas-oil-and-gas-industry/index.html"
+    },
+    {
+      "url": "https://acep.africa/portfolio/debt-relief-moral-hazard-postcards-from-the-global-south/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 169070,
+      "savedAs": "snapshots/acep.africa/portfolio/debt-relief-moral-hazard-postcards-from-the-global-south/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-briefing-on-power-sector-priorities-for-governments-action/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193339,
+      "savedAs": "snapshots/acep.africa/press-briefing-on-power-sector-priorities-for-governments-action/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-briefing-on-the-prevalence-of-illegal-meters-on-the-national-grid/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191225,
+      "savedAs": "snapshots/acep.africa/press-briefing-on-the-prevalence-of-illegal-meters-on-the-national-grid/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-conference-gnpcs-acquisition-of-7-interest-in-jubilee-and-ten-fields-must-fulfill-all-legal-righteousness/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188989,
+      "savedAs": "snapshots/acep.africa/press-conference-gnpcs-acquisition-of-7-interest-in-jubilee-and-ten-fields-must-fulfill-all-legal-righteousness/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-release-aceps-analyses-of-the-2019-budget-statement-and-economic-policy-of-the-government-of-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187443,
+      "savedAs": "snapshots/acep.africa/press-release-aceps-analyses-of-the-2019-budget-statement-and-economic-policy-of-the-government-of-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-release-on-aker-energy-controversy-mr-moulds-intervention-in-the-aker-energys-petroleum-agreement-controversy-is-shocking/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189869,
+      "savedAs": "snapshots/acep.africa/press-release-on-aker-energy-controversy-mr-moulds-intervention-in-the-aker-energys-petroleum-agreement-controversy-is-shocking/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-release-stakeholders-dialogue-highlights-urgent-need-for-sustainable-solutions-in-ghanas-energy-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 194367,
+      "savedAs": "snapshots/acep.africa/press-release-stakeholders-dialogue-highlights-urgent-need-for-sustainable-solutions-in-ghanas-energy-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-statement-acep-corrects-misrepresentation-of-power-sector-outlook/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193832,
+      "savedAs": "snapshots/acep.africa/press-statement-acep-corrects-misrepresentation-of-power-sector-outlook/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-statement-by-the-alliance-of-csos-working-on-extractives-anti-corruption-and-good-governance-on-urgent-petroleum-sector-issues/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 200957,
+      "savedAs": "snapshots/acep.africa/press-statement-by-the-alliance-of-csos-working-on-extractives-anti-corruption-and-good-governance-on-urgent-petroleum-sector-issues/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-statement-cautionary-note-to-the-ministry-of-energy-on/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192634,
+      "savedAs": "snapshots/acep.africa/press-statement-cautionary-note-to-the-ministry-of-energy-on/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-statement-csos-review-of-the-extractive-sector-in-2022/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187091,
+      "savedAs": "snapshots/acep.africa/press-statement-csos-review-of-the-extractive-sector-in-2022/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-statement-governments-transitional-agreement-for-the-damang-mine-a-positive-signal-for-sector-stability/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 196425,
+      "savedAs": "snapshots/acep.africa/press-statement-governments-transitional-agreement-for-the-damang-mine-a-positive-signal-for-sector-stability/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-statement-kill-the-scandalous-agyapa-deal/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192351,
+      "savedAs": "snapshots/acep.africa/press-statement-kill-the-scandalous-agyapa-deal/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-statement-on-the-current-energy-sector-levies-act-2015-act-899/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190057,
+      "savedAs": "snapshots/acep.africa/press-statement-on-the-current-energy-sector-levies-act-2015-act-899/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-statement-on-the-recent-developments-on-the-agyapa-transaction/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 204063,
+      "savedAs": "snapshots/acep.africa/press-statement-on-the-recent-developments-on-the-agyapa-transaction/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-statementgovernments-decision-not-to-renew-the-mining-lease-of-abosso-goldfields-limited-agl/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193816,
+      "savedAs": "snapshots/acep.africa/press-statementgovernments-decision-not-to-renew-the-mining-lease-of-abosso-goldfields-limited-agl/index.html"
+    },
+    {
+      "url": "https://acep.africa/press-statements/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 207452,
+      "savedAs": "snapshots/acep.africa/press-statements/index.html"
+    },
+    {
+      "url": "https://acep.africa/pressing-the-undo-button-a-policy-gap-analysis-of-ghanas-minerals-and-mining-sector-to-optimize-gains-from-the-sheini-iron-ore-wealth/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187628,
+      "savedAs": "snapshots/acep.africa/pressing-the-undo-button-a-policy-gap-analysis-of-ghanas-minerals-and-mining-sector-to-optimize-gains-from-the-sheini-iron-ore-wealth/index.html"
+    },
+    {
+      "url": "https://acep.africa/programs/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 163013,
+      "savedAs": "snapshots/acep.africa/programs/index.html"
+    },
+    {
+      "url": "https://acep.africa/promoting-ethanol-as-a-clean-cooking-alternative-in-ghana-a-pilot-study/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191359,
+      "savedAs": "snapshots/acep.africa/promoting-ethanol-as-a-clean-cooking-alternative-in-ghana-a-pilot-study/index.html"
+    },
+    {
+      "url": "https://acep.africa/promoting-gender-budgeting-the-case-of-mineral-royalty-utilization-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187312,
+      "savedAs": "snapshots/acep.africa/promoting-gender-budgeting-the-case-of-mineral-royalty-utilization-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/public-forum-on-addressing-the-power-sector-challenges/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188620,
+      "savedAs": "snapshots/acep.africa/public-forum-on-addressing-the-power-sector-challenges/index.html"
+    },
+    {
+      "url": "https://acep.africa/public-procurement-reforms-an-analysis-of-the-drivers-of-procurement-irregularities-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188869,
+      "savedAs": "snapshots/acep.africa/public-procurement-reforms-an-analysis-of-the-drivers-of-procurement-irregularities-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/purc-biting-too-late-implementing-directives-will-have-chaotic-consequences/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187061,
+      "savedAs": "snapshots/acep.africa/purc-biting-too-late-implementing-directives-will-have-chaotic-consequences/index.html"
+    },
+    {
+      "url": "https://acep.africa/pushing-the-agenda-for-women-empowerment-through-budgeting-a-comparative-analysis-of-policies-and-practices-in-ghana-nigeria-and-tanzania/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187596,
+      "savedAs": "snapshots/acep.africa/pushing-the-agenda-for-women-empowerment-through-budgeting-a-comparative-analysis-of-policies-and-practices-in-ghana-nigeria-and-tanzania/index.html"
+    },
+    {
+      "url": "https://acep.africa/radar/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186970,
+      "savedAs": "snapshots/acep.africa/radar/index.html"
+    },
+    {
+      "url": "https://acep.africa/rat-race-the-new-state-of-ghanas-petroleum-fiscal-environment-and-implications-for-industry-competitiveness/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188195,
+      "savedAs": "snapshots/acep.africa/rat-race-the-new-state-of-ghanas-petroleum-fiscal-environment-and-implications-for-industry-competitiveness/index.html"
+    },
+    {
+      "url": "https://acep.africa/reactions-to-the-sml-deal-and-emerging-responses-from-government/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189349,
+      "savedAs": "snapshots/acep.africa/reactions-to-the-sml-deal-and-emerging-responses-from-government/index.html"
+    },
+    {
+      "url": "https://acep.africa/rebuttal-the-endless-struggles-of-ghanaian-businesses-part-1/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189857,
+      "savedAs": "snapshots/acep.africa/rebuttal-the-endless-struggles-of-ghanaian-businesses-part-1/index.html"
+    },
+    {
+      "url": "https://acep.africa/register-clean-cooking-dialogue/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 167211,
+      "savedAs": "snapshots/acep.africa/register-clean-cooking-dialogue/index.html"
+    },
+    {
+      "url": "https://acep.africa/register-side-event-at-spring-meetings-2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 166785,
+      "savedAs": "snapshots/acep.africa/register-side-event-at-spring-meetings-2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/registration-test/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 174008,
+      "savedAs": "snapshots/acep.africa/registration-test/index.html"
+    },
+    {
+      "url": "https://acep.africa/rejoinder-gnpcs-responses-to-assertions-in-aceps-statement-on-gnpc-7-acquisition-in-jubilee-and-ten-fields/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 198728,
+      "savedAs": "snapshots/acep.africa/rejoinder-gnpcs-responses-to-assertions-in-aceps-statement-on-gnpc-7-acquisition-in-jubilee-and-ten-fields/index.html"
+    },
+    {
+      "url": "https://acep.africa/rejoinder-one-on-one-with-hon-matthew-opoku-prempeh-on-peace-fm/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186573,
+      "savedAs": "snapshots/acep.africa/rejoinder-one-on-one-with-hon-matthew-opoku-prempeh-on-peace-fm/index.html"
+    },
+    {
+      "url": "https://acep.africa/report-launch-climate-finance-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189965,
+      "savedAs": "snapshots/acep.africa/report-launch-climate-finance-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/report-launch-promoting-ethanol-as-a-clean-cooking-alternative-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186917,
+      "savedAs": "snapshots/acep.africa/report-launch-promoting-ethanol-as-a-clean-cooking-alternative-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/report-launch-promoting-gender-budgeting-the-case-of-mineral-royalty-utilization-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189208,
+      "savedAs": "snapshots/acep.africa/report-launch-promoting-gender-budgeting-the-case-of-mineral-royalty-utilization-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/request-for-reference-letter/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 168352,
+      "savedAs": "snapshots/acep.africa/request-for-reference-letter/index.html"
+    },
+    {
+      "url": "https://acep.africa/research-and-policy-papers/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 199367,
+      "savedAs": "snapshots/acep.africa/research-and-policy-papers/index.html"
+    },
+    {
+      "url": "https://acep.africa/resolving-the-challenges-of-premix-fuel-a-review-of-ghanas-premix-fuel-supply-chain/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189142,
+      "savedAs": "snapshots/acep.africa/resolving-the-challenges-of-premix-fuel-a-review-of-ghanas-premix-fuel-supply-chain/index.html"
+    },
+    {
+      "url": "https://acep.africa/resource-centre/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 162933,
+      "savedAs": "snapshots/acep.africa/resource-centre/index.html"
+    },
+    {
+      "url": "https://acep.africa/revenue-governance/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 182031,
+      "savedAs": "snapshots/acep.africa/revenue-governance/index.html"
+    },
+    {
+      "url": "https://acep.africa/review-of-the-millennium-challenge-compact-access-project-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186627,
+      "savedAs": "snapshots/acep.africa/review-of-the-millennium-challenge-compact-access-project-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/reviving-the-sleepy-vision-an-evaluation-of-the-implementation-status-of-the-africa-mining-vision/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186959,
+      "savedAs": "snapshots/acep.africa/reviving-the-sleepy-vision-an-evaluation-of-the-implementation-status-of-the-africa-mining-vision/index.html"
+    },
+    {
+      "url": "https://acep.africa/rgchub-campuses/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 160801,
+      "savedAs": "snapshots/acep.africa/rgchub-campuses/index.html"
+    },
+    {
+      "url": "https://acep.africa/rgchub-contact/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 179345,
+      "savedAs": "snapshots/acep.africa/rgchub-contact/index.html"
+    },
+    {
+      "url": "https://acep.africa/rgchub/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190183,
+      "savedAs": "snapshots/acep.africa/rgchub/index.html"
+    },
+    {
+      "url": "https://acep.africa/rolling-back-the-gains-of-upstream-open-contracting-the-case-of-revenue-mismanagement/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185462,
+      "savedAs": "snapshots/acep.africa/rolling-back-the-gains-of-upstream-open-contracting-the-case-of-revenue-mismanagement/index.html"
+    },
+    {
+      "url": "https://acep.africa/sample-page/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 164986,
+      "savedAs": "snapshots/acep.africa/sample-page/index.html"
+    },
+    {
+      "url": "https://acep.africa/schedule/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 170563,
+      "savedAs": "snapshots/acep.africa/schedule/index.html"
+    },
+    {
+      "url": "https://acep.africa/service_category/reports/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188513,
+      "savedAs": "snapshots/acep.africa/service_category/reports/index.html"
+    },
+    {
+      "url": "https://acep.africa/service/business-insurance/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 202732,
+      "savedAs": "snapshots/acep.africa/service/business-insurance/index.html"
+    },
+    {
+      "url": "https://acep.africa/service/car-insurance/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 202975,
+      "savedAs": "snapshots/acep.africa/service/car-insurance/index.html"
+    },
+    {
+      "url": "https://acep.africa/service/corporate-professionalinsurance-liability/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184837,
+      "savedAs": "snapshots/acep.africa/service/corporate-professionalinsurance-liability/index.html"
+    },
+    {
+      "url": "https://acep.africa/service/house-insurance/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 202798,
+      "savedAs": "snapshots/acep.africa/service/house-insurance/index.html"
+    },
+    {
+      "url": "https://acep.africa/smoothening-the-gas-demand-supply-scenario-the-case-for-realistic-planning-to-improve-confidence-in-ghanas-gas-market-reduce-risks-on-public-finances/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190783,
+      "savedAs": "snapshots/acep.africa/smoothening-the-gas-demand-supply-scenario-the-case-for-realistic-planning-to-improve-confidence-in-ghanas-gas-market-reduce-risks-on-public-finances/index.html"
+    },
+    {
+      "url": "https://acep.africa/social-economic-and-environmental-outcome-analysis-of-abfa-funded-projects-the-case-of-keyime-ohawu-and-dawa-irrigation-dam-projects/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187150,
+      "savedAs": "snapshots/acep.africa/social-economic-and-environmental-outcome-analysis-of-abfa-funded-projects-the-case-of-keyime-ohawu-and-dawa-irrigation-dam-projects/index.html"
+    },
+    {
+      "url": "https://acep.africa/springmeetings2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190323,
+      "savedAs": "snapshots/acep.africa/springmeetings2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/stakeholder-dialogue-on-compliance-with-accessibility-standards-in-the-delivery-of-oil-funded-public-infrastructure-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 196946,
+      "savedAs": "snapshots/acep.africa/stakeholder-dialogue-on-compliance-with-accessibility-standards-in-the-delivery-of-oil-funded-public-infrastructure-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/stakeholder-dialogue-on-promoting-advocacy-on-subnational-transfers-of-extractive-revenues-in-nigeria/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193921,
+      "savedAs": "snapshots/acep.africa/stakeholder-dialogue-on-promoting-advocacy-on-subnational-transfers-of-extractive-revenues-in-nigeria/index.html"
+    },
+    {
+      "url": "https://acep.africa/stakeholder-engagement-on-financing-options-for-renewable-energy-adoption-by-smes-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190942,
+      "savedAs": "snapshots/acep.africa/stakeholder-engagement-on-financing-options-for-renewable-energy-adoption-by-smes-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/stakeholder-engagement-on-resources-flow-to-mining-districts-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189557,
+      "savedAs": "snapshots/acep.africa/stakeholder-engagement-on-resources-flow-to-mining-districts-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/stakeholder-validation-workshop-promoting-gender-equality-in-ghanas-mining-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188596,
+      "savedAs": "snapshots/acep.africa/stakeholder-validation-workshop-promoting-gender-equality-in-ghanas-mining-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/stakeholder-validation-workshoppromoting-gender-equality-in-ghanas-mining-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190539,
+      "savedAs": "snapshots/acep.africa/stakeholder-validation-workshoppromoting-gender-equality-in-ghanas-mining-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/sub-regional-forum-on-domestic-revenue-mobilisation-in-the-extractive-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189545,
+      "savedAs": "snapshots/acep.africa/sub-regional-forum-on-domestic-revenue-mobilisation-in-the-extractive-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/submit-abstract/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 166797,
+      "savedAs": "snapshots/acep.africa/submit-abstract/index.html"
+    },
+    {
+      "url": "https://acep.africa/sustainable-net-zero-the-african-way/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190538,
+      "savedAs": "snapshots/acep.africa/sustainable-net-zero-the-african-way/index.html"
+    },
+    {
+      "url": "https://acep.africa/swiss-commodity-traders-must-respect-africas-right-to-health-and-stop-shipping-toxic-fuel/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189295,
+      "savedAs": "snapshots/acep.africa/swiss-commodity-traders-must-respect-africas-right-to-health-and-stop-shipping-toxic-fuel/index.html"
+    },
+    {
+      "url": "https://acep.africa/switching-gears-protecting-ghanas-economic-sustainability-in-the-face-of-power-sector-risks/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189606,
+      "savedAs": "snapshots/acep.africa/switching-gears-protecting-ghanas-economic-sustainability-in-the-face-of-power-sector-risks/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/2022/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175562,
+      "savedAs": "snapshots/acep.africa/tag/2022/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/2026/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175834,
+      "savedAs": "snapshots/acep.africa/tag/2026/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/3-business/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175686,
+      "savedAs": "snapshots/acep.africa/tag/3-business/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/acep/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 197746,
+      "savedAs": "snapshots/acep.africa/tag/acep/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/action-points/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175734,
+      "savedAs": "snapshots/acep.africa/tag/action-points/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/africa-centre-for-energy-policy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176057,
+      "savedAs": "snapshots/acep.africa/tag/africa-centre-for-energy-policy/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184912,
+      "savedAs": "snapshots/acep.africa/tag/africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/agora/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175523,
+      "savedAs": "snapshots/acep.africa/tag/agora/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/alex-soros/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176871,
+      "savedAs": "snapshots/acep.africa/tag/alex-soros/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/alternative-mining-indaba/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175887,
+      "savedAs": "snapshots/acep.africa/tag/alternative-mining-indaba/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/annual-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175876,
+      "savedAs": "snapshots/acep.africa/tag/annual-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/appraisal-programme/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176180,
+      "savedAs": "snapshots/acep.africa/tag/appraisal-programme/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/atlantic-lithium/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176097,
+      "savedAs": "snapshots/acep.africa/tag/atlantic-lithium/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/benjamin-boakye/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185227,
+      "savedAs": "snapshots/acep.africa/tag/benjamin-boakye/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/benjamn-boakye/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175936,
+      "savedAs": "snapshots/acep.africa/tag/benjamn-boakye/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/bidecs/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175886,
+      "savedAs": "snapshots/acep.africa/tag/bidecs/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/budget/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175879,
+      "savedAs": "snapshots/acep.africa/tag/budget/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/cape-town/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175599,
+      "savedAs": "snapshots/acep.africa/tag/cape-town/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/cediappreciation/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176151,
+      "savedAs": "snapshots/acep.africa/tag/cediappreciation/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/chinese-loans/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176660,
+      "savedAs": "snapshots/acep.africa/tag/chinese-loans/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/climate-change/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187235,
+      "savedAs": "snapshots/acep.africa/tag/climate-change/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/cso-coalition/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175786,
+      "savedAs": "snapshots/acep.africa/tag/cso-coalition/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/debt/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176498,
+      "savedAs": "snapshots/acep.africa/tag/debt/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/development/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176624,
+      "savedAs": "snapshots/acep.africa/tag/development/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/domestic-debt-exchange-program-ddep/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 177025,
+      "savedAs": "snapshots/acep.africa/tag/domestic-debt-exchange-program-ddep/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/downstream/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175909,
+      "savedAs": "snapshots/acep.africa/tag/downstream/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/dumsor/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175973,
+      "savedAs": "snapshots/acep.africa/tag/dumsor/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/economic-governance-platform/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176010,
+      "savedAs": "snapshots/acep.africa/tag/economic-governance-platform/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/economic-policy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176041,
+      "savedAs": "snapshots/acep.africa/tag/economic-policy/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/economy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175632,
+      "savedAs": "snapshots/acep.africa/tag/economy/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/electricity/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176869,
+      "savedAs": "snapshots/acep.africa/tag/electricity/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/enenrgy-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176943,
+      "savedAs": "snapshots/acep.africa/tag/enenrgy-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/energy-access/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175909,
+      "savedAs": "snapshots/acep.africa/tag/energy-access/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/energy-future/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175754,
+      "savedAs": "snapshots/acep.africa/tag/energy-future/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/energy-poverty/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175685,
+      "savedAs": "snapshots/acep.africa/tag/energy-poverty/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/energy-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175918,
+      "savedAs": "snapshots/acep.africa/tag/energy-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/energy-security/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 178351,
+      "savedAs": "snapshots/acep.africa/tag/energy-security/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/energy-supply/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176905,
+      "savedAs": "snapshots/acep.africa/tag/energy-supply/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/energy-transition/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185063,
+      "savedAs": "snapshots/acep.africa/tag/energy-transition/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/energy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175649,
+      "savedAs": "snapshots/acep.africa/tag/energy/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/environmental-sustainability/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 178585,
+      "savedAs": "snapshots/acep.africa/tag/environmental-sustainability/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/fec2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 177953,
+      "savedAs": "snapshots/acep.africa/tag/fec2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/fiscal-governance/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175805,
+      "savedAs": "snapshots/acep.africa/tag/fiscal-governance/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/fourthestate/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175988,
+      "savedAs": "snapshots/acep.africa/tag/fourthestate/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/future-of-energy-conference/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 182574,
+      "savedAs": "snapshots/acep.africa/tag/future-of-energy-conference/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/g-20/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175615,
+      "savedAs": "snapshots/acep.africa/tag/g-20/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/ghana-barari-dv/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176079,
+      "savedAs": "snapshots/acep.africa/tag/ghana-barari-dv/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/ghana-energy-awards/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176207,
+      "savedAs": "snapshots/acep.africa/tag/ghana-energy-awards/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 195947,
+      "savedAs": "snapshots/acep.africa/tag/ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/ghanas-energy-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 177077,
+      "savedAs": "snapshots/acep.africa/tag/ghanas-energy-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/gold-4-oil/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176548,
+      "savedAs": "snapshots/acep.africa/tag/gold-4-oil/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/gold-reserve/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176584,
+      "savedAs": "snapshots/acep.africa/tag/gold-reserve/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/goldbod/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175989,
+      "savedAs": "snapshots/acep.africa/tag/goldbod/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/goldvscedi/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176043,
+      "savedAs": "snapshots/acep.africa/tag/goldvscedi/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/gra/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175826,
+      "savedAs": "snapshots/acep.africa/tag/gra/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/green-house-gases/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175872,
+      "savedAs": "snapshots/acep.africa/tag/green-house-gases/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/high-inflation/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176620,
+      "savedAs": "snapshots/acep.africa/tag/high-inflation/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/imani/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175862,
+      "savedAs": "snapshots/acep.africa/tag/imani/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/imf/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 177762,
+      "savedAs": "snapshots/acep.africa/tag/imf/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/impact/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176534,
+      "savedAs": "snapshots/acep.africa/tag/impact/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/inclusion/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175804,
+      "savedAs": "snapshots/acep.africa/tag/inclusion/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/internship/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175784,
+      "savedAs": "snapshots/acep.africa/tag/internship/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/john-jinapor/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176907,
+      "savedAs": "snapshots/acep.africa/tag/john-jinapor/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/john-mahama/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175882,
+      "savedAs": "snapshots/acep.africa/tag/john-mahama/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/kodzo-yaotse/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176054,
+      "savedAs": "snapshots/acep.africa/tag/kodzo-yaotse/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/leadership-training/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175946,
+      "savedAs": "snapshots/acep.africa/tag/leadership-training/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/lithium-agreement/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176115,
+      "savedAs": "snapshots/acep.africa/tag/lithium-agreement/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/lithium/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175563,
+      "savedAs": "snapshots/acep.africa/tag/lithium/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/load-shedding/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176099,
+      "savedAs": "snapshots/acep.africa/tag/load-shedding/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/methane/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185150,
+      "savedAs": "snapshots/acep.africa/tag/methane/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/mida/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175682,
+      "savedAs": "snapshots/acep.africa/tag/mida/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/mining-indaba/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175774,
+      "savedAs": "snapshots/acep.africa/tag/mining-indaba/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/mining/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175607,
+      "savedAs": "snapshots/acep.africa/tag/mining/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/ministry-of-energy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 177015,
+      "savedAs": "snapshots/acep.africa/tag/ministry-of-energy/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/ministry-of-finance/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176114,
+      "savedAs": "snapshots/acep.africa/tag/ministry-of-finance/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/national-economic-forum/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175920,
+      "savedAs": "snapshots/acep.africa/tag/national-economic-forum/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/newsfile/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176009,
+      "savedAs": "snapshots/acep.africa/tag/newsfile/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/nextgen-leaders/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 178089,
+      "savedAs": "snapshots/acep.africa/tag/nextgen-leaders/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/nigeria/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175567,
+      "savedAs": "snapshots/acep.africa/tag/nigeria/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/npa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175832,
+      "savedAs": "snapshots/acep.africa/tag/npa/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/nrgi/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175613,
+      "savedAs": "snapshots/acep.africa/tag/nrgi/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/oil-and-gas/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 183008,
+      "savedAs": "snapshots/acep.africa/tag/oil-and-gas/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/oil-marketing-companies-omcs/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176294,
+      "savedAs": "snapshots/acep.africa/tag/oil-marketing-companies-omcs/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/osf/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176745,
+      "savedAs": "snapshots/acep.africa/tag/osf/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/pds/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175664,
+      "savedAs": "snapshots/acep.africa/tag/pds/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/pensions-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176653,
+      "savedAs": "snapshots/acep.africa/tag/pensions-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/petroleum-price/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176048,
+      "savedAs": "snapshots/acep.africa/tag/petroleum-price/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/petroleum/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175891,
+      "savedAs": "snapshots/acep.africa/tag/petroleum/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/power-compact/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175844,
+      "savedAs": "snapshots/acep.africa/tag/power-compact/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/power-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 178703,
+      "savedAs": "snapshots/acep.africa/tag/power-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/public-forum/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175757,
+      "savedAs": "snapshots/acep.africa/tag/public-forum/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/sml-deal/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175916,
+      "savedAs": "snapshots/acep.africa/tag/sml-deal/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/spring-meetings/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175813,
+      "savedAs": "snapshots/acep.africa/tag/spring-meetings/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/sustainability/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176678,
+      "savedAs": "snapshots/acep.africa/tag/sustainability/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/trade-off/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176588,
+      "savedAs": "snapshots/acep.africa/tag/trade-off/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/trust-africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175782,
+      "savedAs": "snapshots/acep.africa/tag/trust-africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/utilities/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 176833,
+      "savedAs": "snapshots/acep.africa/tag/utilities/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/vra/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175595,
+      "savedAs": "snapshots/acep.africa/tag/vra/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/world-bank/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175723,
+      "savedAs": "snapshots/acep.africa/tag/world-bank/index.html"
+    },
+    {
+      "url": "https://acep.africa/tag/young-african/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175838,
+      "savedAs": "snapshots/acep.africa/tag/young-african/index.html"
+    },
+    {
+      "url": "https://acep.africa/tax-administration-and-tax-evasion-in-ghana-the-challenges-causes-and-cures/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186363,
+      "savedAs": "snapshots/acep.africa/tax-administration-and-tax-evasion-in-ghana-the-challenges-causes-and-cures/index.html"
+    },
+    {
+      "url": "https://acep.africa/team-detail/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 180873,
+      "savedAs": "snapshots/acep.africa/team-detail/index.html"
+    },
+    {
+      "url": "https://acep.africa/team/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 221230,
+      "savedAs": "snapshots/acep.africa/team/index.html"
+    },
+    {
+      "url": "https://acep.africa/ten-oil-can-support-ghanas-economic-transformation-acep/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187705,
+      "savedAs": "snapshots/acep.africa/ten-oil-can-support-ghanas-economic-transformation-acep/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-2015-supplementary-budget-efforts-at-ending-power-crises-commendable-but-management-of-petroleum-revenues-worrying/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186196,
+      "savedAs": "snapshots/acep.africa/the-2015-supplementary-budget-efforts-at-ending-power-crises-commendable-but-management-of-petroleum-revenues-worrying/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-2016-supplementary-budget-playing-the-ostrich-with-power-supply-in-a-record-low-oil-revenue-era/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187589,
+      "savedAs": "snapshots/acep.africa/the-2016-supplementary-budget-playing-the-ostrich-with-power-supply-in-a-record-low-oil-revenue-era/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-2024-election-playbook-unpacking-political-party-manifestos-on-energy-and-extractives/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189973,
+      "savedAs": "snapshots/acep.africa/the-2024-election-playbook-unpacking-political-party-manifestos-on-energy-and-extractives/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-acep-radar-september-2017/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186272,
+      "savedAs": "snapshots/acep.africa/the-acep-radar-september-2017/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-africa-oil-governance-report/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188911,
+      "savedAs": "snapshots/acep.africa/the-africa-oil-governance-report/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-debt-armageddon-lessons-from-sri-lanka-and-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189526,
+      "savedAs": "snapshots/acep.africa/the-debt-armageddon-lessons-from-sri-lanka-and-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-debt-development-trade-off-assessing-the-impact-of-chinese-lending-strategy-on-ghanas-sustainability-debt/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191650,
+      "savedAs": "snapshots/acep.africa/the-debt-development-trade-off-assessing-the-impact-of-chinese-lending-strategy-on-ghanas-sustainability-debt/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-debt-tracker-issue-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188360,
+      "savedAs": "snapshots/acep.africa/the-debt-tracker-issue-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-debt-tracker/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188345,
+      "savedAs": "snapshots/acep.africa/the-debt-tracker/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-economic-sustainability-summit/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185753,
+      "savedAs": "snapshots/acep.africa/the-economic-sustainability-summit/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-energy-mission/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 198950,
+      "savedAs": "snapshots/acep.africa/the-energy-mission/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-energy-sector-challenges-should-be-the-opening-prayer-of-the-government-of-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190810,
+      "savedAs": "snapshots/acep.africa/the-energy-sector-challenges-should-be-the-opening-prayer-of-the-government-of-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-future-looks-exciting-for-nigerias-mining-sector/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189624,
+      "savedAs": "snapshots/acep.africa/the-future-looks-exciting-for-nigerias-mining-sector/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-impact-of-covid-19-on-upstream-oil-and-gas-in-africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189514,
+      "savedAs": "snapshots/acep.africa/the-impact-of-covid-19-on-upstream-oil-and-gas-in-africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-impact-of-methane-management-on-ghanas-energy-security-and-environmental-sustainability-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 199831,
+      "savedAs": "snapshots/acep.africa/the-impact-of-methane-management-on-ghanas-energy-security-and-environmental-sustainability-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-impact-of-the-electricity-tariff-reduction-on-the-bill-of-consumers/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188285,
+      "savedAs": "snapshots/acep.africa/the-impact-of-the-electricity-tariff-reduction-on-the-bill-of-consumers/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-methane-dilemma-ghanas-climate-risk-and-energy-opportunity/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 199375,
+      "savedAs": "snapshots/acep.africa/the-methane-dilemma-ghanas-climate-risk-and-energy-opportunity/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-oil-price-crush-and-oilfrontiers-the-stakes-and-the-escape-strategy-for-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 184886,
+      "savedAs": "snapshots/acep.africa/the-oil-price-crush-and-oilfrontiers-the-stakes-and-the-escape-strategy-for-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-organisation/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 196493,
+      "savedAs": "snapshots/acep.africa/the-organisation/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-politics-of-power-crises-in-ghana-chronology-of-government-responses-and-lessons-for-ending-the-current-crisis/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189665,
+      "savedAs": "snapshots/acep.africa/the-politics-of-power-crises-in-ghana-chronology-of-government-responses-and-lessons-for-ending-the-current-crisis/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-relevance-of-tax-exemptions-in-ghana-the-case-of-the-mining-industry/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187950,
+      "savedAs": "snapshots/acep.africa/the-relevance-of-tax-exemptions-in-ghana-the-case-of-the-mining-industry/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-role-of-extractive-resource-revenues-in-bridging-the-financing-gap-in-pro-poor-sectors-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186521,
+      "savedAs": "snapshots/acep.africa/the-role-of-extractive-resource-revenues-in-bridging-the-financing-gap-in-pro-poor-sectors-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-solar-pv-value-chain-an-assessment-of-opportunities-for-africa/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191429,
+      "savedAs": "snapshots/acep.africa/the-solar-pv-value-chain-an-assessment-of-opportunities-for-africa/index.html"
+    },
+    {
+      "url": "https://acep.africa/the-state-of-the-energy-and-extractive-sectors-of-ghana-critical-reforms-required-for-sustainable-economic-recovery/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 192716,
+      "savedAs": "snapshots/acep.africa/the-state-of-the-energy-and-extractive-sectors-of-ghana-critical-reforms-required-for-sustainable-economic-recovery/index.html"
+    },
+    {
+      "url": "https://acep.africa/three-years-of-petroleum-revenue-management-in-ghana-transparency-without-accountability/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187589,
+      "savedAs": "snapshots/acep.africa/three-years-of-petroleum-revenue-management-in-ghana-transparency-without-accountability/index.html"
+    },
+    {
+      "url": "https://acep.africa/timeline-category/acep-at-mining-indaba/",
+      "status": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 125535,
+      "savedAs": "snapshots/acep.africa/timeline-category/acep-at-mining-indaba/index.html"
+    },
+    {
+      "url": "https://acep.africa/timeline-category/fec-2025-speakers/",
+      "status": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 125531,
+      "savedAs": "snapshots/acep.africa/timeline-category/fec-2025-speakers/index.html"
+    },
+    {
+      "url": "https://acep.africa/timeline-category/governing-board/",
+      "status": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 125529,
+      "savedAs": "snapshots/acep.africa/timeline-category/governing-board/index.html"
+    },
+    {
+      "url": "https://acep.africa/timeline-category/our-team/",
+      "status": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 125522,
+      "savedAs": "snapshots/acep.africa/timeline-category/our-team/index.html"
+    },
+    {
+      "url": "https://acep.africa/tracking-budget-expenditure-of-extractive-resource-revenue-in-the-2014-budget-and-policy-statement-of-the-government-of-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 190056,
+      "savedAs": "snapshots/acep.africa/tracking-budget-expenditure-of-extractive-resource-revenue-in-the-2014-budget-and-policy-statement-of-the-government-of-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/understanding-the-concept-of-beneficial-ownership-disclosure-2/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185650,
+      "savedAs": "snapshots/acep.africa/understanding-the-concept-of-beneficial-ownership-disclosure-2/index.html"
+    },
+    {
+      "url": "https://acep.africa/understanding-the-concept-of-beneficial-ownership-disclosure/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 185602,
+      "savedAs": "snapshots/acep.africa/understanding-the-concept-of-beneficial-ownership-disclosure/index.html"
+    },
+    {
+      "url": "https://acep.africa/unimac-ij-training2025/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 177244,
+      "savedAs": "snapshots/acep.africa/unimac-ij-training2025/index.html"
+    },
+    {
+      "url": "https://acep.africa/united-states-power-africa-initiatives-the-eu-and-china-investment-or-international-policy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187216,
+      "savedAs": "snapshots/acep.africa/united-states-power-africa-initiatives-the-eu-and-china-investment-or-international-policy/index.html"
+    },
+    {
+      "url": "https://acep.africa/update-electricity-monitor-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 187619,
+      "savedAs": "snapshots/acep.africa/update-electricity-monitor-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/upstream-petroleum-monitoring-report-2023/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189166,
+      "savedAs": "snapshots/acep.africa/upstream-petroleum-monitoring-report-2023/index.html"
+    },
+    {
+      "url": "https://acep.africa/value-for-money-analysis-of-oil-funded-agriculture-projects-a-case-study-of-tono-irrigation-dam-and-fisheries-college-anomabo/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 188458,
+      "savedAs": "snapshots/acep.africa/value-for-money-analysis-of-oil-funded-agriculture-projects-a-case-study-of-tono-irrigation-dam-and-fisheries-college-anomabo/index.html"
+    },
+    {
+      "url": "https://acep.africa/value-for-money-vfm-analysis-of-oil-funded-irrigation-projects-in-ghana-keyime-ohawu/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 186772,
+      "savedAs": "snapshots/acep.africa/value-for-money-vfm-analysis-of-oil-funded-irrigation-projects-in-ghana-keyime-ohawu/index.html"
+    },
+    {
+      "url": "https://acep.africa/video-gallery/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 177133,
+      "savedAs": "snapshots/acep.africa/video-gallery/index.html"
+    },
+    {
+      "url": "https://acep.africa/virtual-national-dialogue-on-extractive-policy-in-ghana/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 195163,
+      "savedAs": "snapshots/acep.africa/virtual-national-dialogue-on-extractive-policy-in-ghana/index.html"
+    },
+    {
+      "url": "https://acep.africa/walking-the-inclusion-talk-acep-leads-the-way/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 205079,
+      "savedAs": "snapshots/acep.africa/walking-the-inclusion-talk-acep-leads-the-way/index.html"
+    },
+    {
+      "url": "https://acep.africa/welcome-to-the-acep-next-generation-resource-governance-leaders-program/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193418,
+      "savedAs": "snapshots/acep.africa/welcome-to-the-acep-next-generation-resource-governance-leaders-program/index.html"
+    },
+    {
+      "url": "https://acep.africa/when-policy-credibility-is-tested-gold-the-cedi-and-the-cost-of-short-term-wins/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 205417,
+      "savedAs": "snapshots/acep.africa/when-policy-credibility-is-tested-gold-the-cedi-and-the-cost-of-short-term-wins/index.html"
+    },
+    {
+      "url": "https://acep.africa/zero-rating-the-price-stabilization-and-recovery-levy-for-two-months-only-questions-the-efficiency-of-the-levy/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 197219,
+      "savedAs": "snapshots/acep.africa/zero-rating-the-price-stabilization-and-recovery-levy-for-two-months-only-questions-the-efficiency-of-the-levy/index.html"
+    }
+  ]
+}

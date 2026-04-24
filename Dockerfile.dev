@@ -1,0 +1,15 @@
+# Development image: dependencies only; source is bind-mounted for hot reload.
+FROM node:20-alpine
+
+RUN apk add --no-cache libc6-compat
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+COPY docker-entrypoint-dev.sh /usr/local/bin/docker-entrypoint-dev.sh
+RUN chmod +x /usr/local/bin/docker-entrypoint-dev.sh
+
+ENTRYPOINT ["docker-entrypoint-dev.sh"]
+EXPOSE 3100
+
+CMD ["npm", "run", "dev:docker"]

@@ -1,0 +1,10 @@
+{
+  "verifiedAt": "2026-01-26T23:17:16.766Z",
+  "base": "http://localhost:3100",
+  "totals": {
+    "checked": 613,
+    "ok": 613,
+    "notOk": 0
+  },
+  "failures": []
+}

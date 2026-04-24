@@ -1,0 +1,58 @@
+/**
+ * Progress Bar Utilities
+ * Reusable progress bar styles with dynamic width support via CSS variables
+ */
+
+@layer utilities {
+  /* Progress bar container */
+  .progress-bar-container {
+    @apply w-full overflow-hidden rounded-full bg-slate-200;
+  }
+
+  .progress-bar-container-sm {
+    @apply h-2.5;
+  }
+
+  .progress-bar-container-md {
+    @apply h-3;
+  }
+
+  .progress-bar-container-lg {
+    @apply h-4;
+  }
+
+  /* Progress bar fill */
+  .progress-bar-fill {
+    @apply h-full rounded-full transition-all duration-500;
+    width: var(--progress-width, 0%);
+  }
+
+  /* Progress bar variants */
+  .progress-bar-primary {
+    @apply bg-gradient-to-r from-acep-primary to-blue-900;
+  }
+
+  .progress-bar-red {
+    @apply bg-gradient-to-r from-red-500 to-rose-600;
+  }
+
+  .progress-bar-blue {
+    @apply bg-gradient-to-r from-blue-500 to-cyan-600;
+  }
+
+  .progress-bar-orange {
+    @apply bg-gradient-to-r from-orange-500 to-red-600;
+  }
+
+  .progress-bar-green {
+    @apply bg-gradient-to-r from-green-500 to-emerald-600;
+  }
+
+  .progress-bar-yellow {
+    @apply bg-gradient-to-r from-yellow-500 to-orange-500;
+  }
+
+  .progress-bar-purple {
+    @apply bg-gradient-to-r from-purple-500 to-indigo-600;
+  }
+}

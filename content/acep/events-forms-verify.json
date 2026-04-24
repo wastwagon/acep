@@ -1,0 +1,45 @@
+{
+  "verifiedAt": "2026-01-26T23:50:51.784Z",
+  "base": "http://localhost:3100",
+  "events": {
+    "url": "https://acep.africa/events/",
+    "snapshot": "content/acep/snapshots/acep.africa/events/index.html",
+    "sampled": 10,
+    "ok": 10,
+    "notOk": 0,
+    "totalMissingAssets": 0,
+    "failures": [],
+    "missingAssetsSamples": []
+  },
+  "forms": [
+    {
+      "key": "contact",
+      "url": "https://acep.africa/contact/",
+      "localUrl": "http://localhost:3100/contact/",
+      "localStatus": 200,
+      "snapshot": "snapshots/acep.africa/contact/index.html",
+      "downloadsFound": 0,
+      "missingAssetsCount": 0,
+      "missingAssets": []
+    },
+    {
+      "key": "work-with-us",
+      "url": "https://acep.africa/nextgen5/",
+      "localUrl": "http://localhost:3100/nextgen5/",
+      "localStatus": 200,
+      "downloadsFound": 0,
+      "missingAssetsCount": 0,
+      "missingAssets": []
+    },
+    {
+      "key": "grant-application",
+      "url": "https://acep.africa/grant-application/",
+      "localUrl": "http://localhost:3100/grant-application/",
+      "localStatus": 200,
+      "snapshot": "snapshots/acep.africa/grant-application/index.html",
+      "downloadsFound": 0,
+      "missingAssetsCount": 0,
+      "missingAssets": []
+    }
+  ]
+}

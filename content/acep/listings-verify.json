@@ -1,0 +1,61 @@
+{
+  "verifiedAt": "2026-01-26T23:37:45.435Z",
+  "base": "http://localhost:3100",
+  "lists": [
+    {
+      "key": "research-and-policy-papers",
+      "url": "https://acep.africa/research-and-policy-papers/",
+      "snapshot": "content/acep/snapshots/acep.africa/research-and-policy-papers/index.html",
+      "sampled": 9,
+      "ok": 9,
+      "notOk": 0,
+      "totalMissingAssets": 0,
+      "failures": [],
+      "missingAssetsSamples": []
+    },
+    {
+      "key": "press-statements",
+      "url": "https://acep.africa/press-statements/",
+      "snapshot": "content/acep/snapshots/acep.africa/press-statements/index.html",
+      "sampled": 20,
+      "ok": 20,
+      "notOk": 0,
+      "totalMissingAssets": 0,
+      "failures": [],
+      "missingAssetsSamples": []
+    },
+    {
+      "key": "news-blog-posts",
+      "url": "https://acep.africa/news-blog-posts/",
+      "snapshot": "content/acep/snapshots/acep.africa/news-blog-posts/index.html",
+      "sampled": 20,
+      "ok": 20,
+      "notOk": 0,
+      "totalMissingAssets": 0,
+      "failures": [],
+      "missingAssetsSamples": []
+    },
+    {
+      "key": "radar",
+      "url": "https://acep.africa/radar/",
+      "snapshot": "content/acep/snapshots/acep.africa/radar/index.html",
+      "sampled": 6,
+      "ok": 6,
+      "notOk": 0,
+      "totalMissingAssets": 0,
+      "failures": [],
+      "missingAssetsSamples": []
+    },
+    {
+      "key": "annual-reports",
+      "url": "https://acep.africa/annual-reports/",
+      "snapshot": "content/acep/snapshots/acep.africa/annual-reports/index.html",
+      "sampled": 12,
+      "ok": 12,
+      "notOk": 0,
+      "totalMissingAssets": 0,
+      "failures": [],
+      "missingAssetsSamples": []
+    }
+  ]
+}

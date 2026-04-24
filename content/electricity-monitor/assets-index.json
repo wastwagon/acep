@@ -1,0 +1,937 @@
+{
+  "source": {
+    "contentDir": "content/electricity-monitor",
+    "scrapedAt": "2026-01-27T08:05:26.569Z",
+    "userAgent": "ACEP-Electricity-Asset-Scraper/1.0 (+https://acep.africa) - internal migration"
+  },
+  "totals": {
+    "assets": 153,
+    "successful": 153,
+    "errors": 1
+  },
+  "assets": [
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//aksa-300x196.jpeg",
+      "status": 200,
+      "bytes": 30015,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/aksa-300x196.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//AMANDI-2-300x227.jpeg",
+      "status": 200,
+      "bytes": 21584,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/AMANDI-2-300x227.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//AMERI.jpeg",
+      "status": 200,
+      "bytes": 10187,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/AMERI.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Bui-Power-300x169.jpeg",
+      "status": 200,
+      "bytes": 7955,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Bui-Power-300x169.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Bui-Solar-300x200.jpeg",
+      "status": 200,
+      "bytes": 34957,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Bui-Solar-300x200.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//BXC-Solar-300x201.jpg",
+      "status": 200,
+      "bytes": 12266,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/BXC-Solar-300x201.jpg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//CENIT-300x98.jpeg",
+      "status": 200,
+      "bytes": 9710,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/CENIT-300x98.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//CENPOWER-300x200.png",
+      "status": 200,
+      "bytes": 67104,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/CENPOWER-300x200.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Early-Power-/uf022-Bridge-300x229.jpeg",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Genser-300x169.png",
+      "status": 200,
+      "bytes": 116731,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Genser-300x169.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Karpowership-1-300x225.jpeg",
+      "status": 200,
+      "bytes": 44484,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Karpowership-1-300x225.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//kpone-thermal-300x150.jpeg",
+      "status": 200,
+      "bytes": 28568,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/kpone-thermal-300x150.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Kpong-300x161.webp",
+      "status": 200,
+      "bytes": 8854,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Kpong-300x161.webp"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Meinergy-300x150.jpeg",
+      "status": 200,
+      "bytes": 10958,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Meinergy-300x150.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//our-ofice-vpower-plant-1-300x115.jpg",
+      "status": 200,
+      "bytes": 22577,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/our-ofice-vpower-plant-1-300x115.jpg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Safisana-Biogas-2-300x137.jpeg",
+      "status": 200,
+      "bytes": 13955,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Safisana-Biogas-2-300x137.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//shutterstock_772742848-300x200.jpg",
+      "status": 200,
+      "bytes": 21011,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/shutterstock_772742848-300x200.jpg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//solar_Kaleo-300x200.jpg",
+      "status": 200,
+      "bytes": 34388,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/solar_Kaleo-300x200.jpg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Sunon-Asogli-300x200.webp",
+      "status": 200,
+      "bytes": 11988,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Sunon-Asogli-300x200.webp"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//TAPCO.jpeg",
+      "status": 200,
+      "bytes": 10935,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/TAPCO.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Tema-Thermal-Power-Complex-2-300x225.jfif",
+      "status": 200,
+      "bytes": 16097,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Tema-Thermal-Power-Complex-2-300x225.jfif"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Tema-Thermal-Power-Complex-3-300x225.jfif",
+      "status": 200,
+      "bytes": 16097,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Tema-Thermal-Power-Complex-3-300x225.jfif"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//TICO-300x188.webp",
+      "status": 200,
+      "bytes": 10734,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/TICO-300x188.webp"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//Tsatsadu-Mini-Hydro.png",
+      "status": 200,
+      "bytes": 50242,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/Tsatsadu-Mini-Hydro.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//VRA-Solar-Lawra-300x225.jpg",
+      "status": 200,
+      "bytes": 15277,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/VRA-Solar-Lawra-300x225.jpg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com//wp-content//uploads//2019//09//VRA-Solar-Navrongo.jpeg",
+      "status": 200,
+      "bytes": 11647,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/VRA-Solar-Navrongo.jpeg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/interactive-geo-maps/assets/public/css/styles.min.css?ver=1.6.9",
+      "status": 200,
+      "bytes": 3097,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/interactive-geo-maps/assets/public/css/styles.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/interactive-geo-maps/assets/public/map-service/app.min.js?ver=1.6.9",
+      "status": 200,
+      "bytes": 90104,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/interactive-geo-maps/assets/public/map-service/app.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.8.0",
+      "status": 200,
+      "bytes": 485521,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.8.0",
+      "status": 200,
+      "bytes": 20124,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/all.min.css?ver=6.8.0",
+      "status": 200,
+      "bytes": 56425,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/all.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.8.0",
+      "status": 200,
+      "bytes": 34399,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/js_composer/assets/lib/chart-js-dist/chart.min.js?ver=6.8.0",
+      "status": 200,
+      "bytes": 194144,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/js_composer/assets/lib/chart-js-dist/chart.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/js_composer/assets/lib/vc_line_chart/vc_line_chart.min.js?ver=6.8.0",
+      "status": 200,
+      "bytes": 1873,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/js_composer/assets/lib/vc_line_chart/vc_line_chart.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min.js?ver=6.8.0",
+      "status": 200,
+      "bytes": 9237,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.3.6",
+      "status": 200,
+      "bytes": 24734,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/page-links-to/dist/new-tab.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/pearl-header-builder/assets/frontend/assets/css/font-awesome.min.css?ver=1.3.6",
+      "status": 200,
+      "bytes": 31000,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/pearl-header-builder/assets/frontend/assets/css/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/pearl-header-builder/assets/frontend/assets/css/header/main.css?ver=1.3.6",
+      "status": 200,
+      "bytes": 47725,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/pearl-header-builder/assets/frontend/assets/css/header/main.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/pearl-header-builder/assets/frontend/assets/js/app.js?ver=1.3.6",
+      "status": 200,
+      "bytes": 3219,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/pearl-header-builder/assets/frontend/assets/js/app.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/pearl-header-builder/assets/frontend/assets/js/sticky.js?ver=1.3.6",
+      "status": 200,
+      "bytes": 2240,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/pearl-header-builder/assets/frontend/assets/js/sticky.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/pearl-header-builder/assets/frontend/assets/vendor/sticky.css?ver=1.3.6",
+      "status": 200,
+      "bytes": 378,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/pearl-header-builder/assets/frontend/assets/vendor/sticky.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+      "status": 200,
+      "bytes": 68,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.15",
+      "status": 200,
+      "bytes": 57704,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/revslider/public/assets/css/rs6.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.15",
+      "status": 200,
+      "bytes": 128668,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.15",
+      "status": 200,
+      "bytes": 385644,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1768894679",
+      "status": 200,
+      "bytes": 59344,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1768953771",
+      "status": 200,
+      "bytes": 59344,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1769027513",
+      "status": 200,
+      "bytes": 59344,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1769164327",
+      "status": 200,
+      "bytes": 59344,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1769357796",
+      "status": 200,
+      "bytes": 59344,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1769445455",
+      "status": 200,
+      "bytes": 59344,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1769459490",
+      "status": 200,
+      "bytes": 59344,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1769480528",
+      "status": 200,
+      "bytes": 59344,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1769492855",
+      "status": 200,
+      "bytes": 59344,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1769493190",
+      "status": 200,
+      "bytes": 59344,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/stm-post-type/theme-options/nuxy/metaboxes/assets/vendors/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/animate.css?ver=3.0.0",
+      "status": 200,
+      "bytes": 52799,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/animate.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/core-min.js?ver=3.0.0",
+      "status": 200,
+      "bytes": 41350,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/core-min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/core.css?ver=3.0.0",
+      "status": 200,
+      "bytes": 288588,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/core.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/fontawesome/css/font-awesome.min.css?ver=3.0.0",
+      "status": 200,
+      "bytes": 31004,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/fontawesome/css/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/hover-css/hover.css?ver=3.0.0",
+      "status": 200,
+      "bytes": 18855,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/hover-css/hover.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/lazysizes.js?ver=3.0.0",
+      "status": 200,
+      "bytes": 6852,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/lazysizes.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/loaders.css?ver=3.0.0",
+      "status": 200,
+      "bytes": 190342,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/loaders.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/malihuscroll/jquery.mCustomScrollbar.concat.min.js?ver=3.0.0",
+      "status": 200,
+      "bytes": 45483,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/malihuscroll/jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/malihuscroll/jquery.mCustomScrollbar.min.css?ver=3.0.0",
+      "status": 200,
+      "bytes": 42839,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/malihuscroll/jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/pagination/pagination.css?ver=3.0.0",
+      "status": 200,
+      "bytes": 7112,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/pagination/pagination.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/pagination/pagination.min.js?ver=3.0.0",
+      "status": 200,
+      "bytes": 12675,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/pagination/pagination.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/priority-navigation/priority-nav-core.css?ver=3.0.0",
+      "status": 200,
+      "bytes": 966,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/priority-navigation/priority-nav-core.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/slick/slick.clones.min.js?ver=3.0.0",
+      "status": 200,
+      "bytes": 42450,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/slick/slick.clones.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/slick/slick.css?ver=3.0.0",
+      "status": 200,
+      "bytes": 1249,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/ultimate-layouts-vc-2/assets/front-end/slick/slick.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/css/frontend.min.css?ver=6.9",
+      "status": 200,
+      "bytes": 41571,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/css/frontend.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/images/grid.png",
+      "status": 200,
+      "bytes": 135,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/images/grid.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/images/list.png",
+      "status": 200,
+      "bytes": 198,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/images/list.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/images/print.png",
+      "status": 200,
+      "bytes": 486,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/images/print.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/js/frontend.min.js?ver=5.3.1",
+      "status": 200,
+      "bytes": 48336,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/js/frontend.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/js/maps.min.js?ver=5.3.1",
+      "status": 200,
+      "bytes": 103696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/js/maps.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/js/vendor/webfont/webfont.js?ver=5.3.1",
+      "status": 200,
+      "bytes": 13188,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/assets/js/vendor/webfont/webfont.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/templates/infowindow/default/default.css?ver=6.9",
+      "status": 200,
+      "bytes": 510,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/templates/infowindow/default/default.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/templates/item/fano/fano.css?ver=6.9",
+      "status": 200,
+      "bytes": 1308,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/templates/item/fano/fano.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/templates/post/acerra/acerra.css?ver=6.9",
+      "status": 200,
+      "bytes": 1936,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wp-google-map-gold/templates/post/acerra/acerra.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/animate/animate.min.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 16952,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/animate/animate.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-colorpicker/bootstrap-colorpicker.min.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 13027,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-colorpicker/bootstrap-colorpicker.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 7738,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-datetimepicker/wdt-bootstrap-datetimepicker.min.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 8097,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-datetimepicker/wdt-bootstrap-datetimepicker.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-nouislider/bootstrap-nouislider.min.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 3843,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-nouislider/bootstrap-nouislider.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-select/bootstrap-select.min.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 6432,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-select/bootstrap-select.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-tagsinput/bootstrap-tagsinput.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 1317,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/bootstrap-tagsinput/bootstrap-tagsinput.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/wpdatatables-bootstrap.min.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 256750,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/bootstrap/wpdatatables-bootstrap.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/style.min.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 16013,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/style.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/uikit/uikit.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 56651,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/uikit/uikit.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/wdt-skins/aqua.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 88806,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/wdt-skins/aqua.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/wdt.frontend.min.css?ver=4.0.1",
+      "status": 200,
+      "bytes": 22853,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/css/wdt.frontend.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-colorpicker/bootstrap-colorpicker.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 20726,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-colorpicker/bootstrap-colorpicker.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 38518,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-growl/bootstrap-growl.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 5699,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-growl/bootstrap-growl.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-nouislider/bootstrap-nouislider.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 21959,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-nouislider/bootstrap-nouislider.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-nouislider/wNumb.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 2202,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-nouislider/wNumb.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-select/ajax-bootstrap-select.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 16457,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-select/ajax-bootstrap-select.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-select/bootstrap-select.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 33338,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-select/bootstrap-select.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-tagsinput/bootstrap-tagsinput.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 22204,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap-tagsinput/bootstrap-tagsinput.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 37045,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/bootstrap/bootstrap.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/export-tools/jszip.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 101958,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/export-tools/jszip.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/export-tools/pdfmake.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 1074937,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/export-tools/pdfmake.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/export-tools/vfs_fonts.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 567638,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/export-tools/vfs_fonts.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/moment/moment.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 58956,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/moment/moment.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/wpdatatables/admin/common.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 14799,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/wpdatatables/admin/common.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/wpdatatables/wdt.frontend.min.js?ver=4.0.1",
+      "status": 200,
+      "bytes": 302968,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpdatatables/assets/js/wpdatatables/wdt.frontend.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms-geolocation/assets/css/wpforms-geolocation-google.min.css?ver=2.3.1",
+      "status": 200,
+      "bytes": 508,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms-geolocation/assets/css/wpforms-geolocation-google.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms-geolocation/assets/js/wpforms-geolocation-google-api.min.js?ver=2.3.1",
+      "status": 200,
+      "bytes": 9346,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms-geolocation/assets/js/wpforms-geolocation-google-api.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms/assets/css/wpforms-full.min.css?ver=1.7.7.1",
+      "status": 200,
+      "bytes": 40957,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms/assets/css/wpforms-full.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms/assets/images/submit-spin.svg",
+      "status": 200,
+      "bytes": 509,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms/assets/images/submit-spin.svg"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms/assets/js/utils.min.js?ver=1.7.7.1",
+      "status": 200,
+      "bytes": 174,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms/assets/js/utils.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms/assets/js/wpforms.min.js?ver=1.7.7.1",
+      "status": 200,
+      "bytes": 32265,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms/assets/js/wpforms.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms/assets/lib/jquery.inputmask.min.js?ver=5.0.7-beta.29",
+      "status": 200,
+      "bytes": 96735,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms/assets/lib/jquery.inputmask.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js?ver=1.19.5",
+      "status": 200,
+      "bytes": 24602,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js?ver=1.1.2",
+      "status": 200,
+      "bytes": 4014,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms/assets/lib/punycode.min.js?ver=1.0.0",
+      "status": 200,
+      "bytes": 1713,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms/assets/lib/punycode.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms/assets/pro/css/fields/phone/intl-tel-input.min.css?ver=17.0.17",
+      "status": 200,
+      "bytes": 80451,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms/assets/pro/css/fields/phone/intl-tel-input.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/plugins/wpforms/assets/pro/lib/intl-tel-input/jquery.intl-tel-input.min.js?ver=17.0.17",
+      "status": 200,
+      "bytes": 29963,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/plugins/wpforms/assets/pro/lib/intl-tel-input/jquery.intl-tel-input.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/assets/css/bootstrap.min.css?ver=6.2.7",
+      "status": 200,
+      "bytes": 118221,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/assets/css/bootstrap.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/assets/css/font-awesome.min.css?ver=6.2.7",
+      "status": 200,
+      "bytes": 31020,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/assets/css/font-awesome.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/assets/css/header_builder.css?ver=6.2.7",
+      "status": 200,
+      "bytes": 2507,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/assets/css/header_builder.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/assets/css/layouts/global_styles/main.css?ver=6.2.7",
+      "status": 200,
+      "bytes": 62058,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/assets/css/layouts/global_styles/main.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/assets/css/layouts/layout_liverpool/main.css?ver=6.2.7",
+      "status": 200,
+      "bytes": 697253,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/assets/css/layouts/layout_liverpool/main.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/assets/css/select2.min.css?ver=6.2.7",
+      "status": 200,
+      "bytes": 14923,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/assets/css/select2.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/assets/js/bootstrap.min.js?ver=6.2.7",
+      "status": 200,
+      "bytes": 36146,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/assets/js/bootstrap.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/assets/js/Chart.min.js?ver=2.9.3",
+      "status": 200,
+      "bytes": 172811,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/assets/js/Chart.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/assets/js/custom.js?ver=6.2.7",
+      "status": 200,
+      "bytes": 26787,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/assets/js/custom.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/assets/js/select2.min.js?ver=6.2.7",
+      "status": 200,
+      "bytes": 62834,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/assets/js/select2.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/inc/megamenu/assets/css/megamenu.css?ver=6.9",
+      "status": 200,
+      "bytes": 14844,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/inc/megamenu/assets/css/megamenu.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/inc/megamenu/assets/js/megamenu.js?ver=6.9",
+      "status": 200,
+      "bytes": 1711,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/inc/megamenu/assets/js/megamenu.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/themes/consulting/style.css?ver=6.2.7",
+      "status": 200,
+      "bytes": 20446,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/themes/consulting/style.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/2019/09/cropped-logo-1-180x180.png",
+      "status": 200,
+      "bytes": 6509,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/cropped-logo-1-180x180.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/2019/09/cropped-logo-1-192x192.png",
+      "status": 200,
+      "bytes": 7063,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/cropped-logo-1-192x192.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/2019/09/cropped-logo-1-32x32.png",
+      "status": 200,
+      "bytes": 708,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/cropped-logo-1-32x32.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/2019/09/logo.png",
+      "status": 200,
+      "bytes": 9206,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/logo.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/2019/09/logomain.png",
+      "status": 200,
+      "bytes": 26163,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/2019/09/logomain.png"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css?ver=1146080",
+      "status": 200,
+      "bytes": 697696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css?ver=1147669",
+      "status": 200,
+      "bytes": 697696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css?ver=1148656",
+      "status": 200,
+      "bytes": 697696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css?ver=1150714",
+      "status": 200,
+      "bytes": 697696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css?ver=1153286",
+      "status": 200,
+      "bytes": 697696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css?ver=1154221",
+      "status": 200,
+      "bytes": 697696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css?ver=1154303",
+      "status": 200,
+      "bytes": 697696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css?ver=1154620",
+      "status": 200,
+      "bytes": 697696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css?ver=1154951",
+      "status": 200,
+      "bytes": 697696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css?ver=1154953",
+      "status": 200,
+      "bytes": 697696,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/skin-custom.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-content/uploads/stm_uploads/theme_options.css?ver=6.2.7",
+      "status": 200,
+      "bytes": 7837,
+      "savedAs": "assets/electricitymonitorgh.com/wp-content/uploads/stm_uploads/theme_options.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-includes/css/dashicons.min.css?ver=6.9",
+      "status": 200,
+      "bytes": 59004,
+      "savedAs": "assets/electricitymonitorgh.com/wp-includes/css/dashicons.min.css"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0",
+      "status": 200,
+      "bytes": 5520,
+      "savedAs": "assets/electricitymonitorgh.com/wp-includes/js/imagesloaded.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "status": 200,
+      "bytes": 13577,
+      "savedAs": "assets/electricitymonitorgh.com/wp-includes/js/jquery/jquery-migrate.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b",
+      "status": 200,
+      "bytes": 1819,
+      "savedAs": "assets/electricitymonitorgh.com/wp-includes/js/jquery/jquery.masonry.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "status": 200,
+      "bytes": 87553,
+      "savedAs": "assets/electricitymonitorgh.com/wp-includes/js/jquery/jquery.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-includes/js/masonry.min.js?ver=4.2.2",
+      "status": 200,
+      "bytes": 24138,
+      "savedAs": "assets/electricitymonitorgh.com/wp-includes/js/masonry.min.js"
+    },
+    {
+      "url": "https://electricitymonitorgh.com/wp-includes/js/underscore.min.js?ver=1.13.7",
+      "status": 200,
+      "bytes": 18905,
+      "savedAs": "assets/electricitymonitorgh.com/wp-includes/js/underscore.min.js"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+/**
+ * Stats Card Components
+ * Reusable stats card styles
+ */
+
+@layer components {
+  /* Stats section */
+  .stats-section {
+    @apply py-12 sm:py-16 bg-white -mt-8 relative z-20;
+  }
+
+  /* Stats grid */
+  .stats-grid {
+    @apply grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8;
+  }
+
+  /* Stats card */
+  .stats-card {
+    @apply rounded-lg border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-4 transition-shadow hover:shadow-lg sm:p-6;
+  }
+
+  /* Stats icon container */
+  .stats-icon-container {
+    @apply p-2 sm:p-3 rounded-lg shadow-lg;
+  }
+
+  /* Stats value */
+  .stats-value {
+    @apply mb-1 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl;
+  }
+
+  /* Stats label */
+  .stats-label {
+    @apply mb-1 text-sm font-medium text-slate-700 sm:text-base;
+  }
+
+  /* Stats sublabel */
+  .stats-sublabel {
+    @apply text-xs text-slate-500 sm:text-sm;
+  }
+}
