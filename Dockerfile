@@ -8,7 +8,7 @@ WORKDIR /app
 
 # Copy package files
 COPY package*.json ./
-RUN npm install --no-audit --no-fund --loglevel=verbose
+RUN npm install --no-audit --no-fund --ignore-scripts --loglevel=verbose
 
 # Rebuild the source code only when needed
 FROM base AS builder
