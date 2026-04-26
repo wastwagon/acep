@@ -60,11 +60,13 @@ export async function getAllPublications(): Promise<Post[]> {
     reports,
     newsBlogPosts,
     pressStatements,
+    cmsPublications,
   ] = await Promise.all([
     getPublications(),
     getReports(),
     getNewsBlogPosts(),
     getPressStatements(),
+    getCmsPublications(),
   ]);
 
   // Also fetch annual reports and radar from snapshots
@@ -104,6 +106,7 @@ export async function getAllPublications(): Promise<Post[]> {
     ...pressStatements,
     ...annualReports,
     ...radar,
+    ...cmsPublications,
   ];
 
   // Deduplicate by URL
@@ -118,6 +121,47 @@ export async function getAllPublications(): Promise<Post[]> {
   }
 
   return unique;
+}
+
+/**
+ * Published CMS-managed posts from local database.
+ * Uses synthetic URLs under /cms/<slug> so existing publication routing can resolve details.
+ */
+export async function getCmsPublications(): Promise<Post[]> {
+  if (!process.env.DATABASE_URL?.trim()) {
+    return [];
+  }
+  try {
+    const { prisma } = await import("@/lib/db");
+    let timeoutId: ReturnType<typeof setTimeout> | undefined;
+    const timeout = new Promise<never>((_, reject) => {
+      timeoutId = setTimeout(() => reject(new Error("getCmsPublications_timeout")), 12_000);
+    });
+    const rows = await Promise.race([
+      prisma.cmsPost.findMany({
+        where: { status: "PUBLISHED" },
+        orderBy: [{ publishedAt: "desc" }, { createdAt: "desc" }],
+        include: { author: true },
+        take: 500,
+      }),
+      timeout,
+    ]).finally(() => {
+      if (timeoutId !== undefined) clearTimeout(timeoutId);
+    });
+
+    return rows.map((row) => ({
+      url: `https://acep.africa/cms/${row.slug}/`,
+      title: row.title,
+      excerpt: row.excerpt ?? undefined,
+      content: row.content,
+      dateText: (row.publishedAt ?? row.updatedAt).toISOString().slice(0, 10),
+      category: "CMS Posts",
+      pdfLinks: [],
+      tags: [row.author.email],
+    }));
+  } catch {
+    return [];
+  }
 }
 
 export function getPostByUrl(url: string, posts: Post[]): Post | undefined {

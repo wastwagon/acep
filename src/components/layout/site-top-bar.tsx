@@ -32,7 +32,7 @@ export function SiteTopBar() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex h-8 w-8 items-center justify-center rounded-full text-slate-500 transition hover:bg-acep-primary/5 hover:text-acep-primary"
+                className="inline-flex h-8 w-8 items-center justify-center rounded-acepBtn text-slate-500 transition hover:bg-acep-primary/5 hover:text-acep-primary"
                 aria-label={name}
               >
                 <Icon className="h-4 w-4" strokeWidth={1.75} />
@@ -45,7 +45,7 @@ export function SiteTopBar() {
           <LanguageSwitcher />
           <Link
             href="/login"
-            className="inline-flex h-9 items-center gap-2 rounded-full border border-slate-200 bg-white px-3.5 text-xs font-semibold text-slate-800 shadow-sm transition hover:border-acep-primary/35 hover:text-acep-primary sm:h-10 sm:text-[13px]"
+            className="inline-flex h-9 items-center gap-2 rounded-acepBtn border border-slate-200 bg-white px-3.5 text-xs font-semibold text-slate-800 shadow-sm transition hover:border-acep-primary/35 hover:text-acep-primary sm:h-10 sm:text-[13px]"
           >
             <LogIn className="h-3.5 w-3.5 shrink-0 text-slate-500 sm:h-4 sm:w-4" strokeWidth={2} aria-hidden />
             Sign in

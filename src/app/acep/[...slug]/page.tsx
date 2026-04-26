@@ -95,7 +95,7 @@ export default async function AcepSnapshotPage({
           <div className="max-w-4xl">
             {mainCategory && (
               <div className="mb-4">
-                <span className="inline-flex items-center rounded-md border border-acep-primary/20 bg-acep-primary/5 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-acep-primary">
+                <span className="inline-flex items-center rounded-acepBtn border border-acep-primary/20 bg-acep-primary/5 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-acep-primary">
                   {mainCategory}
                 </span>
               </div>
@@ -119,7 +119,7 @@ export default async function AcepSnapshotPage({
           {/* Main Content */}
           <article className="lg:col-span-8">
             {featuredImage && (
-              <div className="mb-8 overflow-hidden rounded-lg border border-slate-200 bg-white">
+              <div className="mb-8 overflow-hidden rounded-acepCard border border-slate-200 bg-white">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={featuredImage}
@@ -132,7 +132,7 @@ export default async function AcepSnapshotPage({
             <Card>
               <CardContent className="p-6 md:p-8">
                 <div
-                  className="prose prose-lg max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-a:text-acep-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-img:border prose-img:border-slate-200"
+                  className="prose prose-lg max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-a:text-acep-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-acepBtn prose-img:border prose-img:border-slate-200"
                   dangerouslySetInnerHTML={{ __html: content }}
                 />
               </CardContent>
@@ -153,7 +153,7 @@ export default async function AcepSnapshotPage({
                         href={pdf.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center justify-between rounded-lg border border-slate-200 p-4 transition-colors hover:border-acep-primary hover:bg-acep-primary/5"
+                        className="flex items-center justify-between rounded-acepCard border border-slate-200 p-4 transition-colors hover:border-acep-primary hover:bg-acep-primary/5"
                       >
                         <div className="flex items-center gap-3">
                           <FileText className="h-5 w-5 text-acep-primary" />

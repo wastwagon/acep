@@ -6,7 +6,7 @@ import { MapPin } from "lucide-react";
 export function ContractsMap() {
   return (
     <Card className="p-6 sm:p-8">
-      <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] bg-gradient-to-br from-slate-100 to-acep-primary/10 rounded-lg overflow-hidden border-2 border-slate-200">
+      <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] bg-gradient-to-br from-slate-100 to-acep-primary/10 rounded-acepCard overflow-hidden border-2 border-slate-200">
         {/* Placeholder Map */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center">
@@ -22,7 +22,7 @@ export function ContractsMap() {
         </div>
 
         {/* Mock Map Elements */}
-        <div className="absolute top-4 left-4 bg-white rounded-lg shadow-md p-3 sm:p-4 max-w-xs">
+        <div className="absolute top-4 left-4 bg-white rounded-acepCard shadow-md p-3 sm:p-4 max-w-xs">
           <h4 className="font-semibold text-sm mb-2">Legend</h4>
           <div className="space-y-2 text-xs sm:text-sm">
             <div className="flex items-center space-x-2">

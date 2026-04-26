@@ -49,7 +49,7 @@ export function PowerPlantsTable() {
               <h3 className="font-semibold text-slate-900 text-sm flex-1 pr-2">
                 {plant.name}
               </h3>
-              <span className={`text-xs px-2 py-1 rounded-full font-medium ${typeColors[plant.type]}`}>
+              <span className={`text-xs px-2 py-1 rounded-acepBtn font-medium ${typeColors[plant.type]}`}>
                 {plant.type.replace(" Power Plant", "")}
               </span>
             </div>
@@ -114,7 +114,7 @@ export function PowerPlantsTable() {
                     </div>
                   </td>
                   <td className="px-6 py-4">
-                    <span className={`inline-flex px-3 py-1 rounded-full text-xs font-medium ${typeColors[plant.type]}`}>
+                    <span className={`inline-flex px-3 py-1 rounded-acepBtn text-xs font-medium ${typeColors[plant.type]}`}>
                       {plant.type}
                     </span>
                   </td>

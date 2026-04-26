@@ -5,9 +5,9 @@ import { cn } from "@/lib/utils";
 import { PlatformHero } from "@/components/layout/platform-hero";
 
 const badgeClass =
-  "inline-flex items-center gap-2 rounded-full border border-slate-200/90 bg-white/95 px-4 py-2 text-sm font-semibold text-acep-primary shadow-sm backdrop-blur-sm";
+  "inline-flex items-center gap-2 rounded-acepBtn border border-slate-200/90 bg-white/95 px-4 py-2 text-sm font-semibold text-acep-primary shadow-sm backdrop-blur-sm";
 
-const btnRound = "h-12 rounded-full px-8";
+const btnRound = "h-12 rounded-acepBtn px-8";
 
 export function ElectricityHero() {
   return (

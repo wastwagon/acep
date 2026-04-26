@@ -13,7 +13,7 @@ export function IEAMission() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
-              <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center">
+              <div className="w-16 h-16 mx-auto mb-4 rounded-acepBtn bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center">
                 <FileText className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Understand</h3>
@@ -26,7 +26,7 @@ export function IEAMission() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center">
+              <div className="w-16 h-16 mx-auto mb-4 rounded-acepBtn bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center">
                 <BarChart3 className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Explore</h3>
@@ -39,7 +39,7 @@ export function IEAMission() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center">
+              <div className="w-16 h-16 mx-auto mb-4 rounded-acepBtn bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center">
                 <Newspaper className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Keep up</h3>

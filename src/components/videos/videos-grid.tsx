@@ -64,19 +64,19 @@ export function VideosGrid() {
               
               {/* Play Overlay */}
               <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 transition-opacity group-hover:opacity-100">
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white">
+                <div className="flex h-16 w-16 items-center justify-center rounded-acepBtn bg-white">
                   <Play className="ml-1 h-8 w-8 text-acep-primary" />
                 </div>
               </div>
 
               {/* Duration Badge */}
-              <div className="absolute bottom-2 right-2 bg-black/80 text-white text-xs px-2 py-1 rounded">
+              <div className="absolute bottom-2 right-2 bg-black/80 text-white text-xs px-2 py-1 rounded-acepBtn">
                 {video.duration}
               </div>
 
               {/* Category Badge */}
               <div className="absolute top-2 left-2">
-                <span className={`text-xs px-2 py-1 rounded-full font-medium ${categoryColors[video.category]}`}>
+                <span className={`text-xs px-2 py-1 rounded-acepBtn font-medium ${categoryColors[video.category]}`}>
                   {video.category.replace(" The Oil Money", "")}
                 </span>
               </div>
@@ -121,14 +121,14 @@ export function VideosGrid() {
       )}
 
       {/* CTA Section */}
-      <div className="mt-12 rounded-xl border border-slate-200 bg-gradient-to-br from-acep-primary to-blue-950 p-8 text-center text-white shadow-sm">
+      <div className="mt-12 rounded-acepCard border border-slate-200 bg-gradient-to-br from-acep-primary to-blue-950 p-8 text-center text-white shadow-sm">
         <h3 className="font-display mb-4 text-2xl font-semibold sm:text-3xl">
           Subscribe to OilMoneyTV
         </h3>
         <p className="mx-auto mb-6 max-w-2xl text-slate-100">
           Stay updated with our latest documentaries on how Ghana&apos;s oil revenue is transforming communities across the country
         </p>
-        <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 max-w-2xl mx-auto">
+        <div className="bg-amber-50 border border-amber-200 rounded-acepCard p-4 max-w-2xl mx-auto">
           <p className="text-sm text-amber-900">
             <strong>Phase 2:</strong> YouTube integration will be added to play videos directly on the platform. For now, video thumbnails and metadata are displayed for demonstration.
           </p>

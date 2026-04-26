@@ -45,10 +45,10 @@ export function VideosStats() {
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-slate-50 to-white p-4 sm:p-6 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow"
+              className="bg-gradient-to-br from-slate-50 to-white p-4 sm:p-6 rounded-acepCard border border-slate-200 hover:shadow-lg transition-shadow"
             >
               <div className="flex items-start justify-between mb-3">
-                <div className={`p-2 sm:p-3 bg-gradient-to-br ${stat.color} rounded-lg shadow-lg`}>
+                <div className={`p-2 sm:p-3 bg-gradient-to-br ${stat.color} rounded-acepBtn shadow-lg`}>
                   <stat.icon className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
                 </div>
               </div>
@@ -66,7 +66,7 @@ export function VideosStats() {
         </div>
 
         {/* Mission Statement */}
-        <div className="mt-8 rounded-lg border border-slate-200 bg-gradient-to-r from-slate-50 to-acep-primary/5 p-6">
+        <div className="mt-8 rounded-acepCard border border-slate-200 bg-gradient-to-r from-slate-50 to-acep-primary/5 p-6">
           <h3 className="mb-2 text-center text-xl font-semibold text-slate-900">
             Our Mission
           </h3>

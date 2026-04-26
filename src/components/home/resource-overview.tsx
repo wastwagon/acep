@@ -17,7 +17,7 @@ export function ResourceOverview() {
     <section className="py-16 sm:py-20 lg:py-24 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center mb-12">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-acep-primary to-acep-secondary mb-4">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-acepCard bg-gradient-to-br from-acep-primary to-acep-secondary mb-4">
             <Library className="h-8 w-8 text-white" />
           </div>
           <h2 className="text-2xl sm:text-2xl md:text-3xl font-bold text-slate-900 mb-4">
@@ -35,9 +35,9 @@ export function ResourceOverview() {
               <Link
                 key={resource.name}
                 href={resource.href}
-                className="group p-4 text-center rounded-xl bg-gradient-to-br from-slate-50 to-white border border-slate-200 hover:border-acep-primary hover:shadow-lg transition-all duration-300"
+                className="group p-4 text-center rounded-acepCard bg-gradient-to-br from-slate-50 to-white border border-slate-200 hover:border-acep-primary hover:shadow-lg transition-all duration-300"
               >
-                <div className="w-10 h-10 mx-auto mb-3 rounded-lg bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
+                <div className="w-10 h-10 mx-auto mb-3 rounded-acepBtn bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Icon className="h-5 w-5 text-white" />
                 </div>
                 <h3 className="text-xs font-semibold text-slate-900 group-hover:text-acep-primary transition-colors leading-tight">

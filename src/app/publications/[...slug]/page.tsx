@@ -11,6 +11,7 @@ import { getMainCategory } from "@/lib/data/categories";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { slugToTitle, isGenericLinkText } from "@/lib/utils/url-helpers";
 import { stripCommentSection } from "@/lib/utils/html-utils";
+import { prisma } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
 
@@ -20,6 +21,72 @@ export default async function PublicationDetailPage({
   params: Promise<{ slug: string[] }>;
 }) {
   const { slug } = await params;
+  const isCmsPost = slug[0] === "cms" && slug.length >= 2;
+
+  if (isCmsPost) {
+    const cmsSlug = slug[1];
+    const post = await prisma.cmsPost.findFirst({
+      where: { slug: cmsSlug, status: "PUBLISHED" },
+    });
+    if (!post) notFound();
+
+    const title = post.title;
+    const content = post.content;
+    const dateText = (post.publishedAt ?? post.updatedAt).toISOString().slice(0, 10);
+    const url = `https://acep.africa/cms/${post.slug}/`;
+    const backNav = getBackNavigation(url, "CMS Posts", title);
+    const breadcrumbItems = [
+      { label: "Home", href: "/" },
+      { label: backNav.breadcrumbLabel, href: backNav.link },
+      { label: title },
+    ];
+
+    return (
+      <div className="min-h-screen bg-[#fafaf9]">
+        <div className="border-b border-slate-200 bg-white">
+          <div className="container mx-auto px-4 py-10 sm:px-6 md:py-14 lg:px-8">
+            <Breadcrumbs items={breadcrumbItems} variant="dark" className="mb-6" />
+            <div className="max-w-4xl">
+              <div className="mb-4">
+                <span className="inline-flex items-center rounded-acepBtn border border-acep-primary/20 bg-acep-primary/5 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-acep-primary">
+                  CMS Post
+                </span>
+              </div>
+              <div className="mb-4 flex items-center gap-2 text-sm text-slate-600">
+                <Calendar className="h-4 w-4 text-slate-500" aria-hidden />
+                <span>{dateText}</span>
+              </div>
+              <h1 className="font-display text-2xl font-semibold leading-tight text-slate-900 sm:text-3xl md:text-4xl">
+                {title}
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <article className="lg:col-span-8">
+              <Card>
+                <CardContent className="p-6 md:p-8">
+                  <div
+                    className="prose prose-lg max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-a:text-acep-primary prose-a:no-underline hover:prose-a:underline"
+                    dangerouslySetInnerHTML={{ __html: content }}
+                  />
+                </CardContent>
+              </Card>
+            </article>
+
+            <aside className="lg:col-span-4">
+              <div className="sticky top-24 space-y-6">
+                <ResourceCentreSidebar />
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   const url = acepUrlFromSlug(slug);
 
   const allPublications = await getAllPublications();
@@ -107,7 +174,7 @@ export default async function PublicationDetailPage({
           <div className="max-w-4xl">
             {mainCategory && (
               <div className="mb-4">
-                <span className="inline-flex items-center rounded-md border border-acep-primary/20 bg-acep-primary/5 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-acep-primary">
+                <span className="inline-flex items-center rounded-acepBtn border border-acep-primary/20 bg-acep-primary/5 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-acep-primary">
                   {mainCategory}
                 </span>
               </div>
@@ -131,7 +198,7 @@ export default async function PublicationDetailPage({
           {/* Main Content */}
           <article className="lg:col-span-8">
             {featuredImage && (
-              <div className="mb-8 overflow-hidden rounded-lg border border-slate-200 bg-white">
+              <div className="mb-8 overflow-hidden rounded-acepCard border border-slate-200 bg-white">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={featuredImage}
@@ -144,12 +211,12 @@ export default async function PublicationDetailPage({
             <Card>
               <CardContent className="p-6 md:p-8">
                 <div
-                  className="prose prose-lg max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-a:text-acep-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-lg prose-img:border prose-img:border-slate-200"
+                  className="prose prose-lg max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-a:text-acep-primary prose-a:no-underline hover:prose-a:underline prose-img:rounded-acepBtn prose-img:border prose-img:border-slate-200"
                   dangerouslySetInnerHTML={{ __html: content }}
                 />
                 {/* Read full / Download — directly below description, with short copy */}
                 {resolvedPdfs.length > 0 && (
-                  <div className="mt-8 rounded-xl border-t border-slate-200 bg-gradient-to-br from-slate-50 to-acep-primary/5 p-6 pt-8 md:p-8">
+                  <div className="mt-8 rounded-acepCard border-t border-slate-200 bg-gradient-to-br from-slate-50 to-acep-primary/5 p-6 pt-8 md:p-8">
                     <p className="mb-4 max-w-2xl text-slate-700">
                       Read the full publication in your browser or download it to your device.
                     </p>
@@ -158,7 +225,7 @@ export default async function PublicationDetailPage({
                         href={resolvedPdfs[0].appUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-acep-primary text-white font-medium hover:bg-acep-primary/90 transition-colors shadow-sm"
+                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-acepBtn bg-acep-primary text-white font-medium hover:bg-acep-primary/90 transition-colors shadow-sm"
                       >
                         <ExternalLink className="h-4 w-4" />
                         Read full publication
@@ -166,7 +233,7 @@ export default async function PublicationDetailPage({
                       <a
                         href={resolvedPdfs[0].appUrl}
                         download={resolvedPdfs[0].filename}
-                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border-2 border-acep-primary text-acep-primary font-medium hover:bg-acep-primary/5 transition-colors"
+                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-acepBtn border-2 border-acep-primary text-acep-primary font-medium hover:bg-acep-primary/5 transition-colors"
                       >
                         <Download className="h-4 w-4" />
                         Download
@@ -189,7 +256,7 @@ export default async function PublicationDetailPage({
                     {resolvedPdfs.slice(1).map((pdf) => (
                       <div
                         key={pdf.slug}
-                        className="flex flex-wrap items-center justify-between gap-3 rounded-lg border border-slate-200 p-4 transition-colors hover:border-acep-primary hover:bg-acep-primary/5"
+                        className="flex flex-wrap items-center justify-between gap-3 rounded-acepCard border border-slate-200 p-4 transition-colors hover:border-acep-primary hover:bg-acep-primary/5"
                       >
                         <div className="flex min-w-0 items-center gap-3">
                           <FileText className="h-5 w-5 flex-shrink-0 text-acep-primary" />
@@ -200,7 +267,7 @@ export default async function PublicationDetailPage({
                             href={pdf.appUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium rounded-md bg-acep-primary text-white hover:bg-acep-primary/90"
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium rounded-acepBtn bg-acep-primary text-white hover:bg-acep-primary/90"
                           >
                             <ExternalLink className="h-4 w-4" />
                             Read full
@@ -208,7 +275,7 @@ export default async function PublicationDetailPage({
                           <a
                             href={pdf.appUrl}
                             download={pdf.filename}
-                            className="inline-flex items-center gap-1.5 rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50"
+                            className="inline-flex items-center gap-1.5 rounded-acepBtn border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50"
                           >
                             <Download className="h-4 w-4" />
                             Download

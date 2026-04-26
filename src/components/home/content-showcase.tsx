@@ -47,7 +47,7 @@ export async function ContentShowcase() {
           {/* Featured Publication */}
           <div className="group">
             <Link href={featuredPub.url && featuredPub.url !== "#" ? `/publications/${pubSlug.join("/")}` : "#"}>
-              <div className="relative h-[400px] rounded-2xl overflow-hidden bg-slate-100">
+              <div className="relative h-[400px] rounded-acepCard overflow-hidden bg-slate-100">
                 {featuredPub.featuredImage && (
                   <img
                     src={featuredPub.featuredImage.replace("https://acep.africa/wp-content/", "/acep-assets/wp-content/")}
@@ -79,7 +79,7 @@ export async function ContentShowcase() {
           {/* Featured News */}
           <div className="group">
             <Link href={featuredNews.url && featuredNews.url !== "#" ? `/publications/${newsSlug.join("/")}` : "#"}>
-              <div className="relative h-[400px] rounded-2xl overflow-hidden bg-slate-100">
+              <div className="relative h-[400px] rounded-acepCard overflow-hidden bg-slate-100">
                 {featuredNews.featuredImage && (
                   <img
                     src={featuredNews.featuredImage.replace("https://acep.africa/wp-content/", "/acep-assets/wp-content/")}

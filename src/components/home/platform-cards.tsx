@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { FileText, Zap, BarChart3, Video, Shield, ArrowRight } from "lucide-react";
 
 const platforms = [
@@ -43,32 +43,27 @@ const platforms = [
 export function PlatformCards() {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-8">
+      <div className="grid grid-cols-1 items-stretch gap-6 md:grid-cols-2 md:gap-7 lg:grid-cols-3 lg:gap-8 mb-8">
         {platforms.map((platform) => (
-          <Link key={platform.title} href={platform.href} className="group">
-            <Card className="h-full border-slate-200/95 bg-white transition-all duration-200 hover:-translate-y-0.5 hover:border-acep-primary/25 hover:shadow-md">
+          <Link key={platform.title} href={platform.href} className="group flex h-full min-h-0">
+            <Card className="w-full border-slate-200/95 bg-white transition-shadow duration-200 hover:border-acep-primary/35 hover:shadow-[0_6px_20px_-6px_rgba(15,23,42,0.12)]">
               <CardHeader>
-                <div className="flex items-start justify-between mb-4">
-                  <div className="rounded-lg border border-slate-200 bg-slate-50 p-3 text-acep-primary transition-colors group-hover:border-acep-primary/20 group-hover:bg-acep-primary/5">
+                <div className="mb-4 flex items-start justify-between">
+                  <div className="rounded-acepBtn border border-slate-200 bg-slate-50 p-3 text-acep-primary transition-colors group-hover:border-acep-primary/25 group-hover:bg-acep-primary/[0.06]">
                     <platform.icon className="h-6 w-6 sm:h-7 sm:w-7" />
                   </div>
-                  <ArrowRight className="h-5 w-5 text-slate-400 group-hover:text-acep-primary group-hover:translate-x-1 transition-all" />
+                  <ArrowRight className="h-5 w-5 shrink-0 text-slate-400 transition-all group-hover:translate-x-0.5 group-hover:text-acep-primary" />
                 </div>
-                <CardTitle className="font-display text-lg font-medium tracking-tight text-slate-900 group-hover:text-acep-primary transition-colors sm:text-xl">
+                <CardTitle className="font-display text-lg font-semibold tracking-tight text-slate-900 transition-colors group-hover:text-acep-primary sm:text-xl">
                   {platform.title}
                 </CardTitle>
-                <CardDescription className="text-sm leading-6 text-slate-600">
-                  {platform.description}
-                </CardDescription>
+                <CardDescription className="mt-2 text-sm leading-relaxed text-slate-600">{platform.description}</CardDescription>
               </CardHeader>
-              <CardContent>
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-slate-600 bg-slate-100 px-3 py-1 rounded-full">
-                    {platform.stats}
-                  </span>
-                  <span className="text-sm font-semibold text-acep-primary">Explore</span>
-                </div>
-              </CardContent>
+              <div className="min-h-0 flex-1" aria-hidden />
+              <CardFooter className="justify-between gap-3">
+                <span className="institutional-chip">{platform.stats}</span>
+                <span className="text-sm font-semibold text-acep-primary">Explore</span>
+              </CardFooter>
             </Card>
           </Link>
         ))}
@@ -76,7 +71,7 @@ export function PlatformCards() {
       <div className="text-center">
         <Link
           href="/contracts"
-          className="inline-flex items-center rounded-full border border-slate-300/90 bg-white px-6 py-3 text-sm font-semibold text-slate-800 shadow-sm transition-colors hover:border-acep-primary/35 hover:text-acep-primary"
+          className="institutional-link inline-flex items-center px-6 py-3 text-sm shadow-sm"
         >
           Explore key platforms
           <ArrowRight className="ml-2 h-4 w-4" />

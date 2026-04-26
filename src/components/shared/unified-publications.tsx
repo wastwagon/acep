@@ -375,7 +375,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
     <div className="min-h-screen bg-[#fafaf9]">
       <PlatformHero
         badge={
-          <span className="inline-flex items-center gap-2 rounded-full border border-slate-200/90 bg-white/95 px-4 py-2 text-sm font-semibold text-acep-primary shadow-sm backdrop-blur-sm">
+          <span className="inline-flex items-center gap-2 rounded-acepBtn border border-slate-200/90 bg-white/95 px-4 py-2 text-sm font-semibold text-acep-primary shadow-sm backdrop-blur-sm">
             <Sparkles className="h-4 w-4 text-acep-secondary" aria-hidden />
             Library & analysis
           </span>
@@ -384,21 +384,21 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
         description="Research papers, reports, press statements, and analysis on energy governance, extractive-sector transparency, and policy across Africa."
         actions={
           <div className="flex w-full max-w-xl flex-wrap items-center justify-center gap-3 text-sm text-slate-600">
-            <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1.5 font-medium shadow-sm">
+            <span className="inline-flex items-center gap-2 rounded-acepBtn border border-slate-200 bg-white px-3 py-1.5 font-medium shadow-sm">
               <FileText className="h-4 w-4 text-acep-primary" aria-hidden />
               {items.length.toLocaleString()} publications
             </span>
             {pdfPages.length > 0 ? (
-              <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1.5 font-medium shadow-sm">
+              <span className="inline-flex items-center gap-2 rounded-acepBtn border border-slate-200 bg-white px-3 py-1.5 font-medium shadow-sm">
                 <FileText className="h-4 w-4 text-acep-primary" aria-hidden />
                 {pdfPages.length} documents
               </span>
             ) : null}
-            <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1.5 font-medium shadow-sm">
+            <span className="inline-flex items-center gap-2 rounded-acepBtn border border-slate-200 bg-white px-3 py-1.5 font-medium shadow-sm">
               <Tag className="h-4 w-4 text-acep-primary" aria-hidden />
               {topics.length} topics
             </span>
-            <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1.5 font-medium shadow-sm">
+            <span className="inline-flex items-center gap-2 rounded-acepBtn border border-slate-200 bg-white px-3 py-1.5 font-medium shadow-sm">
               <BookOpen className="h-4 w-4 text-acep-primary" aria-hidden />
               {sectors.length} sectors
             </span>
@@ -418,7 +418,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                 placeholder="Search by title, topic, sector, keyword…"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-9 pr-10 py-2.5 sm:py-3 border border-slate-200 rounded-lg bg-white text-slate-800 placeholder:text-slate-400 focus:ring-2 focus:ring-slate-300 focus:border-slate-400 outline-none text-sm"
+                className="w-full pl-9 pr-10 py-2.5 sm:py-3 border border-slate-200 rounded-acepBtn bg-white text-slate-800 placeholder:text-slate-400 focus:ring-2 focus:ring-slate-300 focus:border-slate-400 outline-none text-sm"
               />
               {searchQuery && (
                 <button
@@ -439,7 +439,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                     setActiveFilterType("category");
                     setShowFilterDropdown(false);
                   }}
-                  className={`px-2.5 py-1.5 sm:px-3 text-xs sm:text-sm font-medium rounded-lg transition-colors touch-manipulation ${
+                  className={`px-2.5 py-1.5 sm:px-3 text-xs sm:text-sm font-medium rounded-acepBtn transition-colors touch-manipulation ${
                     activeFilterType === "category"
                       ? "bg-acep-primary text-white"
                       : "bg-white text-slate-600 hover:bg-slate-50 border border-slate-200"
@@ -453,7 +453,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                     setActiveFilterType("sector");
                     setShowFilterDropdown(false);
                   }}
-                  className={`px-2.5 py-1.5 sm:px-3 text-xs sm:text-sm font-medium rounded-lg transition-colors touch-manipulation ${
+                  className={`px-2.5 py-1.5 sm:px-3 text-xs sm:text-sm font-medium rounded-acepBtn transition-colors touch-manipulation ${
                     activeFilterType === "sector"
                       ? "bg-acep-primary text-white"
                       : "bg-white text-slate-600 hover:bg-slate-50 border border-slate-200"
@@ -467,7 +467,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                     setActiveFilterType("topic");
                     setShowFilterDropdown(false);
                   }}
-                  className={`px-2.5 py-1.5 sm:px-3 text-xs sm:text-sm font-medium rounded-lg transition-colors touch-manipulation ${
+                  className={`px-2.5 py-1.5 sm:px-3 text-xs sm:text-sm font-medium rounded-acepBtn transition-colors touch-manipulation ${
                     activeFilterType === "topic"
                       ? "bg-acep-primary text-white"
                       : "bg-white text-slate-600 hover:bg-slate-50 border border-slate-200"
@@ -482,7 +482,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
               <div className="relative flex-1 min-w-0 sm:min-w-[180px]">
                 <button
                   onClick={() => setShowFilterDropdown(!showFilterDropdown)}
-                  className="w-full flex items-center justify-between gap-2 px-3 py-2 sm:px-4 sm:py-2.5 border border-slate-200 rounded-lg bg-white hover:bg-slate-50 transition-colors text-left"
+                  className="w-full flex items-center justify-between gap-2 px-3 py-2 sm:px-4 sm:py-2.5 border border-slate-200 rounded-acepBtn bg-white hover:bg-slate-50 transition-colors text-left"
                 >
                   <div className="flex items-center gap-2 min-w-0">
                     <Filter className="h-4 w-4 sm:h-[1.1rem] text-slate-500 flex-shrink-0" />
@@ -509,7 +509,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                       aria-hidden
                       onClick={() => setShowFilterDropdown(false)}
                     />
-                    <div className="absolute left-0 mt-2 w-full max-w-md bg-white rounded-xl shadow-lg border border-slate-200 z-20 py-2 max-h-[min(70vh,24rem)] overflow-y-auto">
+                    <div className="absolute left-0 mt-2 w-full max-w-md bg-white rounded-acepCard shadow-lg border border-slate-200 z-20 py-2 max-h-[min(70vh,24rem)] overflow-y-auto">
                       {activeFilterType === "category" && mainCategories.map((category) => {
                         const count = categoryCounts[category] || 0;
                         // Show all categories, even if count is 0 (they might have items that need proper categorization)
@@ -603,7 +603,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value as SortOption)}
-                  className="appearance-none bg-white border border-slate-200 rounded-lg px-3 py-2 sm:px-4 sm:py-2.5 pr-8 text-xs sm:text-sm font-medium text-slate-700 focus:ring-2 focus:ring-slate-300 focus:border-slate-400 outline-none cursor-pointer"
+                  className="appearance-none bg-white border border-slate-200 rounded-acepBtn px-3 py-2 sm:px-4 sm:py-2.5 pr-8 text-xs sm:text-sm font-medium text-slate-700 focus:ring-2 focus:ring-slate-300 focus:border-slate-400 outline-none cursor-pointer"
                 >
                   <option value="newest">Newest</option>
                   <option value="oldest">Oldest</option>
@@ -615,7 +615,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
               </div>
 
               {/* View Mode Toggle */}
-              <div className="flex border border-slate-200 rounded-lg overflow-hidden">
+              <div className="flex border border-slate-200 rounded-acepBtn overflow-hidden">
                 <button
                   onClick={() => setViewMode("list")}
                   className={`p-2 sm:px-3 sm:py-2 touch-manipulation ${viewMode === "list" ? "bg-acep-primary text-white" : "bg-white text-slate-600 hover:bg-slate-50"}`}
@@ -638,7 +638,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                     setShowDatePicker((v) => !v);
                     setShowFilterDropdown(false);
                   }}
-                  className={`flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2.5 border rounded-lg transition-colors text-sm ${
+                  className={`flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2.5 border rounded-acepBtn transition-colors text-sm ${
                     hasDateFilter
                       ? "border-slate-400 bg-slate-50 text-slate-800"
                       : "border-slate-200 bg-white text-slate-600 hover:bg-slate-50 hover:border-slate-300"
@@ -657,7 +657,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                       aria-hidden
                       onClick={() => setShowDatePicker(false)}
                     />
-                    <div className="date-range-picker-popover date-range-picker-compact absolute right-0 mt-2 z-20 bg-white rounded-xl shadow-lg border border-slate-200 p-3 sm:p-4">
+                    <div className="date-range-picker-popover date-range-picker-compact absolute right-0 mt-2 z-20 bg-white rounded-acepCard shadow-lg border border-slate-200 p-3 sm:p-4">
                       <DayPicker
                         mode="range"
                         selected={dateRange ?? { from: undefined, to: undefined }}
@@ -694,7 +694,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                 <button
                   type="button"
                   onClick={clearAllFilters}
-                  className="flex items-center gap-1.5 px-2.5 py-2 sm:px-3 rounded-lg border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 text-xs sm:text-sm font-medium"
+                  className="flex items-center gap-1.5 px-2.5 py-2 sm:px-3 rounded-acepBtn border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 text-xs sm:text-sm font-medium"
                 >
                   <X className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
                   Clear
@@ -712,7 +712,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                       setDateRange(undefined);
                       setShowDatePicker(false);
                     }}
-                    className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded-full hover:bg-slate-200"
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded-acepBtn hover:bg-slate-200"
                   >
                     <CalendarRange className="h-3 w-3" />
                     {dateRange?.from && dateRange?.to
@@ -729,7 +729,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                   <button
                     key={cat}
                     onClick={() => toggleCategory(cat)}
-                    className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded-full hover:bg-slate-200"
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded-acepBtn hover:bg-slate-200"
                   >
                     {cat}
                     <X className="h-3 w-3" />
@@ -739,7 +739,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                   <button
                     key={sec}
                     onClick={() => toggleSector(sec)}
-                    className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded-full hover:bg-slate-200"
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded-acepBtn hover:bg-slate-200"
                   >
                     {sec}
                     <X className="h-3 w-3" />
@@ -749,7 +749,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                   <button
                     key={top}
                     onClick={() => toggleTopic(top)}
-                    className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded-full hover:bg-slate-200"
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded-acepBtn hover:bg-slate-200"
                   >
                     {top}
                     <X className="h-3 w-3" />
@@ -767,7 +767,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
           {/* Main Content */}
           <div className="lg:col-span-8">
             {filteredItems.length === 0 && matchingDocs.length === 0 ? (
-              <div className="rounded-2xl border border-slate-200/90 bg-white px-6 py-14 text-center shadow-sm ring-1 ring-slate-950/[0.04] sm:px-10">
+              <div className="rounded-acepCard border border-slate-200/90 bg-white px-6 py-14 text-center shadow-sm ring-1 ring-slate-950/[0.04] sm:px-10">
                 <FileText className="mx-auto mb-4 h-14 w-14 text-slate-300" aria-hidden />
                 <p className="font-display text-lg font-medium text-slate-900">
                   {hasAnyFilter ? "No publications found" : "No publications or documents found"}
@@ -778,7 +778,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                     : "No publications are available in this view yet."}
                 </p>
                 {(searchQuery || activeFiltersCount > 0) && (
-                  <Button onClick={clearAllFilters} variant="outline" className="mt-6 rounded-full">
+                  <Button onClick={clearAllFilters} variant="outline" className="mt-6 rounded-acepBtn">
                     Clear all filters
                   </Button>
                 )}
@@ -816,7 +816,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                     return (
                       <article
                         key={idx}
-                        className={`group rounded-xl border border-slate-200/80 bg-white p-4 sm:p-5 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-200 ${
+                        className={`group rounded-acepCard border border-slate-200/80 bg-white p-4 sm:p-5 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-200 ${
                           viewMode === "list" ? "flex gap-4 sm:gap-6" : ""
                         }`}
                       >
@@ -827,7 +827,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                               href={href}
                               className="hidden sm:block flex-shrink-0 group-hover:opacity-95 transition-opacity"
                             >
-                              <div className="relative h-28 w-40 sm:h-32 sm:w-48 overflow-hidden rounded-lg border border-slate-200 bg-slate-100">
+                              <div className="relative h-28 w-40 sm:h-32 sm:w-48 overflow-hidden rounded-acepBtn border border-slate-200 bg-slate-100">
                                 <img
                                   src={item.featuredImage.replace(
                                     "https://acep.africa/wp-content/",
@@ -848,7 +848,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                               {item.metadata.allCategories.map(cat => (
                                 <span
                                   key={cat}
-                                  className="inline-flex items-center px-2 py-0.5 text-[11px] sm:text-xs font-medium rounded-md uppercase tracking-wide text-slate-600 bg-slate-100 border border-slate-200/60"
+                                  className="inline-flex items-center px-2 py-0.5 text-[11px] sm:text-xs font-medium rounded-acepBtn uppercase tracking-wide text-slate-600 bg-slate-100 border border-slate-200/60"
                                 >
                                   {cat}
                                 </span>
@@ -856,7 +856,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                               {item.metadata.allSectors.slice(0, 2).map(sec => (
                                 <span
                                   key={sec}
-                                  className="inline-flex items-center px-2 py-0.5 text-[11px] sm:text-xs font-medium rounded-md text-slate-600 bg-slate-50 border border-slate-200/60"
+                                  className="inline-flex items-center px-2 py-0.5 text-[11px] sm:text-xs font-medium rounded-acepBtn text-slate-600 bg-slate-50 border border-slate-200/60"
                                 >
                                   {sec}
                                 </span>
@@ -864,7 +864,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                               {item.metadata.allTopics.slice(0, 2).map(top => (
                                 <span
                                   key={top}
-                                  className="inline-flex items-center px-2 py-0.5 text-[11px] sm:text-xs font-medium rounded-md text-slate-500 bg-slate-50/80 border border-slate-200/50"
+                                  className="inline-flex items-center px-2 py-0.5 text-[11px] sm:text-xs font-medium rounded-acepBtn text-slate-500 bg-slate-50/80 border border-slate-200/50"
                                 >
                                   {top}
                                 </span>
@@ -920,11 +920,11 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                   {matchingDocs.map((doc) => (
                     <article
                       key={doc.slug}
-                      className="group rounded-xl border border-slate-200/80 bg-white p-4 sm:p-5 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-200"
+                      className="group rounded-acepCard border border-slate-200/80 bg-white p-4 sm:p-5 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-200"
                     >
                       <div className="flex flex-col min-w-0">
                         <div className="min-w-0 flex-1">
-                          <span className="inline-flex items-center px-2 py-0.5 text-[11px] sm:text-xs font-medium rounded-md uppercase tracking-wide text-slate-600 bg-slate-100 border border-slate-200/60 mb-2">
+                          <span className="inline-flex items-center px-2 py-0.5 text-[11px] sm:text-xs font-medium rounded-acepBtn uppercase tracking-wide text-slate-600 bg-slate-100 border border-slate-200/60 mb-2">
                             Document
                           </span>
                           <h3 className="text-base sm:text-lg font-semibold text-slate-900 mb-1.5 group-hover:text-slate-700 transition-colors leading-snug">
@@ -967,7 +967,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                 className="border-slate-200/80 p-4 shadow-sm"
               />
               {/* Browse by Sector */}
-              <div className="rounded-xl border border-slate-200/80 bg-white p-4 shadow-sm">
+              <div className="rounded-acepCard border border-slate-200/80 bg-white p-4 shadow-sm">
                 <h3 className="text-xs font-semibold text-slate-700 uppercase tracking-wide flex items-center gap-2 mb-3">
                   <BookOpen className="h-3.5 w-3.5" />
                   Browse by Sector
@@ -980,7 +980,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                       <button
                         key={sector}
                         onClick={() => toggleSector(sector)}
-                        className={`w-full text-left flex items-center justify-between text-xs sm:text-sm py-2 px-2.5 rounded-lg transition-colors ${
+                        className={`w-full text-left flex items-center justify-between text-xs sm:text-sm py-2 px-2.5 rounded-acepBtn transition-colors ${
                           isSelected
                             ? "bg-slate-100 text-slate-800 font-medium"
                             : "text-slate-600 hover:bg-slate-50 hover:text-slate-800"
@@ -999,7 +999,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
               </div>
 
               {/* Browse by Topic */}
-              <div className="rounded-xl border border-slate-200/80 bg-white p-4 shadow-sm">
+              <div className="rounded-acepCard border border-slate-200/80 bg-white p-4 shadow-sm">
                 <h3 className="text-xs font-semibold text-slate-700 uppercase tracking-wide flex items-center gap-2 mb-3">
                   <Tag className="h-3.5 w-3.5" />
                   Browse by Topic
@@ -1013,7 +1013,7 @@ export function UnifiedPublications({ items, pdfPages = [] }: UnifiedPublication
                       <button
                         key={topic}
                         onClick={() => toggleTopic(topic)}
-                        className={`w-full text-left flex items-center justify-between gap-2 text-xs sm:text-sm py-2 px-2.5 rounded-lg transition-colors ${
+                        className={`w-full text-left flex items-center justify-between gap-2 text-xs sm:text-sm py-2 px-2.5 rounded-acepBtn transition-colors ${
                           isSelected
                             ? "bg-slate-100 text-slate-800 font-medium"
                             : "text-slate-600 hover:bg-slate-50 hover:text-slate-800"

@@ -23,6 +23,7 @@ const quickLinks = [
   { name: "Our Team", href: "/team" },
   { name: "Publications", href: "/publications" },
   { name: "Events", href: "/events" },
+  { name: "Event registration (online)", href: "/e" },
   { name: "Contact", href: "/about-us" },
 ];
 

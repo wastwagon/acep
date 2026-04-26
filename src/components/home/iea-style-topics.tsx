@@ -27,9 +27,9 @@ export function IEATopics() {
               <Link
                 key={topic.name}
                 href={topic.href}
-                className="group text-center p-6 rounded-lg bg-white border-2 border-slate-200 hover:border-acep-primary hover:shadow-lg transition-all"
+                className="group text-center p-6 rounded-acepCard bg-white border-2 border-slate-200 hover:border-acep-primary hover:shadow-lg transition-all"
               >
-                <div className="w-12 h-12 mx-auto mb-3 rounded-lg bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 mx-auto mb-3 rounded-acepBtn bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Icon className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-sm font-bold text-slate-900 group-hover:text-acep-primary transition-colors">

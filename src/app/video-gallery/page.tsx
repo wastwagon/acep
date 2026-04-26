@@ -1,16 +1,17 @@
-import { notFound } from "next/navigation";
-import { getAcepSnapshotByUrl, readAcepSnapshotHtml } from "@/lib/acep-snapshots";
-import { extractPrimaryHeading, extractVideoEmbeds } from "@/lib/acep-media-extract";
+import type { Metadata } from "next";
+import Link from "next/link";
+import { resolveVideoGalleryPage } from "@/lib/resolve-marketing-content";
+import { VIDEO_GALLERY_SEO } from "@/lib/marketing-builtin";
 
 export const dynamic = "force-dynamic";
 
-export default async function VideoGalleryPage() {
-  const entry = await getAcepSnapshotByUrl("https://acep.africa/video-gallery/");
-  if (!entry || entry.status !== 200 || !entry.savedAs) notFound();
+export const metadata: Metadata = {
+  title: VIDEO_GALLERY_SEO.title,
+  description: VIDEO_GALLERY_SEO.description,
+};
 
-  const html = await readAcepSnapshotHtml(entry.savedAs);
-  const title = extractPrimaryHeading(html) || "Video Gallery";
-  const items = extractVideoEmbeds(html);
+export default async function VideoGalleryPage() {
+  const { title, items } = await resolveVideoGalleryPage();
 
   return (
     <div className="bg-white">
@@ -21,33 +22,43 @@ export default async function VideoGalleryPage() {
 
         <div className="mt-6 grid grid-cols-1 lg:grid-cols-12 gap-8">
           <div className="lg:col-span-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-              {items.map((it) => (
-                <div key={it.key} className="rounded-xl border border-slate-200 bg-white overflow-hidden">
-                  <div className="aspect-video bg-black">
-                    <iframe
-                      className="h-full w-full"
-                      src={it.src}
-                      title={it.title || "Video"}
-                      loading="lazy"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      referrerPolicy="strict-origin-when-cross-origin"
-                      allowFullScreen
-                    />
+            {items.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                {items.map((it) => (
+                  <div key={it.key} className="rounded-acepCard border border-slate-200 bg-white overflow-hidden">
+                    <div className="aspect-video bg-black">
+                      <iframe
+                        className="h-full w-full"
+                        src={it.src}
+                        title={it.title || "Video"}
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                      />
+                    </div>
                   </div>
-                </div>
-              ))}
-              {items.length === 0 && <div className="text-sm text-slate-600" />}
-            </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm text-slate-600 max-w-2xl">
+                No video embeds were found in the snapshot. Add your clips through the CMS, or see{" "}
+                <Link className="font-semibold text-acep-primary hover:underline" href="/videos">OilMoneyTV (videos)</Link> for platform
+                productions.
+              </p>
+            )}
           </div>
 
           <aside className="lg:col-span-4">
             <div className="sticky top-24 space-y-6">
-              <div className="rounded-xl border border-slate-200 p-5">
+              <div className="rounded-acepCard border border-slate-200 p-5">
                 <div className="text-sm font-semibold text-slate-900 mb-3">Gallery</div>
                 <div className="space-y-2 text-sm">
                   <a className="block text-slate-700 hover:text-acep-primary" href="/photo-gallery">
                     Photo Gallery
+                  </a>
+                  <a className="block text-slate-700 hover:text-acep-primary" href="/videos">
+                    OilMoney TV
                   </a>
                 </div>
               </div>
@@ -58,4 +69,3 @@ export default async function VideoGalleryPage() {
     </div>
   );
 }
-

@@ -29,7 +29,7 @@ export function IEAHero() {
         <div className="mt-10">
           <Link
             href="/about-us"
-            className="inline-flex h-12 items-center rounded-full bg-acep-primary px-8 text-sm font-semibold text-white shadow-[0_12px_40px_-12px_rgba(30,58,138,0.5)] transition hover:bg-acep-primary/90"
+            className="inline-flex h-12 items-center rounded-acepBtn bg-acep-primary px-8 text-sm font-semibold text-white shadow-[0_12px_40px_-12px_rgba(30,58,138,0.5)] transition hover:bg-acep-primary/90"
           >
             Learn more about our mission
             <ArrowRight className="ml-2 h-4 w-4 opacity-95" strokeWidth={2} />

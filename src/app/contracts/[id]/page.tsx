@@ -52,10 +52,10 @@ export default function ContractDetailPage({ params }: { params: { id: string } 
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <span className="text-sm sm:text-base font-semibold bg-acep-secondary px-4 py-1 rounded-full">
+                <span className="text-sm sm:text-base font-semibold bg-acep-secondary px-4 py-1 rounded-acepBtn">
                   {contract.block}
                 </span>
-                <div className={`flex items-center space-x-2 px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${statusConfig[contract.status].color}`}>
+                <div className={`flex items-center space-x-2 px-3 py-1 rounded-acepBtn text-xs sm:text-sm font-medium ${statusConfig[contract.status].color}`}>
                   <StatusIcon className="h-4 w-4" />
                   <span>{statusConfig[contract.status].label}</span>
                 </div>
@@ -127,10 +127,10 @@ export default function ContractDetailPage({ params }: { params: { id: string } 
                   {contract.operators.map((operator, index) => (
                     <div
                       key={index}
-                      className="flex items-center justify-between p-4 bg-slate-50 rounded-lg border border-slate-200"
+                      className="flex items-center justify-between p-4 bg-slate-50 rounded-acepCard border border-slate-200"
                     >
                       <div className="flex items-center space-x-3">
-                        <div className="w-10 h-10 bg-acep-primary/10 rounded-full flex items-center justify-center">
+                        <div className="w-10 h-10 bg-acep-primary/10 rounded-acepBtn flex items-center justify-center">
                           <Building2 className="h-5 w-5 text-acep-primary" />
                         </div>
                         <span className="font-semibold text-slate-900">{operator}</span>
@@ -154,7 +154,7 @@ export default function ContractDetailPage({ params }: { params: { id: string } 
                 <CardContent>
                   <div className="space-y-2">
                     {contract.parties.map((party, index) => (
-                      <div key={index} className="flex items-center p-3 bg-slate-50 rounded-lg border border-slate-200">
+                      <div key={index} className="flex items-center p-3 bg-slate-50 rounded-acepBtn border border-slate-200">
                         <Building2 className="h-4 w-4 mr-2 text-acep-primary" />
                         <span className="text-sm font-medium text-slate-900">{party}</span>
                       </div>
@@ -289,7 +289,7 @@ export default function ContractDetailPage({ params }: { params: { id: string } 
                     </div>
                   )}
 
-                  <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mt-4">
+                  <div className="bg-amber-50 border border-amber-200 rounded-acepCard p-4 mt-4">
                     <p className="text-sm text-amber-900 font-medium">
                       📄 Full contract documents and terms will be available for download in Phase 2 of the platform development.
                     </p>
@@ -309,7 +309,7 @@ export default function ContractDetailPage({ params }: { params: { id: string } 
               <CardContent className="space-y-4">
                 <div>
                   <h4 className="text-sm font-semibold text-slate-600 mb-1">Status</h4>
-                  <div className={`inline-flex items-center space-x-2 px-3 py-1 rounded-full text-sm font-medium ${statusConfig[contract.status].color}`}>
+                  <div className={`inline-flex items-center space-x-2 px-3 py-1 rounded-acepBtn text-sm font-medium ${statusConfig[contract.status].color}`}>
                     <StatusIcon className="h-4 w-4" />
                     <span>{statusConfig[contract.status].label}</span>
                   </div>
@@ -347,7 +347,7 @@ export default function ContractDetailPage({ params }: { params: { id: string } 
                 <CardTitle className="text-lg">Location Map</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="w-full h-48 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg flex items-center justify-center border-2 border-slate-200">
+                <div className="w-full h-48 bg-gradient-to-br from-blue-100 to-blue-200 rounded-acepCard flex items-center justify-center border-2 border-slate-200">
                   <div className="text-center">
                     <MapPin className="h-8 w-8 text-acep-primary mx-auto mb-2" />
                     <p className="text-sm text-slate-600">Map view coming soon</p>

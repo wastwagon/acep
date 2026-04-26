@@ -38,3 +38,7 @@ next-env.d.ts
 
 # docker
 docker-data/
+
+# CMS uploaded media (kept local; create public/media/cms/.gitkeep in repo)
+/public/media/cms/**
+!/public/media/cms/.gitkeep

@@ -1,13 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
-import { requireAdmin } from "@/lib/admin-auth";
+import { requireCmsApiUser } from "@/lib/cms-api-auth";
 import { runPrismaMigrateDeploy, trimCliLog } from "@/lib/run-prisma-cli";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 120;
 
 export async function POST(req: NextRequest) {
-  const denied = await requireAdmin(req);
+  const { denied, user } = await requireCmsApiUser(req);
   if (denied) return denied;
+  if (user.role !== "ADMIN") {
+    return NextResponse.json({ ok: false, error: "forbidden" }, { status: 403 });
+  }
 
   if (!process.env.DATABASE_URL?.trim()) {
     return NextResponse.json({ ok: false, error: "DATABASE_URL is not set." }, { status: 503 });

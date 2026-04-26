@@ -65,7 +65,7 @@ export function ProgramsSection() {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12 md:mb-16">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-acep-secondary to-acep-primary mb-4">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-acepCard bg-gradient-to-br from-acep-secondary to-acep-primary mb-4">
             <Sparkles className="h-8 w-8 text-white" />
           </div>
           <h2 className="text-2xl sm:text-2xl md:text-3xl font-bold text-slate-900 mb-4">
@@ -95,11 +95,11 @@ export function ProgramsSection() {
                 <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-br ${item.color} opacity-5 rounded-bl-full`}></div>
                 <CardHeader className="relative z-10">
                   <div className="flex items-start justify-between mb-4">
-                    <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                    <div className={`w-14 h-14 rounded-acepBtn bg-gradient-to-br ${item.color} flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
                       <Icon className="h-7 w-7 text-white" />
                     </div>
                     {item.badge && (
-                      <span className="text-xs font-semibold text-white bg-gradient-to-r from-acep-secondary to-acep-primary px-3 py-1 rounded-full shadow-md">
+                      <span className="text-xs font-semibold text-white bg-gradient-to-r from-acep-secondary to-acep-primary px-3 py-1 rounded-acepBtn shadow-md">
                         {item.badge}
                       </span>
                     )}

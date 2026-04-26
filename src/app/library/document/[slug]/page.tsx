@@ -39,7 +39,7 @@ export default async function LibraryDocumentPage({
         <div className="container mx-auto px-4 py-10 sm:px-6 md:py-14 lg:px-8">
           <Breadcrumbs items={breadcrumbItems} variant="dark" className="mb-6" />
           <div className="max-w-4xl">
-            <span className="mb-4 inline-flex items-center gap-2 rounded-md border border-acep-primary/20 bg-acep-primary/5 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-acep-primary">
+            <span className="mb-4 inline-flex items-center gap-2 rounded-acepBtn border border-acep-primary/20 bg-acep-primary/5 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-acep-primary">
               <FileText className="h-4 w-4" aria-hidden />
               Document
             </span>
@@ -65,7 +65,7 @@ export default async function LibraryDocumentPage({
                     href={pdf.appUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-acep-primary text-white font-medium hover:bg-acep-primary/90 transition-colors"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-acepBtn bg-acep-primary text-white font-medium hover:bg-acep-primary/90 transition-colors"
                   >
                     <ExternalLink className="h-4 w-4" />
                     Read full publication
@@ -73,7 +73,7 @@ export default async function LibraryDocumentPage({
                   <a
                     href={pdf.appUrl}
                     download={pdf.filename}
-                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border-2 border-acep-primary text-acep-primary font-medium hover:bg-acep-primary/5 transition-colors"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-acepBtn border-2 border-acep-primary text-acep-primary font-medium hover:bg-acep-primary/5 transition-colors"
                   >
                     <Download className="h-4 w-4" />
                     Download
@@ -96,7 +96,7 @@ export default async function LibraryDocumentPage({
                         <li key={pub.url}>
                           <Link
                             href={href}
-                            className="block rounded-lg border border-slate-200 p-3 transition-colors hover:border-acep-primary hover:bg-acep-primary/5"
+                            className="block rounded-acepCard border border-slate-200 p-3 transition-colors hover:border-acep-primary hover:bg-acep-primary/5"
                           >
                             <span className="font-medium text-slate-900">{pub.title}</span>
                             {pub.linkText && pub.linkText !== "Download PDF" && (

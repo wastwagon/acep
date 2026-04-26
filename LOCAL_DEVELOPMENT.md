@@ -54,7 +54,7 @@ npm run docker:dev
 npm run docker:dev:db
 ```
 
-Use `DATABASE_URL=postgresql://acep:acep_dev@localhost:5432/acep` in `.env.local` when the app is ready for a database.
+Use **`DATABASE_URL`** from [`.env.example`](./.env.example) (default example uses host port **54320** when using the compose profile). The app adds **`connect_timeout=10`** to PostgreSQL URLs when missing so a stopped DB does not hang every page.
 
 **Production-like container** (standalone build, no hot reload — for deployment checks):
 
@@ -77,74 +77,38 @@ docker compose exec web npm ci
 
 ---
 
-## 📁 Project Overview
+## Project overview (high level)
 
 ```
 ACEP/
-├── src/                      # Source code
-│   ├── app/                  # Pages (Next.js App Router)
-│   │   ├── page.tsx          # Home page (✅ Done)
-│   │   ├── layout.tsx        # Root layout (✅ Done)
-│   │   ├── contracts/        # Contract Monitor (🔄 Next)
-│   │   ├── electricity/      # Electricity Monitor (🔄 Next)
-│   │   ├── oil-revenue/      # Oil Revenue (🔄 Next)
-│   │   └── videos/           # OilMoneyTV (🔄 Next)
-│   ├── components/           # Reusable components
-│   │   ├── ui/               # UI primitives (Button, Card, etc.)
-│   │   ├── layout/           # Header, Footer (✅ Done)
-│   │   └── home/             # Home sections (✅ Done)
-│   └── lib/                  # Utilities
-├── public/                   # Static files (images, etc.)
-├── package.json              # Dependencies
-├── tsconfig.json             # TypeScript config
-├── tailwind.config.ts        # Tailwind CSS config
-├── Dockerfile                # Docker config
-└── docker-compose.yml        # Docker Compose config
+├── prisma/                 # Schema, migrations, seed (CMS user, settings, …)
+├── src/
+│   ├── app/
+│   │   ├── page.tsx        # Public home
+│   │   ├── admin/          # CMS + events + portal moderation + public form inbox
+│   │   ├── portal/         # Participant login, profile, organiser materials
+│   │   ├── e/              # Public event pages (/e/[slug], registration, …)
+│   │   ├── api/            # REST-style route handlers (admin, portal, public events, forms)
+│   │   ├── contracts|electricity|oil-revenue|tax|videos/   # Sub-platforms
+│   │   └── …               # Publications, ACEP snapshots, marketing pages, etc.
+│   ├── components/         # UI by domain (admin, home, layout, …)
+│   ├── lib/                # db, auth, mail, rate-limit, data loaders
+│   └── proxy.ts            # ACEP rewrites, legacy redirects (Next.js 16 proxy)
+├── content/                # Scraped JSON + assets (acep, contracts, …)
+├── backend/                # Optional Express health service (Coolify stack)
+├── docker-compose*.yml
+└── package.json
 ```
 
 ---
 
-## 🎨 What's Built So Far
+## What is implemented today
 
-### ✅ Completed (Phase 1A)
-
-1. **Project Setup**
-   - Next.js 16 with TypeScript
-   - Tailwind CSS with ACEP brand colors
-   - Mobile-first responsive design
-   - Docker support
-
-2. **Main Layout**
-   - Header with navigation
-   - Footer with links
-   - Responsive mobile menu
-
-3. **Home Page**
-   - Hero section
-   - Stats section
-   - Platform cards (links to sub-platforms)
-   - Latest publications
-   - News & updates
-   - Upcoming events
-
-### 🔄 Next Steps (Phase 1B)
-
-4. **Contract Monitor** (Your Next Task)
-   - 15 petroleum contract areas
-   - Contract details pages
-   - Interactive map
-
-5. **Electricity Monitor**
-   - Power statistics dashboard
-   - Complaints form
-
-6. **Oil Revenue Tracker**
-   - Interactive charts
-   - Project tracking
-
-7. **OilMoneyTV**
-   - Video library
-   - Category filtering
+1. **Public site** — Home, resource listings, publications, scraped ACEP paths, contracts / electricity / oil-revenue / tax / videos.
+2. **PostgreSQL + Prisma** — CMS, events, portal users, organiser materials, public form submissions.
+3. **Admin (`/admin`)** — Posts, media, events (registrations, exhibitors, speakers, export, check-in), organiser materials moderation, **public form inbox**, marketing & website keys, settings.
+4. **Participant portal (`/portal`)** — Auth, profile, materials linked to events; submissions can appear on `/e/[slug]` after approval.
+5. **Public APIs** — Event registration, exhibitor flows, portal APIs, **`POST /api/public/form-submissions`** (rate limited), health route.
 
 ---
 

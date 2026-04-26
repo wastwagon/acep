@@ -1,6 +1,9 @@
 # Deployment Guide - ACEP Platform on Render
 
-This guide walks you through deploying the ACEP Platform to Render.com.
+This guide walks you through deploying the ACEP Platform to **Render.com**.
+
+> **Also supported:** full-stack **Coolify** deployment (Next + optional Express API + Postgres + Redis). See **[COOLIFY.md](./COOLIFY.md)** and **`docker-compose.coolify.yml`**.  
+> **Runtime:** the app targets **Next.js 16** and **Node 20+**. Run database migrations on the host (`npx prisma migrate deploy` or your CI step) before relying on CMS, events, portal, or stored public forms.
 
 ## 📋 Prerequisites
 

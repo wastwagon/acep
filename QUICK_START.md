@@ -1,302 +1,73 @@
-# Quick Start Guide - ACEP Platform
+# Quick start — ACEP platform
 
-## ✅ What's Been Built
+## Prerequisites
 
-Congratulations! Your ACEP consolidated platform is now **100% complete** (Phase 1 - Frontend).
+- **Node.js 20+**
+- **npm**
+- **PostgreSQL** (optional for static-only browsing; required for CMS, events, portal, stored public forms)
 
-### Completed Platforms
-
-1. **✅ Main ACEP Landing Page** (`/`)
-   - Hero with vision statement
-   - Real-time statistics
-   - Platform navigation cards
-   - Latest publications
-   - News & blog posts
-   - Upcoming events
-
-2. **✅ Contract Monitor** (`/contracts`)
-   - All 15 petroleum contract areas
-   - Interactive filtering by status
-   - Detailed contract information
-   - Stats dashboard
-   - Individual contract detail pages
-   - Map placeholder (ready for Phase 2)
-
-3. **✅ Electricity Monitor** (`/electricity`)
-   - Real-time power statistics (89.4% national access)
-   - 8 power plants database with filtering
-   - Capacity breakdown charts
-   - Regional distribution
-   - Public complaints form
-   - Mobile-responsive tables
-
-4. **✅ Oil Revenue Tracker** (`/oil-revenue`)
-   - $9.48B revenue tracking
-   - Annual revenue charts (2010-2024)
-   - Revenue allocation by sector
-   - 6 sample projects with details
-   - Interactive filtering
-   - Production statistics
-
-5. **✅ OilMoneyTV** (`/videos`)
-   - 12 video documentaries
-   - Category filtering
-   - Video metadata (views, duration, location)
-   - Mobile-responsive grid
-   - YouTube integration ready (Phase 2)
-
----
-
-## 🚀 Current Status
-
-Your development server is running at:
-
-### **http://localhost:3100**
-
-Open this in your browser to preview the entire platform!
-
----
-
-## 🧭 Navigation Guide
-
-### Test These URLs:
-
-```
-Home Page:           http://localhost:3100
-Contract Monitor:    http://localhost:3100/contracts
-  - Detail Example:  http://localhost:3100/contracts/1
-Electricity Monitor: http://localhost:3100/electricity
-Oil Revenue:         http://localhost:3100/oil-revenue
-OilMoneyTV:          http://localhost:3100/videos
-```
-
-### Click Through Flow:
-
-1. **Start at Home** → Click any of the 4 platform cards
-2. **Contract Monitor** → Click any contract card → See details
-3. **Electricity Monitor** → View power plants → Fill complaint form
-4. **Oil Revenue** → Filter by timeframe → Browse projects
-5. **OilMoneyTV** → Filter by category → Browse videos
-
----
-
-## 📱 Mobile Testing
-
-### Using Browser DevTools:
-
-1. Open Chrome/Safari DevTools (`Cmd+Option+I`)
-2. Click device toggle icon (`Cmd+Shift+M`)
-3. Select device:
-   - **iPhone 14 Pro** (mobile view)
-   - **iPad Pro** (tablet view)
-   - **Responsive** (custom sizes)
-
-### Test These Breakpoints:
-
-- **Mobile**: 375px - 640px
-- **Tablet**: 640px - 1024px
-- **Desktop**: 1024px+
-
----
-
-## 🎨 Design Features
-
-### Mobile-First ✅
-- All components responsive
-- Touch-friendly buttons
-- Optimized for small screens
-- Progressive enhancement
-
-### ACEP Brand Colors ✅
-- **Primary**: Deep Blue (#1e3a8a)
-- **Secondary**: Amber/Gold (#f59e0b)
-- **Accent**: Green (#10b981)
-- Consistent throughout
-
-### Modern UI ✅
-- Gradient backgrounds
-- Smooth transitions
-- Card-based layouts
-- Inspired by IEA.org
-
----
-
-## 🐳 Docker Testing
-
-If you want to test in production mode with Docker:
+## Run locally
 
 ```bash
-# Stop the dev server (Ctrl+C in terminal)
-
-# Build Docker image (first time: 3-5 minutes)
-npm run docker:build
-
-# OR use Docker Compose (easier)
-docker-compose up --build
-```
-
-Then visit: http://localhost:3100
-
----
-
-## 📊 What You Can Test
-
-### ✅ Working Features:
-
-- [x] All 5 platforms accessible
-- [x] Responsive design (mobile/tablet/desktop)
-- [x] Navigation between pages
-- [x] Filtering (contracts, power plants, projects, videos)
-- [x] Stats and dashboards
-- [x] Forms (complaint form - logs to console)
-- [x] Hover effects and transitions
-- [x] ACEP branding throughout
-
-### 🔄 Phase 2 (Backend Coming Soon):
-
-- [ ] Real database (PostgreSQL on Render)
-- [ ] User authentication
-- [ ] Complaint submission to database
-- [ ] YouTube video playback
-- [ ] Interactive maps (Mapbox/Leaflet)
-- [ ] Search functionality
-- [ ] Admin dashboard
-- [ ] Content management system
-
----
-
-## 🔧 Common Tasks
-
-### Stop Development Server:
-```bash
-# In the terminal running dev server
-Press Ctrl + C
-```
-
-### Restart Development Server:
-```bash
-npm run dev
-```
-
-### Build for Production:
-```bash
-npm run build
-npm start
-```
-
-### Check for Errors:
-```bash
-npm run lint
-```
-
----
-
-## 📦 Next Steps
-
-### Ready to Deploy? 
-
-Follow these guides:
-1. **DEPLOYMENT.md** - Step-by-step Render deployment
-2. **README.md** - Full project documentation
-3. **LOCAL_DEVELOPMENT.md** - Development workflow
-
-### Ready to Commit?
-
-Using GitHub Desktop:
-1. Open GitHub Desktop
-2. Review changes (left sidebar)
-3. Write commit message: "Complete Phase 1: All platforms built"
-4. Click "Commit to main"
-5. Click "Push origin"
-
-Using Terminal:
-```bash
-git add .
-git commit -m "Complete Phase 1: All platforms built with mobile-first design"
-git push origin main
-```
-
----
-
-## 🎯 Key Achievements
-
-- ✅ **5 Platforms** consolidated into one
-- ✅ **100% Mobile-First** responsive design
-- ✅ **Modern UI** with ACEP branding
-- ✅ **Docker Ready** for local preview
-- ✅ **Render Optimized** deployment config
-- ✅ **Well Documented** (4 markdown guides)
-- ✅ **Production Ready** frontend
-
----
-
-## 💡 Tips
-
-### Performance:
-- First load may take 1-2 seconds
-- Subsequent navigation is instant (Next.js)
-- Hot reload works in dev mode (save = auto-refresh)
-
-### Browser Compatibility:
-- ✅ Chrome/Edge (latest)
-- ✅ Safari (latest)
-- ✅ Firefox (latest)
-- ✅ Mobile browsers
-
-### Known Phase 1 Limitations:
-- Maps show placeholders (integrate in Phase 2)
-- Videos don't play (YouTube integration Phase 2)
-- Forms log to console (database in Phase 2)
-- No search (implement in Phase 2)
-
----
-
-## 🚨 Troubleshooting
-
-### Port 3100 already in use?
-```bash
-lsof -ti:3100 | xargs kill -9
-npm run dev
-```
-
-### Changes not showing?
-```bash
-# Clear cache
-rm -rf .next
-npm run dev
-```
-
-### Dependencies issues?
-```bash
-rm -rf node_modules package-lock.json
+cd ACEP
 npm install
+cp .env.example .env   # then edit DATABASE_URL, etc.
+npx prisma migrate deploy   # or `npx prisma db push` for a throwaway dev DB
+npm run db:seed             # CMS admin user — see .env.example
+npm run db:portal-test-users   # optional: 3 portal demo accounts (attendee / speaker / exhibitor)
+npm run verify:unified-login   # optional: verify those + CMS passwords in DB (no HTTP)
+npm run dev
 ```
 
----
+Open **http://localhost:3100**
 
-## 📞 Support
+### Try unified `/login` (with dev server running)
 
-**For Platform Questions:**
-- Check README.md
-- Check LOCAL_DEVELOPMENT.md
-- Review component code in `src/components/`
+Portal demos use password **`TestPortal123!`** (override with `PORTAL_TEST_PASSWORD` when running `db:portal-test-users`):
 
-**For Deployment:**
-- Follow DEPLOYMENT.md step-by-step
-- Render docs: https://render.com/docs
+```bash
+curl -sS -X POST http://localhost:3100/api/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"portal-attendee@acep.local","password":"TestPortal123!"}'
+# expect: {"ok":true,"redirect":"/portal","role":"portal"}
+```
 
-**ACEP Contact:**
-- Email: info@acep.africa
-- Phone: (+233) 302 900 730
+Use **`portal-speaker@acep.local`** and **`portal-exhibitor@acep.local`** the same way. CMS admin uses your **`CMS_ADMIN_EMAIL`** / **`CMS_ADMIN_PASSWORD`** and should return **`"redirect":"/admin"`**.
 
----
+## Useful URLs
 
-## ✨ Congratulations!
+| Area | URL |
+|------|-----|
+| Home | `/` |
+| Sign in (CMS + portal) | `/login` (redirects to `/admin` or `/portal` by account) |
+| Legacy URLs | `/admin/login` and `/portal/login` redirect to `/login` |
+| Public events index | `/e` |
+| Contract Monitor | `/contracts` |
+| Electricity Monitor | `/electricity` |
+| Oil Revenue | `/oil-revenue` |
+| OpenTax | `/tax` |
+| Videos | `/videos` |
 
-You now have a **world-class, modern, mobile-first platform** that consolidates all 5 ACEP websites into one unified experience!
+## Quality gate
 
-**Next Action:** Open your browser to **http://localhost:3100** and explore! 🎉
+```bash
+npm run check    # eslint (src) + vitest + TypeScript
+```
 
----
+## Docker
 
-**Built with ❤️ using Next.js 16, TypeScript, Tailwind CSS, and modern best practices.**
+- **`npm run docker:dev`** — Next in Compose with bind mount (hot reload).
+- **`npm run docker:dev:db`** — adds Postgres (set `DATABASE_URL` to match compose; see `.env.example`).
+
+## Deploy
+
+- **Render:** [DEPLOYMENT.md](./DEPLOYMENT.md)  
+- **Coolify:** [COOLIFY.md](./COOLIFY.md)
+
+## Troubleshooting
+
+- **Port 3100 in use:** `lsof -nP -iTCP:3100 -sTCP:LISTEN` then stop the PID, or change port in the dev command.
+- **Home page slow / hanging:** ensure `DATABASE_URL` points at a **running** Postgres, or unset it for JSON-only home content (no CMS posts).
+- **Stale build:** `rm -rf .next && npm run dev`
+
+More detail: [LOCAL_DEVELOPMENT.md](./LOCAL_DEVELOPMENT.md).

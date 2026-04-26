@@ -3,7 +3,7 @@
  *
  * Output: src/lib/acep-route-map.ts
  *
- * This is used by middleware to route any /<acep-path> to /acep/<acep-path>
+ * This is used by src/proxy.ts to route any /<acep-path> to /acep/<acep-path>
  * while keeping our custom pages (/contracts, /electricity, etc.) intact.
  */
 

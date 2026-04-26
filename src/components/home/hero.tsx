@@ -52,14 +52,14 @@ export function Hero() {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
               <Link
                 href="/publications"
-                className="inline-flex h-12 items-center justify-center rounded-full bg-acep-primary px-8 text-sm font-semibold text-white shadow-[0_12px_40px_-12px_rgba(30,58,138,0.55)] transition hover:bg-acep-primary/92 hover:shadow-[0_16px_44px_-14px_rgba(30,58,138,0.5)] sm:h-[3.25rem] sm:px-9"
+                className="inline-flex h-12 items-center justify-center rounded-acepBtn bg-acep-primary px-8 text-sm font-semibold text-white shadow-[0_12px_40px_-12px_rgba(30,58,138,0.55)] transition hover:bg-acep-primary/92 hover:shadow-[0_16px_44px_-14px_rgba(30,58,138,0.5)] sm:h-[3.25rem] sm:px-9"
               >
                 Publications
                 <ArrowRight className="ml-2 h-4 w-4 opacity-95" strokeWidth={2} />
               </Link>
               <Link
                 href="/videos"
-                className="inline-flex h-12 items-center justify-center rounded-full border border-slate-300/90 bg-white/80 px-8 text-sm font-semibold text-slate-800 backdrop-blur-sm transition hover:border-acep-primary/35 hover:text-acep-primary sm:h-[3.25rem] sm:px-9"
+                className="inline-flex h-12 items-center justify-center rounded-acepBtn border border-slate-300/90 bg-white/80 px-8 text-sm font-semibold text-slate-800 backdrop-blur-sm transition hover:border-acep-primary/35 hover:text-acep-primary sm:h-[3.25rem] sm:px-9"
               >
                 OilMoneyTV
               </Link>
@@ -91,10 +91,10 @@ export function Hero() {
           <div className="order-1 lg:order-2 lg:col-span-7 xl:col-span-7">
             <figure className="relative mx-auto max-w-lg lg:mx-0 lg:max-w-none">
               <div
-                className="pointer-events-none absolute -right-2 -top-2 hidden h-[calc(100%+1.25rem)] w-[calc(100%+1.25rem)] rounded-[1.75rem] border border-acep-primary/[0.12] sm:block lg:-right-4 lg:-top-4 lg:h-[calc(100%+2rem)] lg:w-[calc(100%+2rem)] lg:rounded-[2rem]"
+                className="pointer-events-none absolute -right-2 -top-2 hidden h-[calc(100%+1.25rem)] w-[calc(100%+1.25rem)] rounded-acepCard border border-acep-primary/[0.12] sm:block lg:-right-4 lg:-top-4 lg:h-[calc(100%+2rem)] lg:w-[calc(100%+2rem)] lg:rounded-acepCard"
                 aria-hidden
               />
-              <div className="relative overflow-hidden rounded-2xl bg-slate-200 shadow-[0_40px_100px_-48px_rgba(15,23,42,0.45)] ring-1 ring-slate-900/[0.06] sm:rounded-[1.35rem] lg:rounded-[1.5rem]">
+              <div className="relative overflow-hidden rounded-acepCard bg-slate-200 shadow-[0_40px_100px_-48px_rgba(15,23,42,0.45)] ring-1 ring-slate-900/[0.06]">
                 <div className="group relative aspect-[5/4] w-full sm:aspect-[16/11] lg:aspect-[4/3] lg:min-h-[min(52vh,520px)] xl:min-h-[min(56vh,580px)]">
                   <Image
                     src="/acep-assets/wp-content/uploads/2024/09/oil-pump.jpg"
@@ -114,13 +114,13 @@ export function Hero() {
                       <div className="mt-5 flex flex-wrap gap-2">
                         <Link
                           href="/electricity"
-                          className="rounded-full border border-white/25 bg-white/10 px-3.5 py-1.5 text-xs font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
+                          className="rounded-acepBtn border border-white/25 bg-white/10 px-3.5 py-1.5 text-xs font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
                         >
                           Electricity
                         </Link>
                         <Link
                           href="/oil-revenue"
-                          className="rounded-full border border-white/25 bg-white/10 px-3.5 py-1.5 text-xs font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
+                          className="rounded-acepBtn border border-white/25 bg-white/10 px-3.5 py-1.5 text-xs font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
                         >
                           Oil revenue
                         </Link>

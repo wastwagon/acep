@@ -3,11 +3,12 @@ import type { Config } from "tailwindcss"
 const config = {
   /** No `dark:` utilities in app; default media strategy has no effect */
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+    "./src/styles/**/*.css",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -72,6 +73,9 @@ const config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        /** Institutional: tight corners (not pill-shaped) */
+        acepBtn: "5px",
+        acepCard: "10px",
       },
       keyframes: {
         "accordion-down": {

@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { Calendar, ArrowRight, FileText } from "lucide-react";
-import { getPublications, getReports } from "@/lib/data/posts";
+import { getPublications, getReports, getCmsPublications } from "@/lib/data/posts";
 import { acepUrlToSlug } from "@/lib/utils/url-helpers";
 import { getMainCategory } from "@/lib/data/categories";
 
 export async function LatestPublications() {
   const publications = await getPublications();
   const reports = await getReports(); // Get reports from parent pages
+  const cmsPublications = await getCmsPublications();
   
   // Filter out invalid entries (archive pages, category pages, etc.)
   const validPublications = publications.filter((pub) => {
@@ -75,7 +76,7 @@ export async function LatestPublications() {
   });
 
   // Combine publications and reports, then take the latest 4
-  const combinedContent = [...validPublications, ...validReports]
+  const combinedContent = [...validPublications, ...validReports, ...cmsPublications]
     .sort((a, b) => {
       // Sort by date if available, otherwise keep original order
       if (a.dateText && b.dateText) {
@@ -170,7 +171,7 @@ export async function LatestPublications() {
                       </div>
                     )}
                     <div className="absolute top-3 left-3">
-                      <span className="rounded-md bg-white/95 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-700">
+                      <span className="rounded-acepBtn bg-white/95 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-700">
                         {getMainCategory("category" in pub ? pub.category : undefined, pub.title, pub.url).substring(0, 30)}
                       </span>
                     </div>

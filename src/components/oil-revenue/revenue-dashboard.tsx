@@ -92,7 +92,7 @@ export function RevenueDashboard() {
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="grid grid-cols-2 gap-4">
-              <div className="rounded-lg border border-slate-200 bg-gradient-to-br from-slate-50 to-emerald-50/80 p-4">
+              <div className="rounded-acepCard border border-slate-200 bg-gradient-to-br from-slate-50 to-emerald-50/80 p-4">
                 <div className="mb-1 text-sm text-slate-600">Total Revenue</div>
                 <div className="text-2xl font-bold text-emerald-800">
                   ${(oilRevenueStats.totalRevenueSince2010 / 1000).toFixed(2)}B
@@ -100,7 +100,7 @@ export function RevenueDashboard() {
                 <div className="text-xs text-slate-500 mt-1">Since 2010</div>
               </div>
 
-              <div className="rounded-lg border border-slate-200 bg-gradient-to-br from-slate-50 to-acep-primary/10 p-4">
+              <div className="rounded-acepCard border border-slate-200 bg-gradient-to-br from-slate-50 to-acep-primary/10 p-4">
                 <div className="mb-1 text-sm text-slate-600">Average Annual</div>
                 <div className="text-2xl font-bold text-acep-primary">
                   ${oilRevenueStats.averageAnnualRevenue}M
@@ -108,7 +108,7 @@ export function RevenueDashboard() {
                 <div className="text-xs text-slate-500 mt-1">Per year</div>
               </div>
 
-              <div className="rounded-lg border border-slate-200 bg-gradient-to-br from-amber-50/80 to-acep-secondary/10 p-4">
+              <div className="rounded-acepCard border border-slate-200 bg-gradient-to-br from-amber-50/80 to-acep-secondary/10 p-4">
                 <div className="mb-1 text-sm text-slate-600">Peak Revenue</div>
                 <div className="text-2xl font-bold text-acep-dark">
                   ${oilRevenueStats.peakRevenue}M
@@ -116,7 +116,7 @@ export function RevenueDashboard() {
                 <div className="text-xs text-slate-500 mt-1">Highest in {oilRevenueStats.peakYear}</div>
               </div>
 
-              <div className="rounded-lg border border-slate-200 bg-gradient-to-br from-slate-50 to-acep-logoPurple/10 p-4">
+              <div className="rounded-acepCard border border-slate-200 bg-gradient-to-br from-slate-50 to-acep-logoPurple/10 p-4">
                 <div className="mb-1 text-sm text-slate-600">Active Projects</div>
                 <div className="text-2xl font-bold text-acep-logoPurple">
                   {oilRevenueStats.activeProjects}
@@ -125,7 +125,7 @@ export function RevenueDashboard() {
               </div>
             </div>
 
-            <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
+            <div className="rounded-acepCard border border-slate-200 bg-slate-50 p-4">
               <h4 className="mb-2 text-sm font-semibold text-slate-900">Production Trends</h4>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">

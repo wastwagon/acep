@@ -1,7 +1,7 @@
 # ACEP Platform - Project Structure & Styling Guide
 
-**Date**: 2026-01-27  
-**Status**: ✅ **REFACTORED FOR MAINTAINABILITY**
+**Date**: 2026-04-26  
+**Status**: Living reference — align with `README.md` and `src/app/` for new routes.
 
 ---
 
@@ -10,10 +10,15 @@
 ```
 ACEP/
 ├── src/
+│   ├── proxy.ts                      # Next.js 16 proxy: ACEP rewrites, legacy redirects
 │   ├── app/                          # Next.js App Router pages
 │   │   ├── globals.css              # ✅ Centralized styles (NO inline styles)
 │   │   ├── layout.tsx               # Root layout
 │   │   ├── page.tsx                 # Home page
+│   │   ├── admin/                   # CMS dashboard (posts, media, events, portal moderation, public forms)
+│   │   ├── portal/                  # Participant portal (auth, profile, organiser materials)
+│   │   ├── e/                       # Public events (/e/[slug], registration, …)
+│   │   ├── api/                     # Route handlers (admin, portal, public events, public forms, health)
 │   │   ├── contracts/               # Contract Monitor pages
 │   │   ├── electricity/             # Electricity Monitor pages
 │   │   ├── oil-revenue/              # Oil Revenue Tracker pages

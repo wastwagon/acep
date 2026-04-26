@@ -1,26 +1,31 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
-import { getAcepSnapshotByUrl, readAcepSnapshotHtml, transformAcepHtmlForLocalAssets } from "@/lib/acep-snapshots";
-import { acepHrefToLocalPath, extractListingItems } from "@/lib/acep-extract";
+import { resolveEventListingPage } from "@/lib/resolve-marketing-content";
+import { EVENTS_SEO } from "@/lib/marketing-builtin";
+import { acepHrefToLocalPath } from "@/lib/acep-extract";
 
 export const dynamic = "force-dynamic";
 
+export const metadata: Metadata = {
+  title: EVENTS_SEO.title,
+  description: EVENTS_SEO.description,
+};
+
 export default async function EventsPage() {
-  const entry = await getAcepSnapshotByUrl("https://acep.africa/events/");
-  if (!entry || entry.status !== 200 || !entry.savedAs) notFound();
-
-  const html = await readAcepSnapshotHtml(entry.savedAs);
-  const transformed = transformAcepHtmlForLocalAssets(html, { extractBody: true });
-  const items = extractListingItems(html);
-
-  const titleMatch = transformed.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
-  const pageTitle = titleMatch?.[1]?.replace(/<[^>]+>/g, "").trim() || "Events";
+  const { items, pageTitle } = await resolveEventListingPage();
 
   return (
     <div className="bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="max-w-3xl">
           <h1 className="font-display text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900">{pageTitle}</h1>
+          <p className="mt-3 text-sm text-slate-600">
+            For ACEP-managed <strong>online registration</strong> (attendees, exhibitors, speaker links), open{" "}
+            <Link href="/e" className="font-medium text-acep-primary hover:underline">
+              Event registration
+            </Link>
+            — separate from this events archive listing.
+          </p>
         </div>
 
         <div className="mt-6 grid grid-cols-1 lg:grid-cols-12 gap-8">
@@ -34,7 +39,7 @@ export default async function EventsPage() {
                       <img
                         src={it.imageSrc.replace("https://acep.africa/wp-content/", "/acep-assets/wp-content/")}
                         alt=""
-                        className="hidden sm:block h-24 w-36 object-cover rounded-md border border-slate-200 bg-slate-50"
+                        className="hidden sm:block h-24 w-36 object-cover rounded-acepBtn border border-slate-200 bg-slate-50"
                       />
                     )}
                     <div className="min-w-0 flex-1">
@@ -55,13 +60,24 @@ export default async function EventsPage() {
                   </div>
                 </article>
               ))}
-              {items.length === 0 && <div className="py-10 text-sm text-slate-600" />}
             </div>
           </div>
 
           <aside className="lg:col-span-4">
             <div className="sticky top-24 space-y-6">
-              <div className="rounded-xl border border-slate-200 p-5">
+              <div className="rounded-acepCard border border-acep-primary/25 bg-acep-primary/5 p-5">
+                <div className="text-sm font-semibold text-slate-900 mb-1">Online registration</div>
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  Published events with open signup live under a dedicated hub—not in the list below.
+                </p>
+                <Link
+                  href="/e"
+                  className="mt-3 inline-flex text-sm font-semibold text-acep-primary hover:underline"
+                >
+                  Go to event registration →
+                </Link>
+              </div>
+              <div className="rounded-acepCard border border-slate-200 p-5">
                 <div className="text-sm font-semibold text-slate-900 mb-3">Programs</div>
                 <div className="space-y-2 text-sm">
                   <Link className="block text-slate-700 hover:text-acep-primary" href="/programs">
@@ -76,7 +92,7 @@ export default async function EventsPage() {
                   <Link className="block text-slate-700 hover:text-acep-primary" href="/2025-afreikh-summer-school">
                     AFREIKH Summer School
                   </Link>
-                  <Link className="block text-slate-700 hover:text-acep-primary" href="/rgchub-campuses">
+                  <Link className="block text-slate-700 hover:text-acep-primary" href="/rgchub">
                     Resource Governance Campus Hub
                   </Link>
                 </div>

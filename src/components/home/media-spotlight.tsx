@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ArrowRight, Play } from "lucide-react";
 
 const CARD_BASE =
-  "group relative block overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-sm ring-1 ring-slate-100/80 transition duration-500 hover:border-acep-primary/25 hover:shadow-md";
+  "group relative block overflow-hidden rounded-acepCard border border-slate-200/90 bg-white shadow-sm ring-1 ring-slate-100/80 transition duration-500 hover:border-acep-primary/25 hover:shadow-md";
 
 export function MediaSpotlight() {
   return (
@@ -24,7 +24,7 @@ export function MediaSpotlight() {
           </div>
           <Link
             href="/video-gallery"
-            className="inline-flex shrink-0 items-center self-start rounded-full border border-acep-primary/25 bg-white px-4 py-2 text-sm font-semibold text-acep-primary shadow-sm transition hover:border-acep-primary/40 hover:bg-acep-primary/[0.04] md:self-auto"
+            className="inline-flex shrink-0 items-center self-start rounded-acepBtn border border-acep-primary/25 bg-white px-4 py-2 text-sm font-semibold text-acep-primary shadow-sm transition hover:border-acep-primary/40 hover:bg-acep-primary/[0.04] md:self-auto"
           >
             Browse video gallery
             <ArrowRight className="ml-2 h-4 w-4" />
@@ -53,7 +53,7 @@ export function MediaSpotlight() {
                     policymakers.
                   </p>
                   <div className="mt-6 inline-flex items-center gap-3">
-                    <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-white text-acep-primary shadow-lg transition duration-300 group-hover:scale-105">
+                    <span className="inline-flex h-14 w-14 items-center justify-center rounded-acepBtn bg-white text-acep-primary shadow-lg transition duration-300 group-hover:scale-105">
                       <Play className="h-7 w-7 fill-current" aria-hidden />
                     </span>
                     <span className="text-sm font-semibold text-white underline-offset-4 group-hover:underline">

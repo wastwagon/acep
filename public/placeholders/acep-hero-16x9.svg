@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Image placeholder  replace in CMS">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect x="40" y="40" width="1120" height="595" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="12 8" rx="8"/>
+  <text x="600" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" fill="#475569">ACEP · Placeholder</text>
+  <text x="600" y="365" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#64748b">16:9  upload final image in Admin ’ Media</text>
+</svg>

@@ -22,8 +22,12 @@ function contentRoot(): string {
 export async function loadAcepIndex(): Promise<AcepSnapshotIndex> {
   if (cachedIndex) return cachedIndex;
   const idxPath = path.join(contentRoot(), "index.json");
-  const raw = await readFile(idxPath, "utf8");
-  cachedIndex = JSON.parse(raw) as AcepSnapshotIndex;
+  try {
+    const raw = await readFile(idxPath, "utf8");
+    cachedIndex = JSON.parse(raw) as AcepSnapshotIndex;
+  } catch {
+    cachedIndex = { pages: [] };
+  }
   return cachedIndex;
 }
 
@@ -77,7 +81,7 @@ export function transformAcepHtmlForLocalAssets(
   }
 
   // 2) Keep internal page links inside this platform.
-  //    Turn absolute ACEP links into root-relative links. Our middleware will route
+  //    Turn absolute ACEP links into root-relative links. Our proxy will route
   //    unknown paths to the ACEP snapshot renderer automatically.
   out = out.replaceAll("https://acep.africa/", "/");
   out = out.replaceAll("http://acep.africa/", "/");

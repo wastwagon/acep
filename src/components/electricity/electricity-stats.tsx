@@ -41,10 +41,10 @@ export function ElectricityStats() {
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-slate-50 to-white p-4 sm:p-6 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow"
+              className="bg-gradient-to-br from-slate-50 to-white p-4 sm:p-6 rounded-acepCard border border-slate-200 hover:shadow-lg transition-shadow"
             >
               <div className="flex items-start justify-between mb-3">
-                <div className={`p-2 sm:p-3 bg-gradient-to-br ${stat.color} rounded-lg shadow-lg`}>
+                <div className={`p-2 sm:p-3 bg-gradient-to-br ${stat.color} rounded-acepBtn shadow-lg`}>
                   <stat.icon className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
                 </div>
               </div>
@@ -62,7 +62,7 @@ export function ElectricityStats() {
         </div>
 
         {/* Additional Info Banner */}
-        <div className="mt-8 bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-200 rounded-lg p-4 sm:p-6">
+        <div className="mt-8 bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-200 rounded-acepCard p-4 sm:p-6">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <div>
               <h3 className="text-lg font-semibold text-slate-900 mb-1">
@@ -73,13 +73,13 @@ export function ElectricityStats() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-              <div className="text-center bg-white px-4 py-2 rounded-lg shadow-sm">
+              <div className="text-center bg-white px-4 py-2 rounded-acepBtn shadow-sm">
                 <div className="text-2xl font-bold text-orange-600">
                   {formatNumber(electricityStats.totalInstalledCapacity)} MW
                 </div>
                 <div className="text-xs text-slate-600">Installed Capacity</div>
               </div>
-              <div className="text-center bg-white px-4 py-2 rounded-lg shadow-sm">
+              <div className="text-center bg-white px-4 py-2 rounded-acepBtn shadow-sm">
                 <div className="text-2xl font-bold text-orange-600">
                   {formatNumber(electricityStats.totalDependableCapacity)} MW
                 </div>

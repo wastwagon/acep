@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3100",
-    "dev:docker": "next dev -p 3100 -H 0.0.0.0",
+    "postinstall": "prisma generate",
+    "dev": "prisma generate && next dev -p 3100 -H 0.0.0.0",
+    "dev:docker": "prisma generate && next dev -p 3100 -H 0.0.0.0",
+    "dev:stack": "bash scripts/local-dev.sh",
     "build": "prisma generate && next build",
     "start": "next start -p 3100",
-    "lint": "next lint",
+    "lint": "eslint src --max-warnings 0",
     "scrape:acep": "node scripts/scrape-acep.mjs --out content/acep --concurrency 6",
+    "scrape:acep:text": "node scripts/scrape-acep-text.mjs",
     "scrape:acep:assets": "node scripts/scrape-acep-assets.mjs --contentDir content/acep --concurrency 6",
     "scrape:contracts": "node scripts/scrape-contract-monitor.mjs --out content/contract-monitor --concurrency 3",
     "scrape:electricity": "node scripts/scrape-electricity-monitor.mjs --out content/electricity-monitor --concurrency 3",
@@ -29,7 +32,15 @@
     "verify:coolify-compose": "bash scripts/verify-coolify-compose.sh",
     "db:migrate": "prisma migrate deploy",
     "db:seed": "prisma db seed",
-    "db:studio": "prisma studio"
+    "db:portal-test-users": "node scripts/create-portal-test-users.cjs",
+    "verify:unified-login": "node scripts/verify-unified-login.cjs",
+    "db:studio": "prisma studio",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run test && npm run typecheck",
+    "setup:local": "bash scripts/setup-local-db.sh",
+    "verify:local": "bash scripts/verify-local.sh"
   },
   "prisma": {
     "seed": "node prisma/seed.cjs"
@@ -45,11 +56,14 @@
     "@radix-ui/react-toast": "^1.2.2",
     "@radix-ui/react-tooltip": "^1.1.5",
     "@tanstack/react-query": "^5.62.12",
+    "@upstash/ratelimit": "^2.0.8",
+    "@upstash/redis": "^1.37.0",
     "axios": "^1.7.9",
     "cheerio": "^1.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
+    "html5-qrcode": "^2.3.8",
     "lucide-react": "^0.469.0",
     "next": "^16.1.4",
     "prisma": "5.22.0",
@@ -57,6 +71,7 @@
     "react-day-picker": "^9.13.0",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.54.2",
+    "react-qr-code": "^2.0.18",
     "recharts": "^2.15.0",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
@@ -71,6 +86,7 @@
     "eslint": "^9.17.0",
     "eslint-config-next": "^16.1.4",
     "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "vitest": "^2.1.0"
   }
 }

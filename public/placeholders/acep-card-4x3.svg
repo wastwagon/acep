@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-label="Image placeholder  replace in CMS">
+  <rect width="400" height="300" fill="#e2e8f0"/>
+  <rect x="20" y="20" width="360" height="260" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8 6" rx="6"/>
+  <text x="200" y="150" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#64748b">4:3 Placeholder</text>
+</svg>

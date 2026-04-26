@@ -24,6 +24,7 @@
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 226 58% 33%;
+    /* ~10px — cards, inputs, popovers; buttons use `rounded-acepBtn` (5px) in components */
     --radius: 0.625rem;
   }
 }
@@ -34,8 +35,10 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: "rlig" 1, "calt" 1;
-    letter-spacing: 0.005em;
+    font-feature-settings: "rlig" 1, "calt" 1, "kern" 1;
+    letter-spacing: 0.01em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -91,23 +94,32 @@
   }
 
   .institutional-card {
-    @apply rounded-xl border border-slate-200/95 bg-white shadow-sm ring-1 ring-slate-950/[0.04] transition-all duration-200;
+    @apply flex h-full flex-col rounded-acepCard border border-slate-200/90 bg-white shadow-[0_1px_2px_rgba(15,23,42,0.05),0_0_0_1px_rgba(15,23,42,0.03)] transition-shadow duration-200;
   }
 
   .institutional-card-hover {
-    @apply hover:-translate-y-0.5 hover:border-acep-primary/25 hover:shadow-md;
+    @apply hover:border-acep-primary/30 hover:shadow-[0_4px_14px_-4px_rgba(15,23,42,0.08),0_0_0_1px_rgba(30,58,138,0.06)];
   }
 
   .institutional-chip {
-    @apply rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-slate-600;
+    @apply rounded-acepBtn bg-slate-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-slate-600;
   }
 
   .institutional-link {
-    @apply inline-flex items-center rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition-colors hover:border-acep-primary/40 hover:text-acep-primary;
+    @apply inline-flex items-center rounded-acepBtn border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition-colors hover:border-acep-primary/45 hover:text-acep-primary;
   }
 
   .institutional-icon-box {
-    @apply rounded-lg border border-slate-200 bg-slate-50 p-3 text-acep-primary transition-colors;
+    @apply rounded-acepBtn border border-slate-200 bg-slate-50 p-3 text-acep-primary transition-colors;
+  }
+
+  /** Single-column / hub pages: consistent horizontal rhythm and readable measure */
+  .page-shell {
+    @apply mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-12 lg:px-8 lg:py-14;
+  }
+
+  .page-shell-narrow {
+    @apply mx-auto w-full max-w-3xl px-4 py-10 sm:px-6 sm:py-12 lg:px-8;
   }
 }
 
@@ -122,7 +134,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply rounded-full bg-slate-400;
+  @apply rounded-acepBtn bg-slate-400;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -167,7 +179,7 @@ html {
 @layer utilities {
   /* Progress bar container */
   .progress-bar-container {
-    @apply w-full overflow-hidden rounded-full bg-slate-200;
+    @apply w-full overflow-hidden rounded-acepBtn bg-slate-200;
   }
 
   .progress-bar-container-sm {
@@ -184,7 +196,7 @@ html {
 
   /* Progress bar fill */
   .progress-bar-fill {
-    @apply h-full rounded-full transition-all duration-500;
+    @apply h-full rounded-acepBtn transition-all duration-500;
     width: var(--progress-width, 0%);
   }
 
@@ -302,7 +314,7 @@ html {
 
   /* Hero badge */
   .hero-badge {
-    @apply inline-flex items-center px-4 py-2 rounded-full bg-white/20 border border-white/30 mb-6 text-sm sm:text-base;
+    @apply inline-flex items-center px-4 py-2 rounded-acepBtn bg-white/20 border border-white/30 mb-6 text-sm sm:text-base;
   }
 
   /* Hero heading */
@@ -346,12 +358,12 @@ html {
 
   /* Stats card */
   .stats-card {
-    @apply rounded-lg border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-4 transition-shadow hover:shadow-lg sm:p-6;
+    @apply rounded-acepCard border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-4 transition-shadow hover:shadow-lg sm:p-6;
   }
 
   /* Stats icon container */
   .stats-icon-container {
-    @apply p-2 sm:p-3 rounded-lg shadow-lg;
+    @apply p-2 sm:p-3 rounded-acepBtn shadow-lg;
   }
 
   /* Stats value */
@@ -408,7 +420,7 @@ html {
     @apply text-acep-primary hover:underline underline-offset-4;
   }
   .acep-rich img {
-    @apply h-auto max-w-full rounded-xl border border-slate-200 bg-slate-50;
+    @apply h-auto max-w-full rounded-acepCard border border-slate-200 bg-slate-50;
   }
   .acep-rich iframe {
     @apply max-w-full;

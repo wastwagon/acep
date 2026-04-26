@@ -67,7 +67,7 @@ export function ResourceCentreSection() {
     <section className="py-16 sm:py-20 lg:py-24 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 md:mb-16">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-acep-primary to-acep-secondary mb-4">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-acepCard bg-gradient-to-br from-acep-primary to-acep-secondary mb-4">
             <Library className="h-8 w-8 text-white" />
           </div>
           <h2 className="text-2xl sm:text-2xl md:text-3xl font-bold text-slate-900 mb-4">
@@ -96,7 +96,7 @@ export function ResourceCentreSection() {
               >
                 <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-br ${item.color} opacity-5 rounded-bl-full`}></div>
                 <CardHeader className="relative z-10">
-                  <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                  <div className={`w-12 h-12 rounded-acepBtn bg-gradient-to-br ${item.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
                     <Icon className="h-6 w-6 text-white" />
                   </div>
                   <div className="flex items-start justify-between gap-2">
@@ -104,7 +104,7 @@ export function ResourceCentreSection() {
                       {item.title}
                     </CardTitle>
                     {item.count && (
-                      <span className="text-xs font-semibold text-acep-secondary bg-acep-secondary/10 px-2 py-1 rounded-full whitespace-nowrap">
+                      <span className="text-xs font-semibold text-acep-secondary bg-acep-secondary/10 px-2 py-1 rounded-acepBtn whitespace-nowrap">
                         {item.count}
                       </span>
                     )}

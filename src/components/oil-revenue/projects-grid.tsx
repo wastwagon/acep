@@ -69,10 +69,10 @@ export function ProjectsGrid() {
             <Card key={project.id} className="hover:shadow-xl transition-all duration-300 border-2 hover:border-green-500/50 flex flex-col">
               <CardHeader>
                 <div className="flex items-start justify-between mb-3">
-                  <span className={`text-xs px-3 py-1 rounded-full font-medium ${categoryColors[project.category]}`}>
+                  <span className={`text-xs px-3 py-1 rounded-acepBtn font-medium ${categoryColors[project.category]}`}>
                     {project.category}
                   </span>
-                  <div className={`flex items-center space-x-1 px-2 py-1 rounded-full text-xs font-medium ${statusConfig[project.status].color}`}>
+                  <div className={`flex items-center space-x-1 px-2 py-1 rounded-acepBtn text-xs font-medium ${statusConfig[project.status].color}`}>
                     <StatusIcon className="h-3 w-3" />
                     <span>{statusConfig[project.status].label}</span>
                   </div>
@@ -133,7 +133,7 @@ export function ProjectsGrid() {
       )}
 
       {/* Info Banner */}
-      <div className="mt-12 rounded-lg border border-slate-200 bg-gradient-to-r from-slate-50 to-acep-primary/5 p-6 text-center">
+      <div className="mt-12 rounded-acepCard border border-slate-200 bg-gradient-to-r from-slate-50 to-acep-primary/5 p-6 text-center">
         <h3 className="mb-2 text-xl font-semibold text-slate-900">
           See More Projects on OilMoneyTV
         </h3>

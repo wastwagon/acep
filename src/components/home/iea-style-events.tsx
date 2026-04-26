@@ -38,7 +38,7 @@ export function IEAEvents() {
             <Link
               key={index}
               href={event.href}
-              className="flex items-start gap-4 p-4 rounded-lg hover:bg-white transition-colors group"
+              className="flex items-start gap-4 p-4 rounded-acepBtn hover:bg-white transition-colors group"
             >
               <div className="flex-shrink-0">
                 <Calendar className="h-5 w-5 text-acep-primary" />

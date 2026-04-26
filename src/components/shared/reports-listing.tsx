@@ -121,7 +121,7 @@ export function ReportsListing({ reports }: ReportsListingProps) {
                 placeholder="Search reports..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-10 pr-4 py-2.5 border border-slate-300 rounded-lg focus:ring-2 focus:ring-acep-primary focus:border-acep-primary outline-none"
+                className="w-full pl-10 pr-4 py-2.5 border border-slate-300 rounded-acepBtn focus:ring-2 focus:ring-acep-primary focus:border-acep-primary outline-none"
               />
             </div>
 
@@ -131,7 +131,7 @@ export function ReportsListing({ reports }: ReportsListingProps) {
                   setShowCategoryFilter(!showCategoryFilter);
                   setShowYearFilter(false);
                 }}
-                className="flex items-center gap-2 px-4 py-2.5 border border-slate-300 rounded-lg bg-white hover:bg-slate-50 transition-colors"
+                className="flex items-center gap-2 px-4 py-2.5 border border-slate-300 rounded-acepBtn bg-white hover:bg-slate-50 transition-colors"
               >
                 <Filter className="h-5 w-5 text-slate-600" />
                 <span className="text-sm font-medium">
@@ -150,7 +150,7 @@ export function ReportsListing({ reports }: ReportsListingProps) {
                     className="fixed inset-0 z-10"
                     onClick={() => setShowCategoryFilter(false)}
                   />
-                  <div className="absolute right-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-slate-200 z-20 py-2">
+                  <div className="absolute right-0 mt-2 w-64 bg-white rounded-acepCard shadow-xl border border-slate-200 z-20 py-2">
                     <button
                       onClick={() => {
                         setSelectedCategory(null);
@@ -194,7 +194,7 @@ export function ReportsListing({ reports }: ReportsListingProps) {
                   setShowYearFilter(!showYearFilter);
                   setShowCategoryFilter(false);
                 }}
-                className="flex items-center gap-2 px-4 py-2.5 border border-slate-300 rounded-lg bg-white hover:bg-slate-50 transition-colors"
+                className="flex items-center gap-2 px-4 py-2.5 border border-slate-300 rounded-acepBtn bg-white hover:bg-slate-50 transition-colors"
               >
                 <Calendar className="h-5 w-5 text-slate-600" />
                 <span className="text-sm font-medium">
@@ -213,7 +213,7 @@ export function ReportsListing({ reports }: ReportsListingProps) {
                     className="fixed inset-0 z-10"
                     onClick={() => setShowYearFilter(false)}
                   />
-                  <div className="absolute right-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-slate-200 z-20 py-2 max-h-96 overflow-y-auto">
+                  <div className="absolute right-0 mt-2 w-64 bg-white rounded-acepCard shadow-xl border border-slate-200 z-20 py-2 max-h-96 overflow-y-auto">
                     <button
                       onClick={() => {
                         setSelectedYear(null);
@@ -343,7 +343,6 @@ export function ReportsListing({ reports }: ReportsListingProps) {
                       <Card key={idx} className="hover:shadow-lg transition-shadow h-full flex flex-col">
                         {report.featuredImage && (
                           <div className="relative h-48 w-full overflow-hidden rounded-t-lg">
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
                               src={report.featuredImage.replace(
                                 "https://acep.africa/wp-content/",

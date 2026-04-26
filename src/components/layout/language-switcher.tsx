@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, startTransition } from "react";
 import { ChevronDown, Globe } from "lucide-react";
 
 const LOCALES = [
@@ -33,15 +33,15 @@ export function LanguageSwitcher({ variant = "toolbar" }: LanguageSwitcherProps)
   const rootRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const initial = readStored();
-    setLocale(initial);
-    document.documentElement.lang = initial;
-    if (initial === "ar") {
-      document.documentElement.dir = "rtl";
-    } else {
-      document.documentElement.dir = "ltr";
-    }
+    startTransition(() => {
+      setLocale(readStored());
+    });
   }, []);
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+    document.documentElement.dir = locale === "ar" ? "rtl" : "ltr";
+  }, [locale]);
 
   useEffect(() => {
     function onPointerDown(e: MouseEvent) {
@@ -65,8 +65,6 @@ export function LanguageSwitcher({ variant = "toolbar" }: LanguageSwitcherProps)
     } catch {
       /* ignore quota */
     }
-    document.documentElement.lang = code;
-    document.documentElement.dir = code === "ar" ? "rtl" : "ltr";
     setOpen(false);
     window.dispatchEvent(new CustomEvent<LocaleCode>("acep:locale", { detail: code }));
   }
@@ -75,7 +73,7 @@ export function LanguageSwitcher({ variant = "toolbar" }: LanguageSwitcherProps)
 
   if (variant === "drawer") {
     return (
-      <div ref={rootRef} className="rounded-xl border border-slate-200 bg-slate-50/80 p-2">
+      <div ref={rootRef} className="rounded-acepCard border border-slate-200 bg-slate-50/80 p-2">
         <p className="px-2 pb-2 text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">Language</p>
         <div className="grid grid-cols-2 gap-2">
           {LOCALES.map((l) => (
@@ -83,7 +81,7 @@ export function LanguageSwitcher({ variant = "toolbar" }: LanguageSwitcherProps)
               key={l.code}
               type="button"
               onClick={() => select(l.code)}
-              className={`flex flex-col items-center gap-1 rounded-xl border px-2 py-3 text-center transition ${
+              className={`flex flex-col items-center gap-1 rounded-acepBtn border px-2 py-3 text-center transition ${
                 locale === l.code
                   ? "border-slate-200 bg-white shadow-sm ring-1 ring-slate-200"
                   : "border-transparent bg-white/60 hover:border-slate-200 hover:bg-white"
@@ -101,7 +99,7 @@ export function LanguageSwitcher({ variant = "toolbar" }: LanguageSwitcherProps)
   }
 
   const triggerClass =
-    "inline-flex h-10 items-center gap-2 rounded-full border border-slate-200/90 bg-white px-3.5 pl-3 text-[13px] font-semibold text-slate-900 shadow-sm transition hover:border-acep-primary/30 hover:bg-slate-50";
+    "inline-flex h-10 items-center gap-2 rounded-acepBtn border border-slate-200/90 bg-white px-3.5 pl-3 text-[13px] font-semibold text-slate-900 shadow-sm transition hover:border-acep-primary/30 hover:bg-slate-50";
 
   const globeClass = "text-acep-primary";
   const chevronClass = "text-slate-500";
@@ -128,7 +126,7 @@ export function LanguageSwitcher({ variant = "toolbar" }: LanguageSwitcherProps)
         <ul
           role="listbox"
           aria-label="Language"
-          className="absolute right-0 top-full z-[80] mt-2 w-[min(18rem,calc(100vw-2rem))] overflow-hidden rounded-2xl border border-slate-200/95 bg-white p-2 shadow-[0_24px_64px_-20px_rgba(15,23,42,0.35)] animate-in fade-in slide-in-from-top-1 duration-200 motion-reduce:animate-none motion-reduce:opacity-100 motion-reduce:duration-0 sm:rounded-[1.25rem]"
+          className="absolute right-0 top-full z-[80] mt-2 w-[min(18rem,calc(100vw-2rem))] overflow-hidden rounded-acepCard border border-slate-200/95 bg-white p-2 shadow-[0_24px_64px_-20px_rgba(15,23,42,0.35)] animate-in fade-in slide-in-from-top-1 duration-200 motion-reduce:animate-none motion-reduce:opacity-100 motion-reduce:duration-0"
         >
           {LOCALES.map((l) => {
             const selected = locale === l.code;
@@ -137,7 +135,7 @@ export function LanguageSwitcher({ variant = "toolbar" }: LanguageSwitcherProps)
                 <button
                   type="button"
                   onClick={() => select(l.code)}
-                  className={`flex w-full items-start gap-3 rounded-xl px-3 py-2.5 text-left transition ${
+                  className={`flex w-full items-start gap-3 rounded-acepBtn px-3 py-2.5 text-left transition ${
                     selected ? "bg-slate-100" : "hover:bg-slate-50"
                   }`}
                 >

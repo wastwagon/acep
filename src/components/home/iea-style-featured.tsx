@@ -22,7 +22,7 @@ export function IEAFeatured() {
                 </Button>
               </Link>
             </div>
-            <div className="relative h-96 rounded-lg overflow-hidden bg-slate-100">
+            <div className="relative h-96 rounded-acepCard overflow-hidden bg-slate-100">
               <img
                 src="/acep-assets/wp-content/uploads/2024/09/oil-pump.jpg"
                 alt="Energy sector in Africa"

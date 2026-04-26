@@ -15,3 +15,364 @@ model AppSetting {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
+
+enum CmsRole {
+  ADMIN
+  EDITOR
+}
+
+enum CmsPostStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+/// CMS users for self-hosted admin.
+model CmsUser {
+  id            String         @id @default(cuid())
+  email         String         @unique
+  name          String?
+  passwordHash  String
+  role          CmsRole        @default(EDITOR)
+  isActive      Boolean        @default(true)
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  sessions      CmsSession[]
+  posts         CmsPost[]      @relation("CmsPostAuthor")
+  mediaUploads  CmsMedia[]     @relation("CmsMediaUploader")
+  contentEdits  CmsContentEntry[] @relation("CmsContentEntryEditor")
+  marketingPages CmsMarketingPage[] @relation("CmsMarketingPageEditor")
+  marketingHubs  CmsMarketingHub[] @relation("CmsMarketingHubEditor")
+  reviewedContributions EventContribution[] @relation("EventContributionReviewedBy")
+}
+
+model CmsSession {
+  id         String   @id @default(cuid())
+  tokenHash  String   @unique
+  userId     String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  lastSeenAt DateTime @default(now())
+  user       CmsUser  @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model CmsPost {
+  id          String        @id @default(cuid())
+  title       String
+  slug        String        @unique
+  excerpt     String?
+  content     String
+  status      CmsPostStatus @default(DRAFT)
+  publishedAt DateTime?
+  authorId    String
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  author      CmsUser       @relation("CmsPostAuthor", fields: [authorId], references: [id], onDelete: Restrict)
+
+  @@index([status])
+  @@index([publishedAt])
+  @@index([createdAt])
+}
+
+/// Uploaded files served from /media/cms/* (or CMS_MEDIA_DIR).
+enum CmsMediaKind {
+  IMAGE
+  VIDEO
+  AUDIO
+  DOCUMENT
+  ARCHIVE
+  OTHER
+}
+
+model CmsMedia {
+  id            String        @id @default(cuid())
+  originalName  String
+  storageFile   String        @unique
+  publicPath    String
+  mimeType      String
+  sizeBytes     Int
+  kind          CmsMediaKind  @default(OTHER)
+  width         Int?
+  height        Int?
+  uploaderId    String
+  uploader      CmsUser       @relation("CmsMediaUploader", fields: [uploaderId], references: [id], onDelete: Restrict)
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  @@index([kind])
+  @@index([createdAt])
+  @@index([uploaderId])
+}
+
+/// Editable text blocks for sitewide copy (header, home hero, etc.).
+model CmsContentEntry {
+  id          String   @id @default(cuid())
+  key         String   @unique
+  label       String
+  groupKey    String   @default("site")
+  description String?
+  value       String   @default("")
+  valueType   String   @default("text")
+  sortOrder   Int      @default(0)
+  updatedById String?
+  updatedBy   CmsUser? @relation("CmsContentEntryEditor", fields: [updatedById], references: [id], onDelete: SetNull)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([groupKey])
+  @@index([sortOrder])
+}
+
+/// Editable long-form copy for public marketing-style routes (About, programs, etc.). Slug = URL segment (e.g. the-organisation).
+model CmsMarketingPage {
+  id               String   @id @default(cuid())
+  slug             String   @unique
+  title            String   @default("")
+  intro            String   @default("")
+  bodyHtml         String   @default("")
+  metaTitle        String?
+  metaDescription  String?
+  updatedById      String?
+  updatedBy        CmsUser? @relation("CmsMarketingPageEditor", fields: [updatedById], references: [id], onDelete: SetNull)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@index([updatedAt])
+}
+
+/// Editable title/intro for public hub index pages (About, Programs, Resource centre).
+model CmsMarketingHub {
+  id               String   @id @default(cuid())
+  slug             String   @unique
+  title            String   @default("")
+  intro            String   @default("")
+  metaTitle        String?
+  metaDescription  String?
+  updatedById      String?
+  updatedBy        CmsUser? @relation("CmsMarketingHubEditor", fields: [updatedById], references: [id], onDelete: SetNull)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@index([updatedAt])
+}
+
+// --- Participant portal: password login, profile, private EventContribution rows to organisers (not public site) ---
+
+model PortalUser {
+  id               String   @id @default(cuid())
+  email            String   @unique
+  passwordHash     String
+  displayName      String
+  phone            String?
+  organisation     String?
+  bio              String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  sessions         PortalSession[]
+  contributions    EventContribution[]
+  passwordResets   PortalPasswordReset[]
+  attendeeLinks    EventRegistration[]          @relation("PortalUserAttendeeRegistrations")
+  exhibitorLinks   EventExhibitorRegistration[] @relation("PortalUserExhibitorRegistrations")
+  speakerLinks     EventSpeaker[]               @relation("PortalUserSpeakerProfiles")
+}
+
+/// One-time token for participant portal password reset (emailed link).
+model PortalPasswordReset {
+  id           String     @id @default(cuid())
+  portalUserId String
+  portalUser   PortalUser @relation(fields: [portalUserId], references: [id], onDelete: Cascade)
+  tokenHash    String     @unique
+  expiresAt    DateTime
+  usedAt       DateTime?
+  createdAt    DateTime   @default(now())
+
+  @@index([portalUserId])
+  @@index([expiresAt])
+}
+
+model PortalSession {
+  id           String   @id @default(cuid())
+  tokenHash    String   @unique
+  portalUserId String
+  expiresAt    DateTime
+  createdAt    DateTime @default(now())
+  lastSeenAt   DateTime @default(now())
+  portalUser   PortalUser @relation(fields: [portalUserId], references: [id], onDelete: Cascade)
+
+  @@index([portalUserId])
+  @@index([expiresAt])
+}
+
+enum EventContributionStatus {
+  DRAFT
+  SUBMITTED
+}
+
+/// Staff moderation for public display on the event’s public page (`/e/slug`).
+enum EventContributionModeration {
+  /// Draft not submitted, or not yet in queue
+  NONE
+  /// Submitted by participant; admin has not decided
+  PENDING
+  /// Shown on public event page
+  APPROVED
+  /// Not shown publicly (rejected or removed from public)
+  REJECTED
+}
+
+/// Materials from portal users; can be published to the public event page after admin approval.
+model EventContribution {
+  id           String                        @id @default(cuid())
+  portalUserId String
+  portalUser   PortalUser                    @relation(fields: [portalUserId], references: [id], onDelete: Cascade)
+  eventId      String
+  event        Event                          @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  title        String                         @default("")
+  body         String                         @default("")
+  status       EventContributionStatus        @default(DRAFT)
+  moderationStatus EventContributionModeration @default(NONE)
+  reviewedAt   DateTime?
+  reviewedById String?
+  reviewedBy   CmsUser?                       @relation("EventContributionReviewedBy", fields: [reviewedById], references: [id], onDelete: SetNull)
+  createdAt    DateTime                       @default(now())
+  updatedAt    DateTime                       @updatedAt
+
+  @@index([portalUserId])
+  @@index([eventId])
+  @@index([status])
+  @@index([eventId, moderationStatus])
+}
+
+// --- Events (phased: Phase 1 = register + email confirm + check-in code / QR) ---
+
+enum EventStatus {
+  DRAFT
+  PUBLISHED
+  CLOSED
+}
+
+enum EventRegistrationStatus {
+  PENDING_EMAIL
+  CONFIRMED
+  CANCELLED
+}
+
+model Event {
+  id                        String                      @id @default(cuid())
+  slug                      String                      @unique
+  title                     String
+  description               String                      @default("")
+  location                  String?
+  startsAt                  DateTime
+  endsAt                    DateTime?
+  status                    EventStatus                 @default(DRAFT)
+  publicRegistration        Boolean                     @default(true)
+  publicExhibitorRegistration Boolean                   @default(true)
+  maxRegistrations          Int? // null = unlimited
+  maxExhibitorRegistrations Int?
+  /// Online meeting / stream (Zoom, Meet, etc.) — shown to confirmed attendees & speakers
+  streamUrl                 String?
+  createdAt                 DateTime                    @default(now())
+  updatedAt                 DateTime                    @updatedAt
+  registrations             EventRegistration[]
+  exhibitorRegistrations    EventExhibitorRegistration[]
+  speakers                  EventSpeaker[]
+  portalContributions       EventContribution[]
+
+  @@index([status])
+  @@index([startsAt])
+}
+
+model EventRegistration {
+  id                   String                  @id @default(cuid())
+  eventId              String
+  event                Event                  @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  fullName             String
+  email                String
+  organisation         String?
+  phone                String?
+  status               EventRegistrationStatus @default(PENDING_EMAIL)
+  /// Random short code; encoded in QR and used for check-in
+  checkInCode          String                  @unique
+  confirmationTokenHash String
+  /// After opening confirmation link, email is "verified" for this registration
+  confirmedAt          DateTime?
+  checkedInAt          DateTime?
+  createdAt            DateTime                @default(now())
+  updatedAt            DateTime                @updatedAt
+  portalUserId         String?
+  portalUser           PortalUser?             @relation("PortalUserAttendeeRegistrations", fields: [portalUserId], references: [id], onDelete: SetNull)
+
+  @@unique([eventId, email])
+  @@index([eventId])
+  @@index([checkInCode])
+  @@index([status])
+  @@index([portalUserId])
+}
+
+/// Exhibitor booth / company registration (email confirm + check-in, parallel to attendees).
+model EventExhibitorRegistration {
+  id                     String                  @id @default(cuid())
+  eventId                String
+  event                  Event                   @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  companyName            String
+  contactName            String
+  email                  String
+  phone                  String?
+  website                String?
+  status                 EventRegistrationStatus @default(PENDING_EMAIL)
+  checkInCode            String                  @unique
+  confirmationTokenHash  String
+  confirmedAt            DateTime?
+  checkedInAt            DateTime?
+  createdAt              DateTime                @default(now())
+  updatedAt              DateTime                @updatedAt
+  portalUserId           String?
+  portalUser             PortalUser?             @relation("PortalUserExhibitorRegistrations", fields: [portalUserId], references: [id], onDelete: SetNull)
+
+  @@unique([eventId, email])
+  @@index([eventId])
+  @@index([checkInCode])
+  @@index([status])
+  @@index([portalUserId])
+}
+
+/// Admin-created speakers; personal invite link (Zoom-style join link) emailed from admin.
+model EventSpeaker {
+  id                String   @id @default(cuid())
+  eventId           String
+  event             Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  displayName       String
+  email             String
+  title             String? // role on programme, e.g. "Keynote"
+  bio               String?
+  inviteTokenHash   String   @unique
+  lastInviteSentAt  DateTime?
+  firstOpenedAt     DateTime?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  portalUserId      String?
+  portalUser        PortalUser? @relation("PortalUserSpeakerProfiles", fields: [portalUserId], references: [id], onDelete: SetNull)
+
+  @@index([eventId])
+  @@index([email])
+  @@index([portalUserId])
+}
+
+/// Anonymous public forms (electricity complaints, tax whistleblower, etc.) stored for staff review.
+enum PublicFormKind {
+  ELECTRICITY_COMPLAINT
+  TAX_WHISTLEBLOWER
+}
+
+model PublicFormSubmission {
+  id        String         @id @default(cuid())
+  kind      PublicFormKind
+  payload   Json
+  createdAt DateTime       @default(now())
+
+  @@index([kind, createdAt])
+}

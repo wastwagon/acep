@@ -1,13 +1,23 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { AlertCircle, CheckCircle2, Shield } from "lucide-react";
 import { whistleblowerCategories } from "@/lib/data/tax";
 
+function makeReportId(): string {
+  if (typeof crypto !== "undefined" && "randomUUID" in crypto) {
+    return crypto.randomUUID().replace(/-/g, "").slice(0, 7).toUpperCase();
+  }
+  return Math.random().toString(36).substring(2, 9).toUpperCase();
+}
+
 export function WhistleblowerForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [err, setErr] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+  const [reportId, setReportId] = useState<string | null>(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -20,28 +30,51 @@ export function WhistleblowerForm() {
     anonymous: false,
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // In Phase 2, this will submit to the backend API
-    console.log("Whistleblower report submitted:", formData);
-    setSubmitted(true);
-    
-    // Reset form after 5 seconds
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        category: "",
-        entityName: "",
-        entityType: "",
-        violationDescription: "",
-        evidence: "",
-        anonymous: false,
-      });
-    }, 5000);
-  };
+  const handleSubmit = useCallback(
+    async (e: React.FormEvent) => {
+      e.preventDefault();
+      setErr(null);
+      setBusy(true);
+      try {
+        const res = await fetch("/api/public/form-submissions", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ kind: "TAX_WHISTLEBLOWER", data: formData }),
+        });
+        const data = (await res.json().catch(() => ({}))) as { ok?: boolean; error?: string; id?: string; retryAfterSec?: number };
+        if (res.status === 429) {
+          setErr(`Too many requests. Try again in ${data.retryAfterSec ?? 60}s.`);
+          return;
+        }
+        if (!res.ok || !data.ok) {
+          setErr(data.error === "invalid_data" ? "Please check required fields (e.g. email when not anonymous)." : "Could not submit. Try again later.");
+          return;
+        }
+        setReportId((data.id as string | undefined)?.slice(0, 8).toUpperCase() ?? makeReportId());
+        setSubmitted(true);
+        setTimeout(() => {
+          setSubmitted(false);
+          setReportId(null);
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            category: "",
+            entityName: "",
+            entityType: "",
+            violationDescription: "",
+            evidence: "",
+            anonymous: false,
+          });
+        }, 5000);
+      } catch {
+        setErr("Network error.");
+      } finally {
+        setBusy(false);
+      }
+    },
+    [formData]
+  );
 
   if (submitted) {
     return (
@@ -52,9 +85,7 @@ export function WhistleblowerForm() {
           <p className="text-slate-600 mb-4">
             Your report has been received. Our team will review it and contact you if additional information is needed.
           </p>
-          <p className="text-sm text-slate-500">
-            Report ID: {Math.random().toString(36).substring(2, 9).toUpperCase()}
-          </p>
+          <p className="text-sm text-slate-500">Report ID: {reportId ?? "—"}</p>
         </CardContent>
       </Card>
     );
@@ -64,7 +95,7 @@ export function WhistleblowerForm() {
     <Card>
       <CardHeader>
         <div className="flex items-center gap-3 mb-2">
-          <div className="rounded-lg bg-acep-primary/10 p-2">
+          <div className="rounded-acepBtn bg-acep-primary/10 p-2">
             <Shield className="h-6 w-6 text-acep-primary" />
           </div>
           <div>
@@ -76,7 +107,7 @@ export function WhistleblowerForm() {
         </div>
       </CardHeader>
       <CardContent>
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+        <div className="bg-blue-50 border border-blue-200 rounded-acepCard p-4 mb-6">
           <div className="flex items-start gap-3">
             <AlertCircle className="h-5 w-5 text-blue-600 mt-0.5" />
             <div className="text-sm text-blue-800">
@@ -89,7 +120,8 @@ export function WhistleblowerForm() {
           </div>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={(e) => void handleSubmit(e)} className="space-y-6">
+          {err && <p className="text-sm text-red-600">{err}</p>}
           {/* Personal Information */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-slate-900">Your Information</h3>
@@ -119,7 +151,7 @@ export function WhistleblowerForm() {
                     required={!formData.anonymous}
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full rounded-md border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
+                    className="w-full rounded-acepBtn border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
                   />
                 </div>
 
@@ -134,7 +166,7 @@ export function WhistleblowerForm() {
                       required={!formData.anonymous}
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full rounded-md border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
+                      className="w-full rounded-acepBtn border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
                     />
                   </div>
 
@@ -148,7 +180,7 @@ export function WhistleblowerForm() {
                       required={!formData.anonymous}
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      className="w-full rounded-md border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
+                      className="w-full rounded-acepBtn border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
                       placeholder="+233 XX XXX XXXX"
                     />
                   </div>
@@ -170,7 +202,7 @@ export function WhistleblowerForm() {
                 required
                 value={formData.category}
                 onChange={(e) => setFormData({ ...formData, category: e.target.value })}
-                className="w-full rounded-md border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
+                className="w-full rounded-acepBtn border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
               >
                 <option value="">Select a category</option>
                 {whistleblowerCategories.map((cat) => (
@@ -192,7 +224,7 @@ export function WhistleblowerForm() {
                   required
                   value={formData.entityName}
                   onChange={(e) => setFormData({ ...formData, entityName: e.target.value })}
-                  className="w-full rounded-md border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
+                  className="w-full rounded-acepBtn border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
                   placeholder="Name of the entity involved"
                 />
               </div>
@@ -206,7 +238,7 @@ export function WhistleblowerForm() {
                   required
                   value={formData.entityType}
                   onChange={(e) => setFormData({ ...formData, entityType: e.target.value })}
-                  className="w-full rounded-md border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
+                  className="w-full rounded-acepBtn border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
                 >
                   <option value="">Select type</option>
                   <option value="Individual">Individual</option>
@@ -228,7 +260,7 @@ export function WhistleblowerForm() {
                 rows={6}
                 value={formData.violationDescription}
                 onChange={(e) => setFormData({ ...formData, violationDescription: e.target.value })}
-                className="w-full rounded-md border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
+                className="w-full rounded-acepBtn border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
                 placeholder="Provide as much detail as possible about the tax violation, including dates, amounts, and any relevant information..."
               />
             </div>
@@ -242,14 +274,14 @@ export function WhistleblowerForm() {
                 rows={3}
                 value={formData.evidence}
                 onChange={(e) => setFormData({ ...formData, evidence: e.target.value })}
-                className="w-full rounded-md border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
+                className="w-full rounded-acepBtn border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-acep-primary"
                 placeholder="Describe any evidence you have (documents, records, witnesses, etc.). In Phase 2, file uploads will be available."
               />
             </div>
           </div>
 
           {/* Reward Information */}
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+          <div className="bg-amber-50 border border-amber-200 rounded-acepCard p-4">
             <h4 className="font-semibold text-slate-900 mb-2">Reward Information</h4>
             <ul className="text-sm text-slate-700 space-y-1">
               <li>• Rewards range from GH¢25,000 to GH¢250,000</li>
@@ -260,9 +292,9 @@ export function WhistleblowerForm() {
           </div>
 
           {/* Submit Button */}
-          <Button type="submit" className="h-12 w-full text-lg bg-acep-primary hover:bg-acep-primary/90">
+          <Button type="submit" disabled={busy} className="h-12 w-full text-lg bg-acep-primary hover:bg-acep-primary/90">
             <Shield className="mr-2 h-5 w-5" />
-            Submit Report
+            {busy ? "Submitting…" : "Submit report"}
           </Button>
 
           <p className="text-xs text-slate-500 text-center">

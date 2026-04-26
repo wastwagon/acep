@@ -43,10 +43,10 @@ export function MissionSection() {
             return (
               <div
                 key={index}
-                className="group rounded-lg border border-slate-200 bg-white p-6 transition-all duration-200 hover:-translate-y-0.5 hover:border-acep-primary/30 hover:shadow-sm"
+                className="group rounded-acepCard border border-slate-200 bg-white p-6 transition-all duration-200 hover:-translate-y-0.5 hover:border-acep-primary/30 hover:shadow-sm"
               >
                 <div className="flex flex-col items-center text-center">
-                  <div className="mb-4 rounded-md border border-slate-200 bg-slate-50 p-3 text-acep-primary transition-colors group-hover:border-acep-primary/20 group-hover:bg-acep-primary/5">
+                  <div className="mb-4 rounded-acepBtn border border-slate-200 bg-slate-50 p-3 text-acep-primary transition-colors group-hover:border-acep-primary/20 group-hover:bg-acep-primary/5">
                     <Icon className="h-6 w-6" />
                   </div>
                   <h3 className="mb-2 text-lg font-semibold text-slate-900 transition-colors group-hover:text-acep-primary">

@@ -13,7 +13,7 @@ export function TaxStats() {
           <Card className="bg-gradient-to-br from-slate-50 to-white hover:shadow-lg transition-shadow">
             <CardContent className="p-4 sm:p-6">
               <div className="flex items-start justify-between mb-3">
-                <div className="rounded-lg bg-gradient-to-br from-acep-primary to-blue-900 p-2 shadow-lg sm:p-3">
+                <div className="rounded-acepBtn bg-gradient-to-br from-acep-primary to-blue-900 p-2 shadow-lg sm:p-3">
                   <DollarSign className="h-5 w-5 text-white sm:h-6 sm:w-6" />
                 </div>
               </div>
@@ -33,7 +33,7 @@ export function TaxStats() {
           <Card className="bg-gradient-to-br from-slate-50 to-white hover:shadow-lg transition-shadow">
             <CardContent className="p-4 sm:p-6">
               <div className="flex items-start justify-between mb-3">
-                <div className="rounded-lg bg-gradient-to-br from-acep-secondary to-acep-logoOrange p-2 shadow-lg sm:p-3">
+                <div className="rounded-acepBtn bg-gradient-to-br from-acep-secondary to-acep-logoOrange p-2 shadow-lg sm:p-3">
                   <TrendingUp className="h-5 w-5 text-white sm:h-6 sm:w-6" />
                 </div>
               </div>
@@ -53,7 +53,7 @@ export function TaxStats() {
           <Card className="bg-gradient-to-br from-slate-50 to-white hover:shadow-lg transition-shadow">
             <CardContent className="p-4 sm:p-6">
               <div className="flex items-start justify-between mb-3">
-                <div className="rounded-lg bg-gradient-to-br from-acep-logoPurple to-acep-primary p-2 shadow-lg sm:p-3">
+                <div className="rounded-acepBtn bg-gradient-to-br from-acep-logoPurple to-acep-primary p-2 shadow-lg sm:p-3">
                   <Users className="h-5 w-5 text-white sm:h-6 sm:w-6" />
                 </div>
               </div>
@@ -73,7 +73,7 @@ export function TaxStats() {
           <Card className="bg-gradient-to-br from-slate-50 to-white hover:shadow-lg transition-shadow">
             <CardContent className="p-4 sm:p-6">
               <div className="flex items-start justify-between mb-3">
-                <div className="rounded-lg bg-gradient-to-br from-acep-primary to-acep-secondary p-2 shadow-lg sm:p-3">
+                <div className="rounded-acepBtn bg-gradient-to-br from-acep-primary to-acep-secondary p-2 shadow-lg sm:p-3">
                   <Shield className="h-5 w-5 text-white sm:h-6 sm:w-6" />
                 </div>
               </div>
@@ -91,7 +91,7 @@ export function TaxStats() {
         </div>
 
         {/* Whistleblower Info Banner */}
-        <div className="mt-8 rounded-lg border border-slate-200 bg-gradient-to-r from-amber-50/80 to-acep-primary/5 p-4 sm:p-6">
+        <div className="mt-8 rounded-acepCard border border-slate-200 bg-gradient-to-r from-amber-50/80 to-acep-primary/5 p-4 sm:p-6">
           <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
             <div>
               <h3 className="mb-1 flex items-center text-lg font-semibold text-slate-900">
@@ -104,13 +104,13 @@ export function TaxStats() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-              <div className="rounded-lg bg-white px-4 py-2 text-center shadow-sm">
+              <div className="rounded-acepBtn bg-white px-4 py-2 text-center shadow-sm">
                 <div className="text-2xl font-bold text-acep-primary">
                   GH¢{taxStats.whistleblowerRewards.minReward.toLocaleString()}
                 </div>
                 <div className="text-xs text-slate-600">Minimum Reward</div>
               </div>
-              <div className="rounded-lg bg-white px-4 py-2 text-center shadow-sm">
+              <div className="rounded-acepBtn bg-white px-4 py-2 text-center shadow-sm">
                 <div className="text-2xl font-bold text-acep-primary">
                   GH¢{taxStats.whistleblowerRewards.maxReward.toLocaleString()}
                 </div>

@@ -63,7 +63,7 @@ export function UpcomingEvents() {
                   <div className="pt-4">
                     <Link
                       href="/nextgen10"
-                      className="inline-flex items-center rounded-md bg-acep-primary px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-acep-primary/90"
+                      className="inline-flex items-center rounded-acepBtn bg-acep-primary px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-acep-primary/90"
                     >
                       Learn more & apply
                       <ArrowRight className="ml-2 h-4 w-4" />
@@ -75,7 +75,7 @@ export function UpcomingEvents() {
           ))}
 
           {/* CTA Card */}
-          <Card className="rounded-lg border border-slate-200 bg-slate-900 text-white">
+          <Card className="rounded-acepCard border border-slate-200 bg-slate-900 text-white">
             <CardHeader>
               <CardTitle className="text-lg sm:text-xl">
                 Future of Energy Conference 2026
@@ -87,7 +87,7 @@ export function UpcomingEvents() {
               </p>
               <Link
                 href="/fec-2025"
-                className="inline-flex items-center rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:bg-slate-100"
+                className="inline-flex items-center rounded-acepBtn bg-white px-4 py-2.5 text-sm font-semibold text-slate-900 transition-colors hover:bg-slate-100"
               >
                 Learn more
                 <ArrowRight className="ml-2 h-4 w-4" />

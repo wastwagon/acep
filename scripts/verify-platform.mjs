@@ -20,7 +20,7 @@ const ROOT = process.cwd();
 
 const MENU_SNAPSHOT = path.resolve(ROOT, "content", "acep", "snapshots", "acep.africa", "photo-gallery", "index.html");
 const ROUTE_MAP = path.resolve(ROOT, "src", "lib", "acep-route-map.ts");
-const MIDDLEWARE = path.resolve(ROOT, "src", "middleware.ts");
+const PROXY = path.resolve(ROOT, "src", "proxy.ts");
 const APP_DIR = path.resolve(ROOT, "src", "app");
 const ASSET_ROOT = path.resolve(ROOT, "content", "acep", "assets", "acep.africa");
 
@@ -133,7 +133,7 @@ function extractDownloadHrefsFromHtml(html) {
 function mapToLocalAssetPath(href) {
   // Supports:
   // - /acep-assets/wp-content/...
-  // - /wp-content/... (should be served by middleware)
+  // - /wp-content/... (should be served by proxy)
   // - https?://acep.africa/wp-content/...
   const h = href.trim();
   if (!h) return;
@@ -153,14 +153,14 @@ function mapToLocalAssetPath(href) {
 }
 
 async function main() {
-  const [menuHtml, routeMapTs, middlewareTs] = await Promise.all([
+  const [menuHtml, routeMapTs, proxyTs] = await Promise.all([
     readFile(MENU_SNAPSHOT, "utf8"),
     readFile(ROUTE_MAP, "utf8"),
-    readFile(MIDDLEWARE, "utf8"),
+    readFile(PROXY, "utf8"),
   ]);
 
   const menu = extractMenuLinks(menuHtml);
-  const reserved = extractReservedPrefixes(middlewareTs);
+  const reserved = extractReservedPrefixes(proxyTs);
   const acepPaths = extractAcepPaths(routeMapTs);
 
   const coverage = [];

@@ -174,7 +174,7 @@ export async function NewsSection() {
                       </div>
                     )}
                     <div className="absolute top-3 left-3">
-                      <span className="rounded-md bg-white/95 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-700">
+                      <span className="rounded-acepBtn bg-white/95 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-slate-700">
                         {getMainCategory("category" in item ? item.category : undefined, item.title, item.url).substring(0, 30)}
                       </span>
                     </div>

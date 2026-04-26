@@ -45,10 +45,10 @@ export function OilRevenueStats() {
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-slate-50 to-white p-4 sm:p-6 rounded-lg border border-slate-200 hover:shadow-lg transition-shadow"
+              className="bg-gradient-to-br from-slate-50 to-white p-4 sm:p-6 rounded-acepCard border border-slate-200 hover:shadow-lg transition-shadow"
             >
               <div className="flex items-start justify-between mb-3">
-                <div className={`p-2 sm:p-3 bg-gradient-to-br ${stat.color} rounded-lg shadow-lg`}>
+                <div className={`p-2 sm:p-3 bg-gradient-to-br ${stat.color} rounded-acepBtn shadow-lg`}>
                   <stat.icon className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
                 </div>
               </div>

@@ -42,7 +42,7 @@ export function IEAData() {
                 href={tool.href}
                 className="group text-center"
               >
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-acepBtn bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Icon className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-acep-primary transition-colors">

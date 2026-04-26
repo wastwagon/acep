@@ -49,9 +49,9 @@ export function ProgramsOverview() {
               <Link
                 key={program.name}
                 href={program.href}
-                className="group text-center p-6 rounded-xl bg-white border-2 border-slate-100 hover:border-acep-primary hover:shadow-lg transition-all duration-300"
+                className="group text-center p-6 rounded-acepCard bg-white border-2 border-slate-100 hover:border-acep-primary hover:shadow-lg transition-all duration-300"
               >
-                <div className="w-16 h-16 mx-auto mb-4 rounded-xl bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-acepBtn bg-gradient-to-br from-acep-primary to-acep-secondary flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <Icon className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="font-semibold text-slate-900 mb-2 group-hover:text-acep-primary transition-colors">

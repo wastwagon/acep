@@ -75,7 +75,7 @@ export async function IEALatest() {
             const slug = pub.url ? acepUrlToSlug(pub.url) : [];
             return (
               <Link href={pub.url && pub.url !== "#" ? `/publications/${slug.join("/")}` : "#"} className="group">
-                <div className="relative h-64 overflow-hidden rounded-lg bg-slate-100 mb-3">
+                <div className="relative h-64 overflow-hidden rounded-acepCard bg-slate-100 mb-3">
                   {pub.featuredImage && (
                     <img
                       src={pub.featuredImage.replace("https://acep.africa/wp-content/", "/acep-assets/wp-content/")}
@@ -100,7 +100,7 @@ export async function IEALatest() {
             const isNews = index >= 1;
             return (
               <Link key={index} href={item.url && item.url !== "#" ? `/publications/${slug.join("/")}` : "#"} className="group">
-                <div className="relative h-48 overflow-hidden rounded-lg bg-slate-100 mb-3">
+                <div className="relative h-48 overflow-hidden rounded-acepCard bg-slate-100 mb-3">
                   {item.featuredImage && (
                     <img
                       src={item.featuredImage.replace("https://acep.africa/wp-content/", "/acep-assets/wp-content/")}

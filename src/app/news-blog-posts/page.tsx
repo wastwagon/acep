@@ -1,4 +1,4 @@
-import { getNewsBlogPosts, getPressStatements } from "@/lib/data/posts";
+import { getNewsBlogPosts, getPressStatements, getCmsPublications } from "@/lib/data/posts";
 import { LibraryListing } from "@/components/shared/library-listing";
 
 export const dynamic = "force-dynamic";
@@ -7,9 +7,10 @@ export default async function NewsBlogPostsPage() {
   // Get news and press statements
   const newsPosts = await getNewsBlogPosts();
   const pressStatements = await getPressStatements();
+  const cmsPosts = await getCmsPublications();
 
   // Filter out invalid entries
-  const validItems = [...newsPosts, ...pressStatements].filter((item) => {
+  const validItems = [...newsPosts, ...pressStatements, ...cmsPosts].filter((item) => {
     if (item.url) {
       const url = item.url.toLowerCase();
       if (

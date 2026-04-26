@@ -77,7 +77,7 @@ export default function WhistleblowerPage() {
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex gap-4">
-                    <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-acep-primary/10">
+                    <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-acepBtn bg-acep-primary/10">
                       <span className="font-bold text-acep-primary">1</span>
                     </div>
                     <div>
@@ -89,7 +89,7 @@ export default function WhistleblowerPage() {
                     </div>
                   </div>
                   <div className="flex gap-4">
-                    <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-acep-primary/10">
+                    <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-acepBtn bg-acep-primary/10">
                       <span className="font-bold text-acep-primary">2</span>
                     </div>
                     <div>
@@ -101,7 +101,7 @@ export default function WhistleblowerPage() {
                     </div>
                   </div>
                   <div className="flex gap-4">
-                    <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-acep-primary/10">
+                    <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-acepBtn bg-acep-primary/10">
                       <span className="font-bold text-acep-primary">3</span>
                     </div>
                     <div>

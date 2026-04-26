@@ -1,45 +1,39 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAcepSnapshotByUrl, readAcepSnapshotHtml } from "@/lib/acep-snapshots";
-import { extractPageIntro } from "@/lib/acep-page-extract";
-import { extractDownloadLinks } from "@/lib/acep-links-extract";
+import { resolveFecBrochurePage } from "@/lib/resolve-marketing-content";
 
 export const dynamic = "force-dynamic";
 
 export default async function FecBrochurePage() {
-  const entry = await getAcepSnapshotByUrl("https://acep.africa/fec-brochure/");
-  if (!entry || entry.status !== 200 || !entry.savedAs) notFound();
-
-  const html = await readAcepSnapshotHtml(entry.savedAs);
-  const { title, heroImage } = extractPageIntro(html);
-  const downloads = extractDownloadLinks(html);
-  const first = downloads[0];
+  const r = await resolveFecBrochurePage();
+  if (!r) notFound();
 
   return (
     <div className="bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="max-w-3xl">
-          <h1 className="font-display text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900">{title || "Brochure"}</h1>
+          <h1 className="font-display text-3xl sm:text-4xl font-semibold tracking-tight text-slate-900">{r.title}</h1>
         </div>
 
         <div className="mt-8 max-w-3xl">
-          {heroImage && (
+          {r.heroImage && (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              src={heroImage.replace("https://acep.africa/wp-content/", "/acep-assets/wp-content/").replace("http://acep.africa/wp-content/", "/acep-assets/wp-content/")}
+              src={r.heroImage}
               alt=""
-              className="w-full rounded-2xl border border-slate-200 bg-slate-50"
+              className="w-full rounded-acepCard border border-slate-200 bg-slate-50"
             />
           )}
 
-          {first && (
+          {r.firstDownload && (
             <div className="mt-6">
               <a
-                href={first.href}
-                target={first.href.startsWith("http") ? "_blank" : undefined}
-                rel={first.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="inline-flex items-center justify-center rounded-xl border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-900 hover:border-acep-primary/30 hover:bg-slate-50 transition"
+                href={r.firstDownload.href}
+                target={r.firstDownload.href.startsWith("http") ? "_blank" : undefined}
+                rel={r.firstDownload.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                className="inline-flex items-center justify-center rounded-acepBtn border border-acep-primary bg-acep-primary/5 px-4 py-3 text-sm font-semibold text-acep-primary hover:bg-acep-primary/10 transition"
               >
-                {first.text || "Download Here"}
+                {r.firstDownload.text}
               </a>
             </div>
           )}
@@ -49,3 +43,8 @@ export default async function FecBrochurePage() {
   );
 }
 
+export async function generateMetadata(): Promise<Metadata> {
+  const r = await resolveFecBrochurePage();
+  if (!r) return { title: "ACEP" };
+  return { title: r.seoTitle, description: r.seoDescription };
+}

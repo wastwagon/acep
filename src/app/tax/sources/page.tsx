@@ -36,7 +36,7 @@ export default function SourcesPage() {
                   <Card key={source.id} className="hover:shadow-lg transition-shadow">
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
-                        <div className="rounded-lg bg-acep-primary/10 p-2">
+                        <div className="rounded-acepBtn bg-acep-primary/10 p-2">
                           <Icon className="h-5 w-5 text-acep-primary" />
                         </div>
                         {source.name}

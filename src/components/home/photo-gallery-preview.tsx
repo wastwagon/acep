@@ -38,7 +38,7 @@ export function PhotoGalleryPreview() {
               key={`${image.src}-${index}`}
               href="/photo-gallery"
               aria-label={`Open photo gallery: ${image.alt}`}
-              className="group relative aspect-square overflow-hidden rounded-xl border border-slate-200/90 bg-slate-100 shadow-sm ring-1 ring-slate-950/[0.04] transition-all duration-300 hover:-translate-y-0.5 hover:border-acep-primary/25 hover:shadow-md"
+              className="group relative aspect-square overflow-hidden rounded-acepCard border border-slate-200/90 bg-slate-100 shadow-sm ring-1 ring-slate-950/[0.04] transition-all duration-300 hover:-translate-y-0.5 hover:border-acep-primary/25 hover:shadow-md"
             >
               <Image
                 src={image.src}

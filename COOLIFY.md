@@ -1,5 +1,7 @@
 # Deploy ACEP on Coolify (Docker Compose)
 
+See also the repo **[README.md](./README.md)** for a full feature overview (CMS, events, participant portal, public forms).
+
 This stack runs **four services** from `docker-compose.coolify.yml`:
 
 | Service    | Role |
@@ -33,9 +35,9 @@ chmod +x scripts/verify-coolify-compose.sh
 In Coolify → your compose stack → **Environment**, add at least:
 
 - **`POSTGRES_PASSWORD`** — long random string (required; compose will fail without it).
-- **`NEXT_PUBLIC_SITE_URL`** — public URL of the **frontend** (e.g. `https://acep.yourdomain.com`). Used at **image build** time and at runtime.
-- **`NEXT_PUBLIC_API_URL`** — public URL of the **API** as seen by the browser (e.g. `https://api.acep.yourdomain.com`). Used at **build** time for any `NEXT_PUBLIC_*` client calls you add later.
-- **`ADMIN_SECRET`** — long random string for **`/admin/settings`** (manual migrate/seed). If unset, those API routes return 503.
+- **`NEXT_PUBLIC_SITE_URL`** — public URL of the **frontend** (production: `https://www.acep.africa`). Used at **image build** time and at runtime.
+- **`NEXT_PUBLIC_API_URL`** — public URL of the **API** as seen by the browser (use the same origin as the site if the API is not on a separate subdomain, e.g. `https://www.acep.africa`). Used at **build** time for any `NEXT_PUBLIC_*` client calls you add later.
+- **`CMS_ADMIN_EMAIL`**, **`CMS_ADMIN_PASSWORD`**, and optionally **`CMS_ADMIN_NAME`** — bootstrap the first CMS admin during seed (e.g. `CMS_ADMIN_EMAIL=admin@acep.africa` so the account matches the **acep.africa** domain; sign in at `https://www.acep.africa/login` after deploy; you are redirected to `/admin`).
 
 See `.env.coolify.example` for a template.
 
@@ -86,16 +88,16 @@ Set **`REDIS_PASSWORD`** in Coolify (or `.env`) to enable `--requirepass` on Red
 ## 10. Database migrations & seeding
 
 - **On every `web` container start**, `docker/entrypoint-web.sh` runs `prisma migrate deploy` then `node prisma/seed.cjs` when `DATABASE_URL` is set (Coolify production).
-- **Manual retry:** open **`/admin/settings`**, set **`ADMIN_SECRET`** in Coolify env to a long random value, enter the same secret in the form, then **Run migrations** or **Run seed** (calls `/api/admin/migrate` and `/api/admin/seed`).
-- If **`ADMIN_SECRET`** is unset, the API returns 503 and the UI cannot run remote commands (by design).
+- **Manual retry:** log into **`/login`** with your seeded CMS admin account (you land on **`/admin`**), open **`/admin/settings`**, then run **Run migrations** or **Run seed** (calls `/api/admin/migrate` and `/api/admin/seed` under your authenticated session).
+- If no CMS admin account exists, set `CMS_ADMIN_EMAIL` and `CMS_ADMIN_PASSWORD` in Coolify and redeploy so seed can create one.
 
 ## 11. Production go-live checklist (VPS + Coolify)
 
 **Before first production deploy**
 
 1. **DNS** — Point your real domains to the VPS (A/AAAA records). Wait for propagation.
-2. **Secrets in Coolify** — Set a long random **`POSTGRES_PASSWORD`** (never commit it). Set **`ADMIN_SECRET`** for manual database operations at `/admin/settings`. Prefer also **`REDIS_PASSWORD`** in production; then set **`REDIS_URL`** for `web` as in §9.
-3. **Public URLs** — Set **`NEXT_PUBLIC_SITE_URL`** and **`NEXT_PUBLIC_API_URL`** to **https** production URLs exactly as browsers will use them (no trailing slash required, but be consistent). These are baked into the **`web`** image at **build** time—after any change, trigger a **rebuild** of `web`.
+2. **Secrets in Coolify** — Set a long random **`POSTGRES_PASSWORD`** (never commit it). Set **`CMS_ADMIN_EMAIL`** (e.g. `admin@acep.africa`) and **`CMS_ADMIN_PASSWORD`** so deployment seed creates your first admin login. Prefer also **`REDIS_PASSWORD`** in production; then set **`REDIS_URL`** for `web` as in §9.
+3. **Public URLs** — Set **`NEXT_PUBLIC_SITE_URL`** to your live site (e.g. `https://www.acep.africa`) and **`NEXT_PUBLIC_API_URL`** to the URL the browser should use for the API (same origin, or a dedicated API host). Use **https** exactly as visitors will. These are baked into the **`web`** image at **build** time—after any change, trigger a **rebuild** of `web`.
 4. **Domains in Coolify** — Map the main site to **`web:3100`** and the API host to **`backend:3001`** (or your chosen proxy). Confirm TLS/HTTPS is enabled in Coolify for both if exposed publicly.
 5. **Ports** — Default published ports are **`WEB_PUBLISH_PORT=3100`** and **`API_PUBLISH_PORT=3001`**. Change only if Coolify assigns different host ports; keep container targets **3100** / **3001** unless you change the Dockerfiles.
 

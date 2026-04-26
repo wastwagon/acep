@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <a
           href="#site-main"
-          className="fixed left-4 top-0 z-[100] -translate-y-full rounded-full bg-acep-primary px-4 py-2 text-sm font-semibold text-white shadow-lg transition motion-reduce:transition-none focus-visible:top-4 focus-visible:translate-y-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-acep-secondary focus-visible:ring-offset-2"
+          className="fixed left-4 top-0 z-[100] -translate-y-full rounded-acepBtn bg-acep-primary px-4 py-2 text-sm font-semibold text-white shadow-md transition motion-reduce:transition-none focus-visible:top-4 focus-visible:translate-y-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-acep-secondary focus-visible:ring-offset-2"
         >
           Skip to content
         </a>

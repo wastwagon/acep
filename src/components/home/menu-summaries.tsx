@@ -98,7 +98,7 @@ export function MenuSummaries() {
             const Icon = item.icon;
             return (
               <Link key={item.title} href={item.href} className="group block">
-                <div className="relative mb-4 h-48 overflow-hidden rounded-xl bg-slate-100 ring-1 ring-slate-950/[0.04]">
+                <div className="relative mb-4 h-48 overflow-hidden rounded-acepCard bg-slate-100 ring-1 ring-slate-950/[0.04]">
                   <Image
                     src={item.image}
                     alt={`${item.title} — preview`}
@@ -108,7 +108,7 @@ export function MenuSummaries() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 via-transparent to-transparent opacity-80 transition group-hover:opacity-95" />
                   <div className="absolute left-4 top-4">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/95 text-acep-primary shadow-sm backdrop-blur-sm transition group-hover:bg-acep-primary group-hover:text-white">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-acepBtn bg-white/95 text-acep-primary shadow-sm backdrop-blur-sm transition group-hover:bg-acep-primary group-hover:text-white">
                       <Icon className="h-6 w-6" strokeWidth={1.75} />
                     </div>
                   </div>
@@ -120,12 +120,12 @@ export function MenuSummaries() {
                 {item.subItems && item.subItems.length > 0 && (
                   <div className="mb-4 flex flex-wrap gap-2">
                     {item.subItems.slice(0, 3).map((subItem, index) => (
-                      <span key={index} className="rounded-md bg-slate-100 px-2 py-1 text-xs text-slate-600">
+                      <span key={index} className="rounded-acepBtn bg-slate-100 px-2 py-1 text-xs text-slate-600">
                         {subItem}
                       </span>
                     ))}
                     {item.subItems.length > 3 && (
-                      <span className="rounded-md bg-slate-100 px-2 py-1 text-xs text-slate-600">
+                      <span className="rounded-acepBtn bg-slate-100 px-2 py-1 text-xs text-slate-600">
                         +{item.subItems.length - 3} more
                       </span>
                     )}

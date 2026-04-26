@@ -26,7 +26,7 @@ export function MegaMenuPanel({ item, onNavigate, isLinkActive, id }: MegaMenuPa
           <Link
             href={item.coverHref}
             onClick={onNavigate}
-            className="group relative block overflow-hidden rounded-2xl border border-slate-100 bg-slate-50 ring-1 ring-black/[0.04] transition hover:ring-acep-primary/25"
+            className="group relative block overflow-hidden rounded-acepCard border border-slate-100 bg-slate-50 ring-1 ring-black/[0.04] transition hover:ring-acep-primary/25"
           >
             <div className="relative aspect-[5/4] w-full sm:aspect-[4/3]">
               <Image
@@ -81,13 +81,13 @@ export function MegaMenuPanel({ item, onNavigate, isLinkActive, id }: MegaMenuPa
                   href={sub.href}
                   onClick={onNavigate}
                   className={[
-                    "group flex gap-4 rounded-xl border p-3.5 transition",
+                    "group flex gap-4 rounded-acepCard border p-3.5 transition",
                     isOn
                       ? "border-acep-primary/35 bg-acep-primary/[0.06] ring-1 ring-acep-primary/15"
                       : "border-slate-100 bg-white hover:border-slate-200 hover:shadow-md",
                   ].join(" ")}
                 >
-                  <div className="relative h-[4.5rem] w-[5.5rem] shrink-0 overflow-hidden rounded-lg bg-slate-100">
+                  <div className="relative h-[4.5rem] w-[5.5rem] shrink-0 overflow-hidden rounded-acepBtn bg-slate-100">
                     <Image
                       src={sub.image}
                       alt=""

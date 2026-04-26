@@ -57,7 +57,7 @@ export function AllocationChart() {
               <div key={item.category}>
                 <div className="flex items-center justify-between mb-2">
                   <div className="flex items-center space-x-3">
-                    <div className={`p-2 bg-gradient-to-br ${colors.bg} rounded-lg shadow-md`}>
+                    <div className={`p-2 bg-gradient-to-br ${colors.bg} rounded-acepBtn shadow-md`}>
                       <Icon className="h-5 w-5 text-white" />
                     </div>
                     <div>
@@ -109,7 +109,7 @@ export function AllocationChart() {
             <Card key={item.category} className="hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <div className="flex items-start space-x-3">
-                  <div className={`p-3 bg-gradient-to-br ${colors.bg} rounded-lg shadow-md`}>
+                  <div className={`p-3 bg-gradient-to-br ${colors.bg} rounded-acepBtn shadow-md`}>
                     <Icon className="h-6 w-6 text-white" />
                   </div>
                   <div className="flex-1">

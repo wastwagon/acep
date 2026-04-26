@@ -1,8 +1,17 @@
 "use client";
 
 import Link from "next/link";
+import NextImage from "next/image";
 import { usePathname } from "next/navigation";
-import { useEffect, useMemo, useRef, useState, type MouseEvent as ReactMouseEvent, type FocusEvent as ReactFocusEvent } from "react";
+import {
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  startTransition,
+  type MouseEvent as ReactMouseEvent,
+  type FocusEvent as ReactFocusEvent,
+} from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { SiteTopBar } from "@/components/layout/site-top-bar";
 import { NAV_ITEMS, hasMegaMenu, type NavItem } from "@/components/layout/nav-config";
@@ -63,8 +72,10 @@ export function Header() {
   }, [openSubmenu]);
 
   useEffect(() => {
-    setOpenSubmenu(null);
-    setMobileMenuOpen(false);
+    startTransition(() => {
+      setOpenSubmenu(null);
+      setMobileMenuOpen(false);
+    });
   }, [pathname]);
 
   // Handle scroll effect
@@ -122,10 +133,10 @@ export function Header() {
   }, []);
 
   const desktopNavLinkBase =
-    "relative rounded-full px-2 py-2 text-[12px] font-medium tracking-tight transition-colors duration-200 sm:px-2.5 sm:text-[13px] xl:px-3 xl:tracking-wide";
+    "relative rounded-acepBtn px-2 py-2 text-[12px] font-medium tracking-tight transition-colors duration-200 sm:px-2.5 sm:text-[13px] xl:px-3 xl:tracking-wide";
   const desktopNavLinkInactive = "text-slate-600 hover:bg-slate-100 hover:text-slate-900";
   const desktopNavLinkActive = "text-slate-900 bg-slate-100";
-  const mobileNavLinkBase = "block rounded-md px-4 py-3 text-base font-semibold transition-all duration-200";
+  const mobileNavLinkBase = "block rounded-acepBtn px-4 py-3 text-base font-semibold transition-all duration-200";
 
   return (
     <>
@@ -151,9 +162,12 @@ export function Header() {
                 setOpenSubmenu(null);
               }}
             >
-              <img
+              <NextImage
                 src="/acep-assets/wp-content/uploads/2024/05/ACEP-LOGO-main-1.webp"
                 alt="ACEP"
+                width={200}
+                height={48}
+                priority
                 className="h-8 w-auto transition-opacity group-hover:opacity-90 md:h-9"
               />
             </Link>
@@ -277,7 +291,7 @@ export function Header() {
                   cancelCloseMenu();
                   setOpenSubmenu(null);
                 }}
-                className="inline-flex items-center rounded-full bg-acep-primary px-5 py-2.5 text-[13px] font-semibold text-white shadow-sm transition hover:bg-acep-primary/90"
+                className="inline-flex items-center rounded-acepBtn bg-acep-primary px-5 py-2.5 text-[13px] font-semibold text-white shadow-sm transition hover:bg-acep-primary/90"
               >
                 Publications
               </Link>
@@ -289,7 +303,7 @@ export function Header() {
                 cancelCloseMenu();
                 setOpenSubmenu(null);
               }}
-              className="inline-flex shrink-0 items-center rounded-full bg-acep-primary px-3 py-2 text-xs font-semibold text-white transition hover:bg-acep-primary/90 lg:hidden"
+              className="inline-flex shrink-0 items-center rounded-acepBtn bg-acep-primary px-3 py-2 text-xs font-semibold text-white transition hover:bg-acep-primary/90 lg:hidden"
             >
               Publications
             </Link>
@@ -297,7 +311,7 @@ export function Header() {
             {/* Mobile menu button */}
             <button
               type="button"
-              className="lg:hidden inline-flex items-center justify-center rounded-md p-2.5 text-slate-700 hover:bg-slate-100 transition-colors duration-200"
+              className="lg:hidden inline-flex items-center justify-center rounded-acepBtn p-2.5 text-slate-700 hover:bg-slate-100 transition-colors duration-200"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               <span className="sr-only">Open main menu</span>
@@ -390,7 +404,7 @@ export function Header() {
                         key={subitem.name}
                         href={subitem.href}
                         className={[
-                          "block rounded-md px-4 py-2.5 text-sm transition-all duration-200",
+                          "block rounded-acepBtn px-4 py-2.5 text-sm transition-all duration-200",
                           active.isLinkActive(subitem.href)
                             ? "text-acep-primary bg-acep-primary/5 font-medium"
                             : "text-slate-600 hover:bg-slate-50 hover:text-acep-primary",
@@ -412,7 +426,7 @@ export function Header() {
             <div className="mt-2 border-t border-slate-200 pt-4">
               <Link
                 href="/publications"
-                className="block rounded-md bg-acep-primary px-4 py-2.5 text-center text-sm font-semibold text-white"
+                className="block rounded-acepBtn bg-acep-primary px-4 py-2.5 text-center text-sm font-semibold text-white"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Explore Publications

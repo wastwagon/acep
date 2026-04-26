@@ -23,6 +23,8 @@ const categories = [
 
 export function ComplaintForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [err, setErr] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -33,26 +35,44 @@ export function ComplaintForm() {
     description: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    // In Phase 2, this will submit to the backend API
-    console.log("Complaint submitted:", formData);
-    setSubmitted(true);
-    
-    // Reset form after 3 seconds
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        region: "",
-        district: "",
-        category: "",
-        description: "",
+    setErr(null);
+    setBusy(true);
+    try {
+      const res = await fetch("/api/public/form-submissions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ kind: "ELECTRICITY_COMPLAINT", data: formData }),
       });
-    }, 3000);
-  };
+      const data = (await res.json().catch(() => ({}))) as { ok?: boolean; error?: string; retryAfterSec?: number };
+      if (res.status === 429) {
+        setErr(`Too many requests. Try again in ${data.retryAfterSec ?? 60}s.`);
+        return;
+      }
+      if (!res.ok || !data.ok) {
+        setErr(data.error === "invalid_data" ? "Please check required fields." : "Could not submit. Try again later.");
+        return;
+      }
+      setSubmitted(true);
+      setTimeout(() => {
+        setSubmitted(false);
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          region: "",
+          district: "",
+          category: "",
+          description: "",
+        });
+      }, 4000);
+    } catch {
+      setErr("Network error.");
+    } finally {
+      setBusy(false);
+    }
+  }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
@@ -89,7 +109,8 @@ export function ComplaintForm() {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={(e) => void handleSubmit(e)} className="space-y-6">
+          {err && <p className="text-sm text-red-600">{err}</p>}
           {/* Personal Information */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
@@ -103,7 +124,7 @@ export function ComplaintForm() {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
+                className="w-full px-4 py-2 border border-slate-300 rounded-acepBtn focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
                 placeholder="John Doe"
               />
             </div>
@@ -119,7 +140,7 @@ export function ComplaintForm() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
+                className="w-full px-4 py-2 border border-slate-300 rounded-acepBtn focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
                 placeholder="john@example.com"
               />
             </div>
@@ -136,7 +157,7 @@ export function ComplaintForm() {
               required
               value={formData.phone}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
+              className="w-full px-4 py-2 border border-slate-300 rounded-acepBtn focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
               placeholder="+233 XX XXX XXXX"
             />
           </div>
@@ -153,7 +174,7 @@ export function ComplaintForm() {
                 required
                 value={formData.region}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
+                className="w-full px-4 py-2 border border-slate-300 rounded-acepBtn focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
               >
                 <option value="">Select Region</option>
                 {regions.map((region) => (
@@ -175,7 +196,7 @@ export function ComplaintForm() {
                 required
                 value={formData.district}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
+                className="w-full px-4 py-2 border border-slate-300 rounded-acepBtn focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
                 placeholder="Enter district or town"
               />
             </div>
@@ -192,7 +213,7 @@ export function ComplaintForm() {
               required
               value={formData.category}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
+              className="w-full px-4 py-2 border border-slate-300 rounded-acepBtn focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
             >
               <option value="">Select Category</option>
               {categories.map((category) => (
@@ -214,7 +235,7 @@ export function ComplaintForm() {
               value={formData.description}
               onChange={handleChange}
               rows={5}
-              className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors resize-none"
+              className="w-full px-4 py-2 border border-slate-300 rounded-acepBtn focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors resize-none"
               placeholder="Please provide details about the issue you're experiencing..."
             ></textarea>
             <p className="mt-1 text-xs text-slate-500">
@@ -223,15 +244,16 @@ export function ComplaintForm() {
           </div>
 
           {/* Info Box */}
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+          <div className="bg-amber-50 border border-amber-200 rounded-acepCard p-4">
             <p className="text-sm text-amber-900">
-              <strong>Note:</strong> In Phase 2, complaints will be stored in the database and sent to relevant authorities for action. For now, submissions are logged for demonstration purposes.
+              <strong>Note:</strong> Your report is stored securely for ACEP staff review. For emergencies involving immediate danger, contact your
+              utility or emergency services directly.
             </p>
           </div>
 
           {/* Submit Button */}
-          <Button type="submit" size="lg" className="w-full">
-            Submit Complaint
+          <Button type="submit" size="lg" className="w-full" disabled={busy}>
+            {busy ? "Submitting…" : "Submit complaint"}
           </Button>
         </form>
       </CardContent>

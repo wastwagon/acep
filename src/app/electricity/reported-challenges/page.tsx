@@ -45,7 +45,7 @@ export default function ReportedChallengesPage() {
                 <div className="mt-6">
                   <Link
                     href="/electricity/report-challenge"
-                    className={cn(buttonVariants({ size: "lg" }), "inline-flex w-full rounded-full sm:w-auto")}
+                    className={cn(buttonVariants({ size: "lg" }), "inline-flex w-full rounded-acepBtn sm:w-auto")}
                   >
                     Report a challenge
                   </Link>

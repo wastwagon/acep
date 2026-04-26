@@ -6,7 +6,7 @@ export function VideosHero() {
     <section className="relative border-b border-slate-200 bg-white py-16 sm:py-20 md:py-24">
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <div className="mb-6 inline-flex items-center rounded-full border border-acep-primary/25 bg-acep-primary/5 px-4 py-2 text-acep-primary">
+          <div className="mb-6 inline-flex items-center rounded-acepBtn border border-acep-primary/25 bg-acep-primary/5 px-4 py-2 text-acep-primary">
             <Video className="mr-2 h-4 w-4" aria-hidden />
             <span className="text-sm font-medium sm:text-base">OilMoneyTV</span>
           </div>

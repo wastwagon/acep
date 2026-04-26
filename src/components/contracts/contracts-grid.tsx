@@ -63,11 +63,11 @@ export function ContractsGrid() {
               <Card className="h-full hover:shadow-xl transition-all duration-300 border-2 hover:border-acep-primary/50">
                 <CardHeader>
                   <div className="flex items-start justify-between mb-3">
-                    <div className={`flex items-center space-x-2 px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${statusConfig[contract.status].color}`}>
+                    <div className={`flex items-center space-x-2 px-3 py-1 rounded-acepBtn text-xs sm:text-sm font-medium ${statusConfig[contract.status].color}`}>
                       <StatusIcon className="h-3 w-3 sm:h-4 sm:w-4" />
                       <span>{statusConfig[contract.status].label}</span>
                     </div>
-                    <span className="text-xs sm:text-sm font-semibold text-acep-primary bg-acep-primary/10 px-3 py-1 rounded-full">
+                    <span className="text-xs sm:text-sm font-semibold text-acep-primary bg-acep-primary/10 px-3 py-1 rounded-acepBtn">
                       {contract.block}
                     </span>
                   </div>

@@ -55,10 +55,10 @@ export function PlatformsOverview() {
               <Link
                 key={platform.title}
                 href={platform.href}
-                className="group p-6 rounded-xl bg-gradient-to-br from-slate-50 to-white border border-slate-200 hover:border-acep-primary hover:shadow-xl transition-all duration-300"
+                className="group p-6 rounded-acepCard bg-gradient-to-br from-slate-50 to-white border border-slate-200 hover:border-acep-primary hover:shadow-xl transition-all duration-300"
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div className="p-3 rounded-lg bg-gradient-to-br from-acep-primary to-acep-secondary">
+                  <div className="p-3 rounded-acepBtn bg-gradient-to-br from-acep-primary to-acep-secondary">
                     <Icon className="h-6 w-6 text-white" />
                   </div>
                   <ArrowRight className="h-5 w-5 text-slate-400 group-hover:text-acep-primary group-hover:translate-x-1 transition-all" />

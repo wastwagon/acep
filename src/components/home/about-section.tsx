@@ -65,7 +65,7 @@ export function AboutSection() {
                 className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-acep-primary/20 h-full flex flex-col"
               >
                 <CardHeader>
-                  <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                  <div className={`w-14 h-14 rounded-acepBtn bg-gradient-to-br ${item.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
                     <Icon className="h-7 w-7 text-white" />
                   </div>
                   <CardTitle className="text-lg sm:text-xl group-hover:text-acep-primary transition-colors">

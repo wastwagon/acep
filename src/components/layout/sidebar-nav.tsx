@@ -70,7 +70,7 @@ export function SidebarNav({ title, items, basePath, className }: SidebarNavProp
                     href={item.href}
                     onClick={() => setMobileOpen(false)}
                     className={cn(
-                      "flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium transition-colors",
+                      "flex items-center gap-3 rounded-acepBtn px-4 py-3 text-sm font-medium transition-colors",
                       active
                         ? "bg-acep-primary/10 text-acep-primary border-l-4 border-acep-primary"
                         : "text-slate-700 hover:bg-slate-50 hover:text-acep-primary"
@@ -106,7 +106,7 @@ export function SidebarNav({ title, items, basePath, className }: SidebarNavProp
                   key={item.href}
                   href={item.href}
                   className={cn(
-                    "flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium transition-colors",
+                    "flex items-center gap-3 rounded-acepBtn px-4 py-3 text-sm font-medium transition-colors",
                     active
                       ? "bg-acep-primary/10 text-acep-primary border-l-4 border-acep-primary"
                       : "text-slate-700 hover:bg-slate-50 hover:text-acep-primary"

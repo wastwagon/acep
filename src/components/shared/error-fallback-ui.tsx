@@ -41,7 +41,7 @@ export function ErrorFallbackUI({
           isFullscreen ? "m-auto" : "mx-auto",
         )}
       >
-        <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-amber-500/15 text-amber-700">
+        <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-acepCard bg-amber-500/15 text-amber-700">
           <AlertTriangle className="h-8 w-8" strokeWidth={1.75} aria-hidden />
         </div>
         <p className="text-sm font-semibold uppercase tracking-wider text-amber-800/90">{kicker}</p>
@@ -56,21 +56,21 @@ export function ErrorFallbackUI({
           <button
             type="button"
             onClick={onReset}
-            className="inline-flex items-center justify-center gap-2 rounded-xl bg-acep-primary px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-acep-primary/90"
+            className="inline-flex items-center justify-center gap-2 rounded-acepBtn bg-acep-primary px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-acep-primary/90"
           >
             <RefreshCw className="h-4 w-4" aria-hidden />
             Try again
           </button>
           <Link
             href="/"
-            className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 shadow-sm transition hover:border-acep-primary/30 hover:bg-slate-50"
+            className="inline-flex items-center justify-center gap-2 rounded-acepBtn border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 shadow-sm transition hover:border-acep-primary/30 hover:bg-slate-50"
           >
             <Home className="h-4 w-4" aria-hidden />
             Home
           </Link>
           <Link
             href="/publications"
-            className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 shadow-sm transition hover:border-acep-primary/30 hover:bg-slate-50"
+            className="inline-flex items-center justify-center gap-2 rounded-acepBtn border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-800 shadow-sm transition hover:border-acep-primary/30 hover:bg-slate-50"
           >
             <Library className="h-4 w-4 text-acep-primary" aria-hidden />
             Publications

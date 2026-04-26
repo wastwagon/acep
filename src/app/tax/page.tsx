@@ -34,22 +34,22 @@ export default function TaxPage() {
           />
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8">
             <TaxSourcesBreakdown />
-            <div className="rounded-xl border border-slate-200/90 bg-card text-card-foreground shadow-sm ring-1 ring-slate-950/[0.04]">
+            <div className="rounded-acepCard border border-slate-200/90 bg-card text-card-foreground shadow-sm ring-1 ring-slate-950/[0.04]">
               <div className="flex flex-col space-y-1.5 p-6">
                 <h3 className="text-2xl font-semibold leading-none tracking-tight">Tax collection performance</h3>
                 <p className="text-sm text-muted-foreground">Key metrics and achievements</p>
               </div>
               <div className="p-6 pt-0">
                 <div className="space-y-4">
-                  <div className="flex items-center justify-between rounded-lg bg-slate-50 p-3">
+                  <div className="flex items-center justify-between rounded-acepBtn bg-slate-50 p-3">
                     <span className="text-sm font-medium text-slate-700">2024 Target</span>
                     <span className="text-base font-semibold text-slate-900">GH¢120.0B</span>
                   </div>
-                  <div className="flex items-center justify-between rounded-lg bg-slate-50 p-3">
+                  <div className="flex items-center justify-between rounded-acepBtn bg-slate-50 p-3">
                     <span className="text-sm font-medium text-slate-700">2024 Actual</span>
                     <span className="text-base font-semibold text-emerald-600">GH¢125.4B</span>
                   </div>
-                  <div className="flex items-center justify-between rounded-lg bg-slate-50 p-3">
+                  <div className="flex items-center justify-between rounded-acepBtn bg-slate-50 p-3">
                     <span className="text-sm font-medium text-slate-700">Performance</span>
                     <span className="text-base font-semibold text-emerald-600">104.5%</span>
                   </div>

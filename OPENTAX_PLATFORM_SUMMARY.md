@@ -1,7 +1,7 @@
 # OpenTax Platform - Complete Implementation Summary
 
 **Date**: 2026-01-27  
-**Status**: ✅ **COMPLETE**
+**Status**: ✅ **COMPLETE** (UI + static data; whistleblower submissions **persist to Postgres** via `POST /api/public/form-submissions` when `DATABASE_URL` is set — see admin **Public form inbox** and root **README.md**).
 
 ---
 

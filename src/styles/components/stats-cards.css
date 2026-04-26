@@ -16,12 +16,12 @@
 
   /* Stats card */
   .stats-card {
-    @apply rounded-lg border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-4 transition-shadow hover:shadow-lg sm:p-6;
+    @apply rounded-acepCard border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-4 transition-shadow hover:shadow-lg sm:p-6;
   }
 
   /* Stats icon container */
   .stats-icon-container {
-    @apply p-2 sm:p-3 rounded-lg shadow-lg;
+    @apply p-2 sm:p-3 rounded-acepBtn shadow-lg;
   }
 
   /* Stats value */

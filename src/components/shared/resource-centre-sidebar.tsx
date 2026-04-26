@@ -69,7 +69,7 @@ export function ResourceCentreSidebar({
                 <Link
                   href={link.href}
                   className={cn(
-                    "block rounded-md py-1.5 transition-colors",
+                    "block rounded-acepBtn py-1.5 transition-colors",
                     variant === "listing" && "px-1 -mx-1",
                     variant === "card" && "px-2 -mx-2",
                     active
@@ -93,7 +93,7 @@ export function ResourceCentreSidebar({
     return (
       <div
         className={cn(
-          "rounded-xl border border-slate-200 bg-white p-6 shadow-sm",
+          "rounded-acepCard border border-slate-200 bg-white p-6 shadow-sm",
           className,
         )}
       >

@@ -68,7 +68,9 @@ export const NAV_ITEMS: NavItem[] = [
     coverHref: "/programs",
     submenu: [
       { name: "Events", href: "/events", image: IMG.forum, description: "Conferences & public forums" },
-      { name: "FEC 2025", href: "/fec-2025", image: IMG.fec, description: "Future of Energy Conference" },
+      { name: "Event registration (online)", href: "/e", image: IMG.fec, description: "ACEP managed events—attendees, exhibitors" },
+      { name: "Future of Energy Conference", href: "/future-of-energy-conference", image: IMG.fec, description: "Overview & programme" },
+      { name: "FEC 2025", href: "/fec-2025", image: IMG.fec, description: "Materials, media & resources" },
       { name: "NextGen Program", href: "/nextgen10", image: IMG.nextgen, description: "Young leaders in governance" },
       { name: "Africa Climate Academy", href: "/climate-academy", image: IMG.oil, description: "Climate & transition" },
       { name: "AFREIKH Summer School", href: "/2025-afreikh-summer-school", image: IMG.nextgen, description: "Regional summer school" },

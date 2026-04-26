@@ -92,7 +92,7 @@ export function CapacityChart() {
               { region: "Bono Region", plants: 1, capacity: 400 },
               { region: "Volta Region", plants: 1, capacity: 0.045 },
             ].map((item, index) => (
-              <div key={index} className="flex items-center justify-between p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+              <div key={index} className="flex items-center justify-between p-3 bg-slate-50 rounded-acepBtn hover:bg-slate-100 transition-colors">
                 <div>
                   <div className="font-medium text-slate-900">{item.region}</div>
                   <div className="text-sm text-slate-500">{item.plants} plants</div>

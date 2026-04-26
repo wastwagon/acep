@@ -1,245 +1,114 @@
-# ACEP Platform - Consolidated Energy & Extractive Sector Platform
+# ACEP Platform
 
-A modern, world-class web platform consolidating all ACEP (Africa Centre for Energy Policy) platforms into a unified experience.
+Consolidated public website and operational tools for **ACEP** (Africa Centre for Energy Policy): marketing pages, data sub-sites, **CMS**, **events**, **participant portal**, and deployment to **Render** or **Coolify**.
 
-## 🌟 Features
+## Stack
 
-### Integrated Platforms
-- **Main ACEP Site**: Central hub for publications, news, events, and programs
-- **Contract Monitor**: Track 15 petroleum contract areas with detailed information
-- **Electricity Monitor**: Real-time power sector data and public complaints system
-- **Oil Revenue Tracker**: Interactive dashboard tracking $9.48B in oil revenue
-- **OilMoneyTV**: Video library with 100+ documentaries on oil-funded projects
+| Layer | Technology |
+|--------|----------------|
+| App | **Next.js 16** (App Router), **React 18**, **TypeScript** |
+| Styling | **Tailwind CSS**, Radix-based UI primitives, ACEP brand tokens |
+| Data | **PostgreSQL** + **Prisma ORM** |
+| Email | **Resend** (optional; falls back to server logs in dev) |
+| Rate limits | In-memory or **Upstash Redis** (optional) for public APIs |
+| Quality | `npm run check` → ESLint (`src`) + Vitest + `tsc` |
 
-### Technical Features
-- ✅ Next.js 14 with App Router
-- ✅ TypeScript for type safety
-- ✅ Tailwind CSS with ACEP brand colors
-- ✅ Mobile-first responsive design
-- ✅ Docker support for local development
-- ✅ Optimized for Render deployment
-- ✅ SEO optimized
-- ✅ Accessible (WCAG 2.1)
+## Public front end
 
-## 🚀 Getting Started
+- **Home** (`/`) — hero, platforms, publications/news feeds (JSON extracts + optional CMS posts), events teaser, galleries.
+- **Resource & IEA-style listings** — e.g. `/news-blog-posts`, `/press-statements`, `/publications`, `/reports`, `/annual-reports`, `/radar`, `/resource-centre`, `/programs`, `/events`, organisation pages (`/about-us`, `/team`, …).
+- **ACEP legacy HTML** — many paths **rewritten** to `/acep/...` via `src/proxy.ts` (Next.js 16 proxy) using the generated route map (`npm run gen:acep:routes`).
+- **Sub-platforms (rich static / scraped content)**  
+  - **Contract Monitor** — `/contracts`  
+  - **Electricity Monitor** — `/electricity` (+ complaints form → **stored** when DB is available)  
+  - **Oil Revenue** — `/oil-revenue`  
+  - **OpenTax** — `/tax` (whistleblower form → **stored** when DB is available)  
+  - **Videos** — `/videos`
+- **Public events** — `/e` index, **`/e/[slug]`** (published events: registration, exhibitor flows, calendar links, **shared materials** approved from portal).
 
-### Prerequisites
-- Node.js 20+ (LTS)
-- npm or yarn
-- Docker (optional, for containerized development)
-- Git
+## Database-backed features (Prisma)
 
-### Installation
+- **CMS** — users, sessions, **posts**, **media**, **marketing pages/hubs**, **website content entries**, **app settings**.
+- **Events** — `Event`, attendee + exhibitor registrations, speakers, check-in codes, exports.
+- **Participant portal** — `PortalUser`, sessions, password reset, **organiser materials** (`EventContribution`) with **moderation** (`PENDING` / `APPROVED` / `REJECTED`) and public display on `/e/[slug]` when approved.
+- **Public form inbox** — `PublicFormSubmission` (electricity complaints, tax whistleblower) for staff review under **Admin → Public form inbox**.
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/wastwagon/ACEP.git
-cd ACEP
-```
+## Admin dashboard (`/admin`)
 
-2. **Install dependencies**
-```bash
-npm install
-```
+**Sign in:** use **`/login`** (header “Sign in”). One form checks **CMS** (`CmsUser`) then **participant portal** (`PortalUser`); success sends you to **`/admin`** or **`/portal`** respectively. If both accounts share the same password, **CMS wins**. Legacy **`/admin/login`** and **`/portal/login`** redirect to `/login`.
 
-3. **Run development server**
-```bash
-npm run dev
-```
+After seeding a CMS user (`CMS_ADMIN_EMAIL` / `CMS_ADMIN_PASSWORD` in `.env` then `npm run db:seed`):
 
-Open [http://localhost:3100](http://localhost:3100) in your browser.
+- **News & posts**, **Media**, **Events** (CRUD-style management, registrations, speakers, CSV export, check-in).
+- **Organiser materials (portal)** — approve / reject / unpublish participant submissions for the public event page.
+- **Public form inbox** — view JSON payloads from electricity / OpenTax forms.
+- **Public website** keys, **Marketing** pages & hubs, **Settings**.
 
-## 🐳 Docker Development
+## Participant portal (`/portal`)
 
-### Using Docker Compose (hot reload)
+- Register at **`/portal/register`**, sign in via **`/login`**, forgot/reset password, **profile**, **materials for organisers** (draft → submit → staff moderation → optional public visibility on `/e/...`).
 
-```bash
-# Dev server in Docker with live reload (no rebuild per code change)
-npm run docker:dev
+## Backend services
 
-# Optional: add PostgreSQL
-npm run docker:dev:db
+- **Next.js** hosts all primary **API routes** under `/api/*` (admin CMS, public events, portal, health).
+- **Coolify stack** (`docker-compose.coolify.yml`): optional **Node/Express** service on port **3001** for `/health` and `/ready` (Postgres + Redis checks). See **[COOLIFY.md](./COOLIFY.md)**.
 
-# Production-like image (standalone build)
-npm run docker:prod
-```
-
-### Using Docker directly
+## Scripts
 
 ```bash
-# Build the image
-npm run docker:build
-
-# Run the container
-npm run docker:run
+npm run dev              # Next dev server on :3100 (binds 0.0.0.0)
+npm run build            # prisma generate + next build
+npm start                # Production server :3100
+npm run check            # lint + test + typecheck
+npm run lint             # eslint src --max-warnings 0
+npm run test             # vitest
+npm run typecheck        # tsc --noEmit
+npm run db:migrate       # prisma migrate deploy
+npm run db:seed          # prisma db seed
+npm run docker:dev       # docker compose (hot reload)
+npm run docker:dev:db    # compose + Postgres profile
 ```
 
-The application will be available at [http://localhost:3100](http://localhost:3100)
+Content pipelines: `scrape:acep`, `scrape:contracts`, `scrape:electricity`, `scrape:oil-revenue`, matching `verify:*` scripts — see `package.json`.
 
-## 📁 Project Structure
+## Configuration
 
-```
-ACEP/
-├── src/
-│   ├── app/                    # Next.js app router pages
-│   │   ├── contracts/          # Contract Monitor
-│   │   ├── electricity/        # Electricity Monitor
-│   │   ├── oil-revenue/        # Oil Revenue Tracker
-│   │   ├── videos/             # OilMoneyTV
-│   │   ├── resources/          # Publications, News, etc.
-│   │   ├── about/              # About pages
-│   │   ├── events/             # Events
-│   │   └── layout.tsx          # Root layout
-│   ├── components/
-│   │   ├── ui/                 # Reusable UI components
-│   │   ├── layout/             # Header, Footer
-│   │   ├── home/               # Home page sections
-│   │   ├── contracts/          # Contract Monitor components
-│   │   ├── electricity/        # Electricity Monitor components
-│   │   ├── oil-revenue/        # Oil Revenue components
-│   │   └── videos/             # Video components
-│   └── lib/
-│       └── utils.ts            # Utility functions
-├── public/                     # Static assets
-├── Dockerfile                  # Docker configuration
-├── docker-compose.yml          # Docker Compose setup
-└── package.json
-```
+Copy **`.env.example`** → **`.env`**. Important variables:
 
-## 🎨 Design System
+- **`DATABASE_URL`** — required for CMS, events, portal, and public form storage.
+- **`NEXT_PUBLIC_SITE_URL`** — canonical site URL (emails and links).
+- **`RESEND_API_KEY`** + **`EVENT_EMAIL_FROM`** — event confirmation emails.
+- **`PORTAL_SUBMISSION_NOTIFY_EMAIL`** — optional; staff inbox when portal organiser materials are **submitted** for review.
+- **`PUBLIC_FORM_NOTIFY_EMAIL`** — optional; staff alert when a **public form** (electricity complaint or tax whistleblower) is stored.
+- **`UPSTASH_*`** — optional shared rate limiting for multi-instance public APIs.
 
-### ACEP Brand Colors
+Prisma applies a **PostgreSQL `connect_timeout`** on the client URL when missing, so a down database does not hang the whole Node process indefinitely.
 
-```css
-Primary (Deep Blue): #1e3a8a
-Secondary (Amber/Gold): #f59e0b
-Accent (Green): #10b981
-Dark: #0f172a
-Light: #f1f5f9
-```
+## Deployment
 
-### Typography
-- Font: Inter (Google Fonts)
-- Responsive sizing with mobile-first approach
+- **Render** — step-by-step: **[DEPLOYMENT.md](./DEPLOYMENT.md)** (build `npm install && npm run build`, start `npm start`, run `prisma migrate deploy` as appropriate).
+- **Coolify / Docker Compose** — **[COOLIFY.md](./COOLIFY.md)**.
 
-## 📱 Mobile-First Design
+## Local development
 
-All components are designed mobile-first with breakpoints:
-- `sm`: 640px
-- `md`: 768px
-- `lg`: 1024px
-- `xl`: 1280px
-- `2xl`: 1400px
+See **[LOCAL_DEVELOPMENT.md](./LOCAL_DEVELOPMENT.md)** and **[QUICK_START.md](./QUICK_START.md)**.
 
-## 🚢 Deployment
+## Documentation index
 
-### Deploy to Render
+Historical verification and design notes live in the repo root (`*_VERIFICATION.md`, `*_SUMMARY.md`). For an ordered list, see **[docs/README.md](./docs/README.md)**.
 
-1. **Push to GitHub**
-```bash
-git add .
-git commit -m "Initial commit"
-git push origin main
-```
+## Contributing
 
-2. **Create Web Service on Render**
-   - Connect your GitHub repository
-   - Build Command: `npm install && npm run build`
-   - Start Command: `npm start`
-   - Environment Variables: (see .env.example)
+1. Branch from `main`.
+2. Run **`npm run check`** before pushing.
+3. Open a PR with a clear description.
 
-3. **Add PostgreSQL Database** (Phase 2)
-   - Create PostgreSQL database in Render
-   - Copy connection string to `DATABASE_URL`
+## Licence & contact
 
-4. **Custom Domain**
-   - Add `acep.africa` in Render dashboard
-   - Update DNS records as instructed
+© 2026 Africa Centre for Energy Policy. All rights reserved.
 
-### Environment Variables
+- **Website:** [acep.africa](https://acep.africa)  
+- **Email:** info@acep.africa  
+- **Phone:** (+233) 302 900 730  
 
-Create a `.env.local` file for local development:
-
-```env
-# Database (Phase 2)
-DATABASE_URL=postgresql://...
-
-# Optional
-NEXT_PUBLIC_SITE_URL=http://localhost:3100
-```
-
-## 📝 Development Phases
-
-### Phase 1: Frontend Foundation ✅
-- [x] Next.js setup with TypeScript
-- [x] Design system and ACEP branding
-- [x] Main ACEP landing page
-- [ ] Contract Monitor pages
-- [ ] Electricity Monitor pages
-- [ ] Oil Revenue dashboard
-- [ ] OilMoneyTV platform
-
-### Phase 2: Data Layer (Upcoming)
-- [ ] PostgreSQL database setup
-- [ ] Prisma ORM integration
-- [ ] API routes
-- [ ] Content management system
-
-### Phase 3: Backend Features (Upcoming)
-- [ ] User authentication
-- [ ] Complaints system
-- [ ] File uploads
-- [ ] Search functionality
-
-### Phase 4: Optimization (Upcoming)
-- [ ] Performance optimization
-- [ ] SEO implementation
-- [ ] Analytics integration
-- [ ] Testing
-
-## 🛠 Available Scripts
-
-```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm start            # Start production server
-npm run lint         # Run ESLint
-
-npm run docker:dev   # Dev in Docker (hot reload)
-npm run docker:dev:db # Dev + PostgreSQL
-npm run docker:prod  # Production-like Compose build
-npm run docker:build # Build production image
-npm run docker:run   # Run production image
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-© 2026 Africa Centre for Energy Policy. All Rights Reserved.
-
-## 📞 Contact
-
-**Africa Centre for Energy Policy (ACEP)**
-- Address: Avenue D, Hse. No. 119 D, North Legon
-- Digital Address: GM-048-5151
-- Phone: (+233) 302 900 730
-- Email: info@acep.africa
-- Website: [acep.africa](https://acep.africa)
-
-## 🙏 Acknowledgments
-
-- Built with [Next.js](https://nextjs.org/)
-- UI components from [Shadcn/ui](https://ui.shadcn.com/)
-- Icons from [Lucide](https://lucide.dev/)
-- Design inspiration from [IEA](https://www.iea.org/)
-
----
-
-Built with ❤️ by OceanCyber - IT Solutions Provider
+Built with Next.js, TypeScript, Tailwind CSS, and Prisma.

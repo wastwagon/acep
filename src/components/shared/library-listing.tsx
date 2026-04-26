@@ -191,7 +191,7 @@ export function LibraryListing({
                     placeholder="Search by title, topic, sector, or keyword..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full pl-10 pr-4 py-2.5 border border-slate-300 rounded-lg focus:ring-2 focus:ring-acep-primary focus:border-acep-primary outline-none"
+                    className="w-full pl-10 pr-4 py-2.5 border border-slate-300 rounded-acepBtn focus:ring-2 focus:ring-acep-primary focus:border-acep-primary outline-none"
                   />
                 </div>
               )}
@@ -209,7 +209,7 @@ export function LibraryListing({
                         setSelectedTopic(null);
                         setShowFilterDropdown(false);
                       }}
-                      className={`px-3 py-1.5 text-sm font-medium rounded-lg transition-colors ${
+                      className={`px-3 py-1.5 text-sm font-medium rounded-acepBtn transition-colors ${
                         activeFilterType === "category"
                           ? "bg-acep-primary text-white"
                           : "bg-white text-slate-700 hover:bg-slate-100 border border-slate-300"
@@ -226,7 +226,7 @@ export function LibraryListing({
                         setSelectedTopic(null);
                         setShowFilterDropdown(false);
                       }}
-                      className={`px-3 py-1.5 text-sm font-medium rounded-lg transition-colors ${
+                      className={`px-3 py-1.5 text-sm font-medium rounded-acepBtn transition-colors ${
                         activeFilterType === "sector"
                           ? "bg-acep-primary text-white"
                           : "bg-white text-slate-700 hover:bg-slate-100 border border-slate-300"
@@ -243,7 +243,7 @@ export function LibraryListing({
                         setSelectedTopic(null);
                         setShowFilterDropdown(false);
                       }}
-                      className={`px-3 py-1.5 text-sm font-medium rounded-lg transition-colors ${
+                      className={`px-3 py-1.5 text-sm font-medium rounded-acepBtn transition-colors ${
                         activeFilterType === "topic"
                           ? "bg-acep-primary text-white"
                           : "bg-white text-slate-700 hover:bg-slate-100 border border-slate-300"
@@ -258,7 +258,7 @@ export function LibraryListing({
                   <div className="relative flex-1 min-w-[200px]">
                     <button
                       onClick={() => setShowFilterDropdown(!showFilterDropdown)}
-                      className="w-full flex items-center justify-between gap-2 px-4 py-2.5 border border-slate-300 rounded-lg bg-white hover:bg-slate-50 transition-colors"
+                      className="w-full flex items-center justify-between gap-2 px-4 py-2.5 border border-slate-300 rounded-acepBtn bg-white hover:bg-slate-50 transition-colors"
                     >
                       <div className="flex items-center gap-2">
                         <Filter className="h-5 w-5 text-slate-600" />
@@ -279,7 +279,7 @@ export function LibraryListing({
                           className="fixed inset-0 z-10"
                           onClick={() => setShowFilterDropdown(false)}
                         />
-                        <div className="absolute left-0 mt-2 w-full max-w-md bg-white rounded-lg shadow-xl border border-slate-200 z-20 py-2 max-h-96 overflow-y-auto">
+                        <div className="absolute left-0 mt-2 w-full max-w-md bg-white rounded-acepBtn shadow-xl border border-slate-200 z-20 py-2 max-h-96 overflow-y-auto">
                           <button
                             onClick={() => {
                               if (activeFilterType === "category") setSelectedCategory(null);
@@ -437,7 +437,7 @@ export function LibraryListing({
                                   href={href}
                                   className="hidden sm:block flex-shrink-0 group-hover:opacity-90 transition-opacity"
                                 >
-                                  <div className="relative h-32 w-48 overflow-hidden rounded-lg border border-slate-200 bg-slate-100">
+                                  <div className="relative h-32 w-48 overflow-hidden rounded-acepBtn border border-slate-200 bg-slate-100">
                                     <img
                                       src={item.featuredImage.replace(
                                         "https://acep.africa/wp-content/",
@@ -455,16 +455,16 @@ export function LibraryListing({
                               <div className="min-w-0 flex-1">
                                 {/* Category, Sector, and Topic Badges */}
                                 <div className="mb-2 flex flex-wrap gap-2">
-                                  <span className="inline-flex items-center px-2.5 py-1 text-xs font-semibold text-acep-primary bg-acep-primary/10 rounded-md uppercase tracking-wide">
+                                  <span className="inline-flex items-center px-2.5 py-1 text-xs font-semibold text-acep-primary bg-acep-primary/10 rounded-acepBtn uppercase tracking-wide">
                                     {mainCategory}
                                   </span>
                                   {sector && (
-                                    <span className="inline-flex items-center px-2.5 py-1 text-xs font-medium text-blue-700 bg-blue-50 rounded-md">
+                                    <span className="inline-flex items-center px-2.5 py-1 text-xs font-medium text-blue-700 bg-blue-50 rounded-acepBtn">
                                       {sector}
                                     </span>
                                   )}
                                   {topic && (
-                                    <span className="inline-flex items-center px-2.5 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-md">
+                                    <span className="inline-flex items-center px-2.5 py-1 text-xs font-medium text-slate-700 bg-slate-100 rounded-acepBtn">
                                       {topic}
                                     </span>
                                   )}
@@ -533,7 +533,7 @@ export function LibraryListing({
 
               {/* Browse by Sector */}
               {!selectedSector && (
-                <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                <div className="rounded-acepCard border border-slate-200 bg-white p-6 shadow-sm">
                   <h3 className="text-sm font-bold text-slate-900 mb-4 uppercase tracking-wide flex items-center gap-2">
                     <BookOpen className="h-4 w-4" />
                     Browse by Sector
@@ -552,7 +552,7 @@ export function LibraryListing({
                             setSelectedCategory(null);
                             setSelectedTopic(null);
                           }}
-                          className="w-full text-left flex items-center justify-between text-sm text-slate-700 hover:text-acep-primary py-2 px-3 rounded-lg hover:bg-slate-50 transition-colors"
+                          className="w-full text-left flex items-center justify-between text-sm text-slate-700 hover:text-acep-primary py-2 px-3 rounded-acepBtn hover:bg-slate-50 transition-colors"
                         >
                           <div className="flex-1">
                             <div className="font-medium">{sector}</div>
@@ -572,7 +572,7 @@ export function LibraryListing({
 
               {/* Browse by Topic */}
               {!selectedTopic && (
-                <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                <div className="rounded-acepCard border border-slate-200 bg-white p-6 shadow-sm">
                   <h3 className="text-sm font-bold text-slate-900 mb-4 uppercase tracking-wide flex items-center gap-2">
                     <Tag className="h-4 w-4" />
                     Browse by Topic
@@ -591,7 +591,7 @@ export function LibraryListing({
                             setSelectedCategory(null);
                             setSelectedSector(null);
                           }}
-                          className="w-full text-left flex items-center justify-between text-sm text-slate-700 hover:text-acep-primary py-2 px-3 rounded-lg hover:bg-slate-50 transition-colors"
+                          className="w-full text-left flex items-center justify-between text-sm text-slate-700 hover:text-acep-primary py-2 px-3 rounded-acepBtn hover:bg-slate-50 transition-colors"
                         >
                           <div className="flex-1">
                             <div className="font-medium">{topic}</div>
@@ -611,7 +611,7 @@ export function LibraryListing({
 
               {/* Browse by Category */}
               {!selectedCategory && (
-                <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                <div className="rounded-acepCard border border-slate-200 bg-white p-6 shadow-sm">
                   <h3 className="text-sm font-bold text-slate-900 mb-4 uppercase tracking-wide flex items-center gap-2">
                     <Layers className="h-4 w-4" />
                     Browse by Category
@@ -629,7 +629,7 @@ export function LibraryListing({
                             setSelectedSector(null);
                             setSelectedTopic(null);
                           }}
-                          className="w-full text-left flex items-center justify-between text-sm text-slate-700 hover:text-acep-primary py-2 px-3 rounded-lg hover:bg-slate-50 transition-colors"
+                          className="w-full text-left flex items-center justify-between text-sm text-slate-700 hover:text-acep-primary py-2 px-3 rounded-acepBtn hover:bg-slate-50 transition-colors"
                         >
                           <span>{category}</span>
                           <span className="text-xs text-slate-500 bg-slate-100 px-2 py-0.5 rounded">

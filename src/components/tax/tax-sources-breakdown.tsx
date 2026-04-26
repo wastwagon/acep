@@ -31,7 +31,7 @@ export function TaxSourcesBreakdown() {
               <div key={source.id}>
                 <div className="flex items-center justify-between mb-2">
                   <div className="flex items-center gap-3">
-                    <div className="rounded-lg bg-acep-primary/10 p-2">
+                    <div className="rounded-acepBtn bg-acep-primary/10 p-2">
                       <Icon className="h-4 w-4 text-acep-primary" />
                     </div>
                     <div>

@@ -35,8 +35,9 @@ services:
       POSTGRES_USER: acep
       POSTGRES_PASSWORD: acep_dev
       POSTGRES_DB: acep
+    # Host port 54320 avoids conflict with a local PostgreSQL on 5432 (Homebrew, etc.)
     ports:
-      - "5432:5432"
+      - "54320:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:

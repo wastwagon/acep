@@ -6,7 +6,7 @@
 @layer utilities {
   /* Progress bar container */
   .progress-bar-container {
-    @apply w-full overflow-hidden rounded-full bg-slate-200;
+    @apply w-full overflow-hidden rounded-acepBtn bg-slate-200;
   }
 
   .progress-bar-container-sm {
@@ -23,7 +23,7 @@
 
   /* Progress bar fill */
   .progress-bar-fill {
-    @apply h-full rounded-full transition-all duration-500;
+    @apply h-full rounded-acepBtn transition-all duration-500;
     width: var(--progress-width, 0%);
   }
 
