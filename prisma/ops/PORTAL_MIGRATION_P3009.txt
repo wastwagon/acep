@@ -1,0 +1,33 @@
+P3009: failed migration 20260426110650_add_portal_user_contributions
+===================================================================
+
+Symptoms: logs show "migrate found failed migrations" and the app restarts
+in a loop. Prisma will not run later migrations until this is fixed.
+
+1) One-off in a shell with the SAME DATABASE_URL as the web app (e.g. Coolify
+   terminal, or: docker exec -it <web-container> sh, cd /app):
+
+   node node_modules/prisma/build/index.js migrate resolve --rolled-back 20260426110650_add_portal_user_contributions
+   node node_modules/prisma/build/index.js migrate deploy
+
+   A single failed migration in Postgres usually runs inside a transaction, so
+   the database may still be in a good state. Marking the migration "rolled
+   back" and re-applying is often enough.
+
+2) If migrate deploy errors with "relation ... already exists" (partial
+   state), run the SQL in:
+
+   prisma/ops/rollback-partial-20260426110650_add_portal_user_contributions.sql
+
+   against the acep database (e.g. psql), then:
+
+   node node_modules/prisma/build/index.js migrate resolve --rolled-back 20260426110650_add_portal_user_contributions
+   node node_modules/prisma/build/index.js migrate deploy
+
+3) If you already applied objects manually and the schema matches, you can
+   mark as applied instead of rolled back:
+
+   node node_modules/prisma/build/index.js migrate resolve --applied 20260426110650_add_portal_user_contributions
+   node node_modules/prisma/build/index.js migrate deploy
+
+Reference: https://pris.ly/d/migrate-resolve
