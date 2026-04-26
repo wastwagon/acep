@@ -53,6 +53,9 @@ COPY --from=builder --chown=nextjs:nodejs /app/node_modules/.prisma ./node_modul
 COPY --from=builder --chown=nextjs:nodejs /app/node_modules/@prisma ./node_modules/@prisma
 COPY --from=builder --chown=nextjs:nodejs /app/node_modules/prisma ./node_modules/prisma
 
+# One-shot P3009 fix (DB still needs migrate resolve; see prisma/ops/PORTAL_MIGRATION_P3009.txt)
+COPY --chown=nextjs:nodejs scripts/resolve-failed-migration-20260426110650.sh ./scripts/resolve-failed-migration-20260426110650.sh
+
 COPY --chown=nextjs:nodejs docker/entrypoint-web.sh ./docker-entrypoint.sh
 RUN chmod +x ./docker-entrypoint.sh
 
