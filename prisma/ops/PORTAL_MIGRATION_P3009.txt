@@ -4,6 +4,15 @@ P3009: failed migration 20260426110650_add_portal_user_contributions
 Symptoms: logs show "migrate found failed migrations" and the app restarts
 in a loop. Prisma will not run later migrations until this is fixed.
 
+A) Coolify without host SSH: on the **web** service, add an environment
+   variable (then Redeploy):
+
+   PRISMA_RESOLVE_ROLLED_BACK_MIGRATION=20260426110650_add_portal_user_contributions
+
+   The entrypoint runs `migrate resolve --rolled-back` before `migrate deploy`.
+   When the app is healthy, **remove** this variable and redeploy (only needed
+   once; requires a build that includes the updated docker/entrypoint-web.sh).
+
 If Postgres shows "could not receive data from client: Connection reset by
 peer" while the migration file appears in the log, the *database* did not
 necessarily reject the SQL — the Prisma client in the *web* container (or

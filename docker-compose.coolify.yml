@@ -99,6 +99,8 @@ services:
       REDIS_PASSWORD: ${REDIS_PASSWORD:-}
       REDIS_URL: ${REDIS_URL:-redis://redis:6379}
       API_INTERNAL_URL: http://backend:3001
+      # One-time P3009: set to migration folder name, deploy once, then unset. See prisma/ops/PORTAL_MIGRATION_P3009.txt
+      PRISMA_RESOLVE_ROLLED_BACK_MIGRATION: ${PRISMA_RESOLVE_ROLLED_BACK_MIGRATION:-}
       # Persist WordPress-style uploads (served as static files under /media/cms/*)
       CMS_MEDIA_DIR: /app/public/media/cms
     volumes:
