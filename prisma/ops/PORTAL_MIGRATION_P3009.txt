@@ -23,8 +23,12 @@ restarting and tears down the connection again.
    /app/scripts/resolve-failed-migration-20260426110650.sh
    (run with: sh /app/scripts/...).
 
-   On the same host as Coolify, with the same compose project name and .env as
-   the app (see your deployment log for -p / --project-name), you can run:
+   On the **Coolify host over SSH** (not inside the backend/web container: those
+   images have no `docker` binary, so you will get "docker: not found" in
+   Coolify’s in-browser Terminal for a service).
+
+   With the same compose project name and .env as the app (see deployment log
+   for -p / --project-name):
 
    docker compose -p YOUR_PROJECT_NAME -f docker-compose.coolify.yml --env-file .env --profile tools run --rm migrate-resolve
 
