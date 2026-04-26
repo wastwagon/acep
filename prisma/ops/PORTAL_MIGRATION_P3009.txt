@@ -23,6 +23,11 @@ restarting and tears down the connection again.
    /app/scripts/resolve-failed-migration-20260426110650.sh
    (run with: sh /app/scripts/...).
 
+   On the same host as Coolify, with the same compose project name and .env as
+   the app (see your deployment log for -p / --project-name), you can run:
+
+   docker compose -p YOUR_PROJECT_NAME -f docker-compose.coolify.yml --env-file .env --profile tools run --rm migrate-resolve
+
 1) One-off in a shell with the SAME DATABASE_URL as the web app (e.g. Coolify
    terminal, or: docker exec -it <web-container> sh, cd /app):
 

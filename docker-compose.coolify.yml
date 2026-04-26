@@ -1,6 +1,13 @@
 # Full stack for Coolify (or any VPS) — Next.js + API + PostgreSQL + Redis.
 # In Coolify: create a resource → Docker Compose → set "Compose file" to this path.
 # Set variables in Coolify (or a .env file next to compose). Use strong secrets in production.
+#
+# One-time P3009 (failed Prisma migration) — redeploys do NOT fix the DB.
+# On the Coolify host, use the SAME -p (project) name as your stack (see deployment
+# log, e.g. "docker compose ... --project-name mc84owo0gkc88g4owkscgcgw") and the
+# same .env the app uses:
+#   docker compose -p YOUR_PROJECT_NAME -f docker-compose.coolify.yml --env-file /path/to/.env --profile tools run --rm migrate-resolve
+# Then: docker compose -p YOUR_PROJECT_NAME -f docker-compose.coolify.yml up -d web
 
 name: acep
 
@@ -113,6 +120,23 @@ services:
       start_period: 90s
     ports:
       - "${WEB_PUBLISH_PORT:-3100}:3100"
+
+  # Prisma P3009 recovery (not started by default). See comment at top of file.
+  migrate-resolve:
+    profiles: ["tools"]
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3100}
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:3001}
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-acep}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-acep}
+    command: ["/bin/sh", "/app/scripts/resolve-failed-migration-20260426110650.sh"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: "no"
 
 volumes:
   postgres_data:
