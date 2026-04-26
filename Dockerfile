@@ -39,7 +39,8 @@ ENV NEXT_TELEMETRY_DISABLED 1
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
-RUN apk add --no-cache wget
+# Prisma migrate/seed at container start needs OpenSSL + musl compat (not inherited from builder).
+RUN apk add --no-cache wget libc6-compat openssl
 
 # Copy built files
 COPY --from=builder /app/public ./public
