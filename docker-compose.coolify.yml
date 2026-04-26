@@ -103,12 +103,14 @@ services:
         condition: service_healthy
       backend:
         condition: service_healthy
+    # Use /api/health (lightweight, no DB) — the home page is heavy; wget timing out
+    # here can mark the service unhealthy and trigger restart loops in some runtimes.
     healthcheck:
-      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3100/"]
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3100/api/health"]
       interval: 20s
-      timeout: 5s
+      timeout: 10s
       retries: 5
-      start_period: 60s
+      start_period: 90s
     ports:
       - "${WEB_PUBLISH_PORT:-3100}:3100"
 
