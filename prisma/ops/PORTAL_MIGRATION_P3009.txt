@@ -4,6 +4,16 @@ P3009: failed migration 20260426110650_add_portal_user_contributions
 Symptoms: logs show "migrate found failed migrations" and the app restarts
 in a loop. Prisma will not run later migrations until this is fixed.
 
+If Postgres shows "could not receive data from client: Connection reset by
+peer" while the migration file appears in the log, the *database* did not
+necessarily reject the SQL — the Prisma client in the *web* container (or
+whatever ran migrate) dropped the connection: container restarts, deploy
+stopping the service, or OOM during migrate. The migration can still be marked
+failed in _prisma_migrations (P3009). The transaction often rolls back; use
+the resolve + deploy steps below. Re-run migrate from a stable one-off
+(`docker run` / Coolify one-shot with DATABASE_URL) if the web app keeps
+restarting and tears down the connection again.
+
 1) One-off in a shell with the SAME DATABASE_URL as the web app (e.g. Coolify
    terminal, or: docker exec -it <web-container> sh, cd /app):
 
