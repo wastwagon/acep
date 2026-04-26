@@ -1,6 +1,9 @@
 import { requireCmsUser } from "@/lib/cms-auth";
 import { AdminSidebar } from "@/components/admin/admin-sidebar";
 
+/** Avoid DB access during `next build` (no Postgres in the image build stage). */
+export const dynamic = "force-dynamic";
+
 export default async function AdminAppLayout({ children }: { children: React.ReactNode }) {
   const user = await requireCmsUser();
   const publicBaseUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.acep.africa").replace(/\/$/, "");

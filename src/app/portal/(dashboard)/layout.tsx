@@ -2,6 +2,9 @@ import Link from "next/link";
 import { requirePortalUser } from "@/lib/portal-auth";
 import { PortalDashboardNav } from "@/components/portal/portal-dashboard-nav";
 
+/** Avoid DB access during `next build` (no Postgres in the image build stage). */
+export const dynamic = "force-dynamic";
+
 export default async function PortalDashboardLayout({ children }: { children: React.ReactNode }) {
   const user = await requirePortalUser();
   return (

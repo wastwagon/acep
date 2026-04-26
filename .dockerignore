@@ -8,3 +8,11 @@ README.md
 .DS_Store
 docker-data
 backend/node_modules
+
+# Scraped WP asset trees — not imported from `src/`; they blow up build context (~1GB+).
+content/contract-monitor/assets
+content/electricity-monitor/assets
+content/oil-revenue/assets
+
+# Local / CI artefacts
+.tmp-ci
