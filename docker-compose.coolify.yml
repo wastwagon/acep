@@ -62,6 +62,7 @@ services:
       DATABASE_URL: postgresql://${POSTGRES_USER:-acep}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-acep}
       REDIS_PASSWORD: ${REDIS_PASSWORD:-}
       REDIS_URL: ${REDIS_URL:-}
+      # Browser calls use NEXT_PUBLIC_SITE_URL — keep API CORS aligned with it.
       CORS_ORIGIN: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3100}
     depends_on:
       postgres:
@@ -83,7 +84,7 @@ services:
       dockerfile: Dockerfile
       args:
         NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3100}
-        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:3001}
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-${SERVICE_URL_BACKEND:-http://localhost:3001}}
     restart: unless-stopped
     environment:
       NODE_ENV: production
@@ -91,7 +92,7 @@ services:
       HOSTNAME: "0.0.0.0"
       NEXT_TELEMETRY_DISABLED: "1"
       NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3100}
-      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:3001}
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-${SERVICE_URL_BACKEND:-http://localhost:3001}}
       DATABASE_URL: postgresql://${POSTGRES_USER:-acep}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-acep}
       CMS_ADMIN_EMAIL: ${CMS_ADMIN_EMAIL:-}
       CMS_ADMIN_PASSWORD: ${CMS_ADMIN_PASSWORD:-}
@@ -131,7 +132,7 @@ services:
       dockerfile: Dockerfile
       args:
         NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3100}
-        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:3001}
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-${SERVICE_URL_BACKEND:-http://localhost:3001}}
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER:-acep}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-acep}
     command: ["/bin/sh", "/app/scripts/resolve-failed-migration-20260426110650.sh"]
